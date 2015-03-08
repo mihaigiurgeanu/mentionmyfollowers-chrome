@@ -3,7 +3,7 @@
 
     "name": "Mention My Followers",
     "description": "Helper to automatically mention Instagram followers",
-    "version": "0.1.0-SNAPSHOT",
+    "version": "0.1.0",
 
     "browser_action": {
         "default_icon": "icon.png",
@@ -13,6 +13,6 @@
         "cookies",
         "activeTab",
         "http://dragon-alien.codio.io:3000/",
-        "https://instagram.com"
+        "https://instagram.com/"
     ]
 }
