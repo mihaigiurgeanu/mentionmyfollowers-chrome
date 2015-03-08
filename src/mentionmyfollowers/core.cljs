@@ -6,16 +6,32 @@
 
 (enable-console-print!)
 
-(.write js/document "<h1>Hello world</h1>")
+(defonce app-state (atom {:user {:user-id nil}}))
 
-(defonce app-state (atom {:user-id nil}))
+(defn- read-user-id 
+    "Reads the Instagram user id from the cookie. It needs
+    the user to be logged in into his/her Instagram account."
+    [f]
+    (let [query #js {:url "https://instagram.com/"
+                     :name "ds_user_id"}]
+    (.. js/chorme cookies 
+        (get query (fn [cookie]
+                       (f (.-value cookie)))))))
+
+(defn application [data owner]
+    (reify om/IWillMount
+        (will-mount 
+            [_]
+            (read-user-id
+                #(om/transact! data :user {:user-id %})))))
 
 (defn show-user-id [{:keys [user-id]} owner]
     (reify om/IRender
-        (render [_]
-                (dom/p 
-                    nil
-                    (str "User-id is "(if user-id user-id "Not Available"))))))
+        (render 
+            [_]
+            (dom/p 
+                nil
+                (str "User-id is "(if user-id user-id "Not Available"))))))
 
 (om/root
     show-user-id
