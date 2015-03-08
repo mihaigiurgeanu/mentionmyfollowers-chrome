@@ -12,15 +12,14 @@
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src"]
                         :compiler {:output-to "resources/public/js/main.js"
-                                   :output-dir "resources/public/js/out"
-                                   :asset-path "js/out"
-                                   :main "mentionmyfollowers.core"
-                                   :source-map true
-                                   :optimizations :none
+                                   :output-dir "resources/public/js/dev"
+                                   :source-map "resources/public/js/main.js.map"
+                                   :optimizations :whitespace
                                    :pretty-print true}}
-                       {:id "production"
+                       {:id "prod"
                         :source-paths ["src"]
                         :compiler {:output-to "resources/public/js/main.js"
+                                   :output-dir "resources/public/js/prod"
                                    :source-map "resources/public/js/main.js.map"
                                    :optiomiztions :advanced}}]})
 
