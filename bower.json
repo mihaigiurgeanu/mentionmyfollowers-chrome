@@ -1,0 +1,27 @@
+{
+  "name": "mentionmyfollowers-chrome",
+  "version": "0.1.0-SNAPSHOT",
+  "authors": [
+    "Mihai Giurgeanu <mihai.giurgeanu@gmail.com>"
+  ],
+  "description": "Chrome extension to help mention Instagram followers.",
+  "main": "resources/public/manifest.json",
+  "keywords": [
+    "instagram",
+    "mention",
+    "followers"
+  ],
+  "license": "MIT",
+  "homepage": "http://dragon-alien.codio.io:3000",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
