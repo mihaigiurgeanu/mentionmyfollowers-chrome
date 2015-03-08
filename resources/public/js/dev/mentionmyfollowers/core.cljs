@@ -1,4 +1,5 @@
 (ns mentionmyfollowers.core
+    (:use [domina :only [single-node]])
     (:require[om.core :as om :include-macros true]
              [om.dom :as dom :include-macros true]
              [domina.css :as css]))
@@ -19,4 +20,4 @@
 (om/root
     show-user-id
     app-state
-    {:target (css/sel "#app")})
+    {:target (single-node (css/sel "#app"))})
