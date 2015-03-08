@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Mention My Followers",
+    "description": "Helper to automatically mention Instagram followers",
+    "version": "0.1.0-SNAPSHOT",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "cookies",
+        "activeTab",
+        "http://dragon-alien.codio.io:3000/",
+        "https://instagram.com"
+    ]
+}
