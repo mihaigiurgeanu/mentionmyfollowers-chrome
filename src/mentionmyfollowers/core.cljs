@@ -18,13 +18,6 @@
         (get query (fn [cookie]
                        (f (.-value cookie)))))))
 
-(defn application [data owner]
-    (reify om/IWillMount
-        (will-mount 
-            [_]
-            (read-user-id
-                #(om/transact! data :user {:user-id %})))))
-
 (defn show-user-id [{:keys [user-id]} owner]
     (reify om/IRender
         (render 
@@ -33,7 +26,18 @@
                 nil
                 (str "User-id is "(if user-id user-id "Not Available"))))))
 
+(defn application [data owner]
+    (reify om/IWillMount
+        (will-mount 
+            [_]
+            (read-user-id
+                #(om/transact! data :user (fn [user] (assoc user :user-id %))))))
+    (reify om/IRender
+        (render 
+            [_]
+            (om/build show-user-id (:user data)))))
+
 (om/root
-    show-user-id
+    application
     app-state
     {:target (single-node (css/sel "#app"))})
