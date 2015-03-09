@@ -33,29 +33,36 @@
 
 (defn accounts-form
   "A form to enter the accounts whose followers you want to mention"
-  [data owner]
+  [data owner {:keys [on-click]}]
   (reify
     om/IRender
     (render [_]
-            (dom/form
-             nil
-             (dom/div
-              #js {:className "form-group"}
-              (dom/label
-               #js {:htmlFor "accounts-input"}
-               "Accounts:")
-              (dom/textarea
-               #js {:id "accounts-input"
-                    :value (:accounts data)
-                    :onChange (fn [e] (om/transact! data #(assoc % :accounts (.. e -target -value))))}))
-             (dom/button
-              #js {:className "btn btn-primary"
-                   :onClick (fn [e]
-                              (.preventDefault e)
-                              (println "Get followers button clicked"))}
-              "Get Followers")))))
+            (let [text (:accounts data)]
+              (dom/form
+               nil
+               (dom/div
+                #js {:className "form-group"}
+                (dom/label
+                 #js {:htmlFor "accounts-input"}
+                 "Accounts:")
+                (dom/textarea
+                 #js {:id "accounts-input"
+                      :className "form-control"
+                      :rows "3"
+                      :value (:accounts data)
+                      :onChange (fn [e] (om/transact! data :accounts #(.. e -target -value)))}))
+               (dom/button
+                #js {:className "btn btn-primary"
+                     :onClick (fn [e]
+                                (.preventDefault e)
+                                (println "Get followers button clicked")
+                                (on-click text))}
+                "Get Followers"))))))
 
-(defn application [data owner]
+(defn application
+  "The main application component"
+  [data owner]
+  (let [handle-get-followers #(println "Getting followers for" %)]
   (reify
     om/IWillMount
     (will-mount [_]
@@ -67,7 +74,9 @@
     om/IRender
     (render [_]
             (println "application - render")
-            (om/build accounts-form (:accounts-form data)))))
+            (dom/div
+             #js {:className "container"}
+             (om/build accounts-form (:accounts-form data) {:opts {:on-click handle-get-followers}}))))))
 
 (om/root
  application
