@@ -12,15 +12,15 @@ return React.DOM.a.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var a = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86708__i = 0, G__86708__a = new Array(arguments.length -  1);
-while (G__86708__i < G__86708__a.length) {G__86708__a[G__86708__i] = arguments[G__86708__i + 1]; ++G__86708__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86708__a,0);
+var G__108890__i = 0, G__108890__a = new Array(arguments.length -  1);
+while (G__108890__i < G__108890__a.length) {G__108890__a[G__108890__i] = arguments[G__108890__i + 1]; ++G__108890__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108890__a,0);
 } 
 return a__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 a.cljs$lang$maxFixedArity = 1;
-a.cljs$lang$applyTo = (function (arglist__86709){
-var opts__6279__auto__ = cljs.core.first(arglist__86709);
-var children__6280__auto__ = cljs.core.rest(arglist__86709);
+a.cljs$lang$applyTo = (function (arglist__108891){
+var opts__6279__auto__ = cljs.core.first(arglist__108891);
+var children__6280__auto__ = cljs.core.rest(arglist__108891);
 return a__delegate(opts__6279__auto__,children__6280__auto__);
 });
 a.cljs$core$IFn$_invoke$arity$variadic = a__delegate;
@@ -38,15 +38,15 @@ return React.DOM.abbr.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var abbr = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86710__i = 0, G__86710__a = new Array(arguments.length -  1);
-while (G__86710__i < G__86710__a.length) {G__86710__a[G__86710__i] = arguments[G__86710__i + 1]; ++G__86710__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86710__a,0);
+var G__108892__i = 0, G__108892__a = new Array(arguments.length -  1);
+while (G__108892__i < G__108892__a.length) {G__108892__a[G__108892__i] = arguments[G__108892__i + 1]; ++G__108892__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108892__a,0);
 } 
 return abbr__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 abbr.cljs$lang$maxFixedArity = 1;
-abbr.cljs$lang$applyTo = (function (arglist__86711){
-var opts__6279__auto__ = cljs.core.first(arglist__86711);
-var children__6280__auto__ = cljs.core.rest(arglist__86711);
+abbr.cljs$lang$applyTo = (function (arglist__108893){
+var opts__6279__auto__ = cljs.core.first(arglist__108893);
+var children__6280__auto__ = cljs.core.rest(arglist__108893);
 return abbr__delegate(opts__6279__auto__,children__6280__auto__);
 });
 abbr.cljs$core$IFn$_invoke$arity$variadic = abbr__delegate;
@@ -64,15 +64,15 @@ return React.DOM.address.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var address = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86712__i = 0, G__86712__a = new Array(arguments.length -  1);
-while (G__86712__i < G__86712__a.length) {G__86712__a[G__86712__i] = arguments[G__86712__i + 1]; ++G__86712__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86712__a,0);
+var G__108894__i = 0, G__108894__a = new Array(arguments.length -  1);
+while (G__108894__i < G__108894__a.length) {G__108894__a[G__108894__i] = arguments[G__108894__i + 1]; ++G__108894__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108894__a,0);
 } 
 return address__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 address.cljs$lang$maxFixedArity = 1;
-address.cljs$lang$applyTo = (function (arglist__86713){
-var opts__6279__auto__ = cljs.core.first(arglist__86713);
-var children__6280__auto__ = cljs.core.rest(arglist__86713);
+address.cljs$lang$applyTo = (function (arglist__108895){
+var opts__6279__auto__ = cljs.core.first(arglist__108895);
+var children__6280__auto__ = cljs.core.rest(arglist__108895);
 return address__delegate(opts__6279__auto__,children__6280__auto__);
 });
 address.cljs$core$IFn$_invoke$arity$variadic = address__delegate;
@@ -90,15 +90,15 @@ return React.DOM.area.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var area = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86714__i = 0, G__86714__a = new Array(arguments.length -  1);
-while (G__86714__i < G__86714__a.length) {G__86714__a[G__86714__i] = arguments[G__86714__i + 1]; ++G__86714__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86714__a,0);
+var G__108896__i = 0, G__108896__a = new Array(arguments.length -  1);
+while (G__108896__i < G__108896__a.length) {G__108896__a[G__108896__i] = arguments[G__108896__i + 1]; ++G__108896__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108896__a,0);
 } 
 return area__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 area.cljs$lang$maxFixedArity = 1;
-area.cljs$lang$applyTo = (function (arglist__86715){
-var opts__6279__auto__ = cljs.core.first(arglist__86715);
-var children__6280__auto__ = cljs.core.rest(arglist__86715);
+area.cljs$lang$applyTo = (function (arglist__108897){
+var opts__6279__auto__ = cljs.core.first(arglist__108897);
+var children__6280__auto__ = cljs.core.rest(arglist__108897);
 return area__delegate(opts__6279__auto__,children__6280__auto__);
 });
 area.cljs$core$IFn$_invoke$arity$variadic = area__delegate;
@@ -116,15 +116,15 @@ return React.DOM.article.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var article = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86716__i = 0, G__86716__a = new Array(arguments.length -  1);
-while (G__86716__i < G__86716__a.length) {G__86716__a[G__86716__i] = arguments[G__86716__i + 1]; ++G__86716__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86716__a,0);
+var G__108898__i = 0, G__108898__a = new Array(arguments.length -  1);
+while (G__108898__i < G__108898__a.length) {G__108898__a[G__108898__i] = arguments[G__108898__i + 1]; ++G__108898__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108898__a,0);
 } 
 return article__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 article.cljs$lang$maxFixedArity = 1;
-article.cljs$lang$applyTo = (function (arglist__86717){
-var opts__6279__auto__ = cljs.core.first(arglist__86717);
-var children__6280__auto__ = cljs.core.rest(arglist__86717);
+article.cljs$lang$applyTo = (function (arglist__108899){
+var opts__6279__auto__ = cljs.core.first(arglist__108899);
+var children__6280__auto__ = cljs.core.rest(arglist__108899);
 return article__delegate(opts__6279__auto__,children__6280__auto__);
 });
 article.cljs$core$IFn$_invoke$arity$variadic = article__delegate;
@@ -142,15 +142,15 @@ return React.DOM.aside.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var aside = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86718__i = 0, G__86718__a = new Array(arguments.length -  1);
-while (G__86718__i < G__86718__a.length) {G__86718__a[G__86718__i] = arguments[G__86718__i + 1]; ++G__86718__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86718__a,0);
+var G__108900__i = 0, G__108900__a = new Array(arguments.length -  1);
+while (G__108900__i < G__108900__a.length) {G__108900__a[G__108900__i] = arguments[G__108900__i + 1]; ++G__108900__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108900__a,0);
 } 
 return aside__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 aside.cljs$lang$maxFixedArity = 1;
-aside.cljs$lang$applyTo = (function (arglist__86719){
-var opts__6279__auto__ = cljs.core.first(arglist__86719);
-var children__6280__auto__ = cljs.core.rest(arglist__86719);
+aside.cljs$lang$applyTo = (function (arglist__108901){
+var opts__6279__auto__ = cljs.core.first(arglist__108901);
+var children__6280__auto__ = cljs.core.rest(arglist__108901);
 return aside__delegate(opts__6279__auto__,children__6280__auto__);
 });
 aside.cljs$core$IFn$_invoke$arity$variadic = aside__delegate;
@@ -168,15 +168,15 @@ return React.DOM.audio.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var audio = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86720__i = 0, G__86720__a = new Array(arguments.length -  1);
-while (G__86720__i < G__86720__a.length) {G__86720__a[G__86720__i] = arguments[G__86720__i + 1]; ++G__86720__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86720__a,0);
+var G__108902__i = 0, G__108902__a = new Array(arguments.length -  1);
+while (G__108902__i < G__108902__a.length) {G__108902__a[G__108902__i] = arguments[G__108902__i + 1]; ++G__108902__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108902__a,0);
 } 
 return audio__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 audio.cljs$lang$maxFixedArity = 1;
-audio.cljs$lang$applyTo = (function (arglist__86721){
-var opts__6279__auto__ = cljs.core.first(arglist__86721);
-var children__6280__auto__ = cljs.core.rest(arglist__86721);
+audio.cljs$lang$applyTo = (function (arglist__108903){
+var opts__6279__auto__ = cljs.core.first(arglist__108903);
+var children__6280__auto__ = cljs.core.rest(arglist__108903);
 return audio__delegate(opts__6279__auto__,children__6280__auto__);
 });
 audio.cljs$core$IFn$_invoke$arity$variadic = audio__delegate;
@@ -194,15 +194,15 @@ return React.DOM.b.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var b = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86722__i = 0, G__86722__a = new Array(arguments.length -  1);
-while (G__86722__i < G__86722__a.length) {G__86722__a[G__86722__i] = arguments[G__86722__i + 1]; ++G__86722__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86722__a,0);
+var G__108904__i = 0, G__108904__a = new Array(arguments.length -  1);
+while (G__108904__i < G__108904__a.length) {G__108904__a[G__108904__i] = arguments[G__108904__i + 1]; ++G__108904__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108904__a,0);
 } 
 return b__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 b.cljs$lang$maxFixedArity = 1;
-b.cljs$lang$applyTo = (function (arglist__86723){
-var opts__6279__auto__ = cljs.core.first(arglist__86723);
-var children__6280__auto__ = cljs.core.rest(arglist__86723);
+b.cljs$lang$applyTo = (function (arglist__108905){
+var opts__6279__auto__ = cljs.core.first(arglist__108905);
+var children__6280__auto__ = cljs.core.rest(arglist__108905);
 return b__delegate(opts__6279__auto__,children__6280__auto__);
 });
 b.cljs$core$IFn$_invoke$arity$variadic = b__delegate;
@@ -220,15 +220,15 @@ return React.DOM.base.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var base = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86724__i = 0, G__86724__a = new Array(arguments.length -  1);
-while (G__86724__i < G__86724__a.length) {G__86724__a[G__86724__i] = arguments[G__86724__i + 1]; ++G__86724__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86724__a,0);
+var G__108906__i = 0, G__108906__a = new Array(arguments.length -  1);
+while (G__108906__i < G__108906__a.length) {G__108906__a[G__108906__i] = arguments[G__108906__i + 1]; ++G__108906__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108906__a,0);
 } 
 return base__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 base.cljs$lang$maxFixedArity = 1;
-base.cljs$lang$applyTo = (function (arglist__86725){
-var opts__6279__auto__ = cljs.core.first(arglist__86725);
-var children__6280__auto__ = cljs.core.rest(arglist__86725);
+base.cljs$lang$applyTo = (function (arglist__108907){
+var opts__6279__auto__ = cljs.core.first(arglist__108907);
+var children__6280__auto__ = cljs.core.rest(arglist__108907);
 return base__delegate(opts__6279__auto__,children__6280__auto__);
 });
 base.cljs$core$IFn$_invoke$arity$variadic = base__delegate;
@@ -246,15 +246,15 @@ return React.DOM.bdi.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var bdi = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86726__i = 0, G__86726__a = new Array(arguments.length -  1);
-while (G__86726__i < G__86726__a.length) {G__86726__a[G__86726__i] = arguments[G__86726__i + 1]; ++G__86726__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86726__a,0);
+var G__108908__i = 0, G__108908__a = new Array(arguments.length -  1);
+while (G__108908__i < G__108908__a.length) {G__108908__a[G__108908__i] = arguments[G__108908__i + 1]; ++G__108908__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108908__a,0);
 } 
 return bdi__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 bdi.cljs$lang$maxFixedArity = 1;
-bdi.cljs$lang$applyTo = (function (arglist__86727){
-var opts__6279__auto__ = cljs.core.first(arglist__86727);
-var children__6280__auto__ = cljs.core.rest(arglist__86727);
+bdi.cljs$lang$applyTo = (function (arglist__108909){
+var opts__6279__auto__ = cljs.core.first(arglist__108909);
+var children__6280__auto__ = cljs.core.rest(arglist__108909);
 return bdi__delegate(opts__6279__auto__,children__6280__auto__);
 });
 bdi.cljs$core$IFn$_invoke$arity$variadic = bdi__delegate;
@@ -272,15 +272,15 @@ return React.DOM.bdo.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var bdo = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86728__i = 0, G__86728__a = new Array(arguments.length -  1);
-while (G__86728__i < G__86728__a.length) {G__86728__a[G__86728__i] = arguments[G__86728__i + 1]; ++G__86728__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86728__a,0);
+var G__108910__i = 0, G__108910__a = new Array(arguments.length -  1);
+while (G__108910__i < G__108910__a.length) {G__108910__a[G__108910__i] = arguments[G__108910__i + 1]; ++G__108910__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108910__a,0);
 } 
 return bdo__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 bdo.cljs$lang$maxFixedArity = 1;
-bdo.cljs$lang$applyTo = (function (arglist__86729){
-var opts__6279__auto__ = cljs.core.first(arglist__86729);
-var children__6280__auto__ = cljs.core.rest(arglist__86729);
+bdo.cljs$lang$applyTo = (function (arglist__108911){
+var opts__6279__auto__ = cljs.core.first(arglist__108911);
+var children__6280__auto__ = cljs.core.rest(arglist__108911);
 return bdo__delegate(opts__6279__auto__,children__6280__auto__);
 });
 bdo.cljs$core$IFn$_invoke$arity$variadic = bdo__delegate;
@@ -298,15 +298,15 @@ return React.DOM.big.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var big = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86730__i = 0, G__86730__a = new Array(arguments.length -  1);
-while (G__86730__i < G__86730__a.length) {G__86730__a[G__86730__i] = arguments[G__86730__i + 1]; ++G__86730__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86730__a,0);
+var G__108912__i = 0, G__108912__a = new Array(arguments.length -  1);
+while (G__108912__i < G__108912__a.length) {G__108912__a[G__108912__i] = arguments[G__108912__i + 1]; ++G__108912__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108912__a,0);
 } 
 return big__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 big.cljs$lang$maxFixedArity = 1;
-big.cljs$lang$applyTo = (function (arglist__86731){
-var opts__6279__auto__ = cljs.core.first(arglist__86731);
-var children__6280__auto__ = cljs.core.rest(arglist__86731);
+big.cljs$lang$applyTo = (function (arglist__108913){
+var opts__6279__auto__ = cljs.core.first(arglist__108913);
+var children__6280__auto__ = cljs.core.rest(arglist__108913);
 return big__delegate(opts__6279__auto__,children__6280__auto__);
 });
 big.cljs$core$IFn$_invoke$arity$variadic = big__delegate;
@@ -324,15 +324,15 @@ return React.DOM.blockquote.apply(null,cljs.core.into_array.call(null,cljs.core.
 var blockquote = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86732__i = 0, G__86732__a = new Array(arguments.length -  1);
-while (G__86732__i < G__86732__a.length) {G__86732__a[G__86732__i] = arguments[G__86732__i + 1]; ++G__86732__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86732__a,0);
+var G__108914__i = 0, G__108914__a = new Array(arguments.length -  1);
+while (G__108914__i < G__108914__a.length) {G__108914__a[G__108914__i] = arguments[G__108914__i + 1]; ++G__108914__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108914__a,0);
 } 
 return blockquote__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 blockquote.cljs$lang$maxFixedArity = 1;
-blockquote.cljs$lang$applyTo = (function (arglist__86733){
-var opts__6279__auto__ = cljs.core.first(arglist__86733);
-var children__6280__auto__ = cljs.core.rest(arglist__86733);
+blockquote.cljs$lang$applyTo = (function (arglist__108915){
+var opts__6279__auto__ = cljs.core.first(arglist__108915);
+var children__6280__auto__ = cljs.core.rest(arglist__108915);
 return blockquote__delegate(opts__6279__auto__,children__6280__auto__);
 });
 blockquote.cljs$core$IFn$_invoke$arity$variadic = blockquote__delegate;
@@ -350,15 +350,15 @@ return React.DOM.body.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var body = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86734__i = 0, G__86734__a = new Array(arguments.length -  1);
-while (G__86734__i < G__86734__a.length) {G__86734__a[G__86734__i] = arguments[G__86734__i + 1]; ++G__86734__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86734__a,0);
+var G__108916__i = 0, G__108916__a = new Array(arguments.length -  1);
+while (G__108916__i < G__108916__a.length) {G__108916__a[G__108916__i] = arguments[G__108916__i + 1]; ++G__108916__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108916__a,0);
 } 
 return body__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 body.cljs$lang$maxFixedArity = 1;
-body.cljs$lang$applyTo = (function (arglist__86735){
-var opts__6279__auto__ = cljs.core.first(arglist__86735);
-var children__6280__auto__ = cljs.core.rest(arglist__86735);
+body.cljs$lang$applyTo = (function (arglist__108917){
+var opts__6279__auto__ = cljs.core.first(arglist__108917);
+var children__6280__auto__ = cljs.core.rest(arglist__108917);
 return body__delegate(opts__6279__auto__,children__6280__auto__);
 });
 body.cljs$core$IFn$_invoke$arity$variadic = body__delegate;
@@ -376,15 +376,15 @@ return React.DOM.br.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var br = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86736__i = 0, G__86736__a = new Array(arguments.length -  1);
-while (G__86736__i < G__86736__a.length) {G__86736__a[G__86736__i] = arguments[G__86736__i + 1]; ++G__86736__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86736__a,0);
+var G__108918__i = 0, G__108918__a = new Array(arguments.length -  1);
+while (G__108918__i < G__108918__a.length) {G__108918__a[G__108918__i] = arguments[G__108918__i + 1]; ++G__108918__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108918__a,0);
 } 
 return br__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 br.cljs$lang$maxFixedArity = 1;
-br.cljs$lang$applyTo = (function (arglist__86737){
-var opts__6279__auto__ = cljs.core.first(arglist__86737);
-var children__6280__auto__ = cljs.core.rest(arglist__86737);
+br.cljs$lang$applyTo = (function (arglist__108919){
+var opts__6279__auto__ = cljs.core.first(arglist__108919);
+var children__6280__auto__ = cljs.core.rest(arglist__108919);
 return br__delegate(opts__6279__auto__,children__6280__auto__);
 });
 br.cljs$core$IFn$_invoke$arity$variadic = br__delegate;
@@ -402,15 +402,15 @@ return React.DOM.button.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var button = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86738__i = 0, G__86738__a = new Array(arguments.length -  1);
-while (G__86738__i < G__86738__a.length) {G__86738__a[G__86738__i] = arguments[G__86738__i + 1]; ++G__86738__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86738__a,0);
+var G__108920__i = 0, G__108920__a = new Array(arguments.length -  1);
+while (G__108920__i < G__108920__a.length) {G__108920__a[G__108920__i] = arguments[G__108920__i + 1]; ++G__108920__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108920__a,0);
 } 
 return button__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 button.cljs$lang$maxFixedArity = 1;
-button.cljs$lang$applyTo = (function (arglist__86739){
-var opts__6279__auto__ = cljs.core.first(arglist__86739);
-var children__6280__auto__ = cljs.core.rest(arglist__86739);
+button.cljs$lang$applyTo = (function (arglist__108921){
+var opts__6279__auto__ = cljs.core.first(arglist__108921);
+var children__6280__auto__ = cljs.core.rest(arglist__108921);
 return button__delegate(opts__6279__auto__,children__6280__auto__);
 });
 button.cljs$core$IFn$_invoke$arity$variadic = button__delegate;
@@ -428,15 +428,15 @@ return React.DOM.canvas.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var canvas = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86740__i = 0, G__86740__a = new Array(arguments.length -  1);
-while (G__86740__i < G__86740__a.length) {G__86740__a[G__86740__i] = arguments[G__86740__i + 1]; ++G__86740__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86740__a,0);
+var G__108922__i = 0, G__108922__a = new Array(arguments.length -  1);
+while (G__108922__i < G__108922__a.length) {G__108922__a[G__108922__i] = arguments[G__108922__i + 1]; ++G__108922__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108922__a,0);
 } 
 return canvas__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 canvas.cljs$lang$maxFixedArity = 1;
-canvas.cljs$lang$applyTo = (function (arglist__86741){
-var opts__6279__auto__ = cljs.core.first(arglist__86741);
-var children__6280__auto__ = cljs.core.rest(arglist__86741);
+canvas.cljs$lang$applyTo = (function (arglist__108923){
+var opts__6279__auto__ = cljs.core.first(arglist__108923);
+var children__6280__auto__ = cljs.core.rest(arglist__108923);
 return canvas__delegate(opts__6279__auto__,children__6280__auto__);
 });
 canvas.cljs$core$IFn$_invoke$arity$variadic = canvas__delegate;
@@ -454,15 +454,15 @@ return React.DOM.caption.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var caption = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86742__i = 0, G__86742__a = new Array(arguments.length -  1);
-while (G__86742__i < G__86742__a.length) {G__86742__a[G__86742__i] = arguments[G__86742__i + 1]; ++G__86742__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86742__a,0);
+var G__108924__i = 0, G__108924__a = new Array(arguments.length -  1);
+while (G__108924__i < G__108924__a.length) {G__108924__a[G__108924__i] = arguments[G__108924__i + 1]; ++G__108924__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108924__a,0);
 } 
 return caption__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 caption.cljs$lang$maxFixedArity = 1;
-caption.cljs$lang$applyTo = (function (arglist__86743){
-var opts__6279__auto__ = cljs.core.first(arglist__86743);
-var children__6280__auto__ = cljs.core.rest(arglist__86743);
+caption.cljs$lang$applyTo = (function (arglist__108925){
+var opts__6279__auto__ = cljs.core.first(arglist__108925);
+var children__6280__auto__ = cljs.core.rest(arglist__108925);
 return caption__delegate(opts__6279__auto__,children__6280__auto__);
 });
 caption.cljs$core$IFn$_invoke$arity$variadic = caption__delegate;
@@ -480,15 +480,15 @@ return React.DOM.cite.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var cite = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86744__i = 0, G__86744__a = new Array(arguments.length -  1);
-while (G__86744__i < G__86744__a.length) {G__86744__a[G__86744__i] = arguments[G__86744__i + 1]; ++G__86744__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86744__a,0);
+var G__108926__i = 0, G__108926__a = new Array(arguments.length -  1);
+while (G__108926__i < G__108926__a.length) {G__108926__a[G__108926__i] = arguments[G__108926__i + 1]; ++G__108926__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108926__a,0);
 } 
 return cite__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 cite.cljs$lang$maxFixedArity = 1;
-cite.cljs$lang$applyTo = (function (arglist__86745){
-var opts__6279__auto__ = cljs.core.first(arglist__86745);
-var children__6280__auto__ = cljs.core.rest(arglist__86745);
+cite.cljs$lang$applyTo = (function (arglist__108927){
+var opts__6279__auto__ = cljs.core.first(arglist__108927);
+var children__6280__auto__ = cljs.core.rest(arglist__108927);
 return cite__delegate(opts__6279__auto__,children__6280__auto__);
 });
 cite.cljs$core$IFn$_invoke$arity$variadic = cite__delegate;
@@ -506,15 +506,15 @@ return React.DOM.code.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var code = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86746__i = 0, G__86746__a = new Array(arguments.length -  1);
-while (G__86746__i < G__86746__a.length) {G__86746__a[G__86746__i] = arguments[G__86746__i + 1]; ++G__86746__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86746__a,0);
+var G__108928__i = 0, G__108928__a = new Array(arguments.length -  1);
+while (G__108928__i < G__108928__a.length) {G__108928__a[G__108928__i] = arguments[G__108928__i + 1]; ++G__108928__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108928__a,0);
 } 
 return code__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 code.cljs$lang$maxFixedArity = 1;
-code.cljs$lang$applyTo = (function (arglist__86747){
-var opts__6279__auto__ = cljs.core.first(arglist__86747);
-var children__6280__auto__ = cljs.core.rest(arglist__86747);
+code.cljs$lang$applyTo = (function (arglist__108929){
+var opts__6279__auto__ = cljs.core.first(arglist__108929);
+var children__6280__auto__ = cljs.core.rest(arglist__108929);
 return code__delegate(opts__6279__auto__,children__6280__auto__);
 });
 code.cljs$core$IFn$_invoke$arity$variadic = code__delegate;
@@ -532,15 +532,15 @@ return React.DOM.col.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var col = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86748__i = 0, G__86748__a = new Array(arguments.length -  1);
-while (G__86748__i < G__86748__a.length) {G__86748__a[G__86748__i] = arguments[G__86748__i + 1]; ++G__86748__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86748__a,0);
+var G__108930__i = 0, G__108930__a = new Array(arguments.length -  1);
+while (G__108930__i < G__108930__a.length) {G__108930__a[G__108930__i] = arguments[G__108930__i + 1]; ++G__108930__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108930__a,0);
 } 
 return col__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 col.cljs$lang$maxFixedArity = 1;
-col.cljs$lang$applyTo = (function (arglist__86749){
-var opts__6279__auto__ = cljs.core.first(arglist__86749);
-var children__6280__auto__ = cljs.core.rest(arglist__86749);
+col.cljs$lang$applyTo = (function (arglist__108931){
+var opts__6279__auto__ = cljs.core.first(arglist__108931);
+var children__6280__auto__ = cljs.core.rest(arglist__108931);
 return col__delegate(opts__6279__auto__,children__6280__auto__);
 });
 col.cljs$core$IFn$_invoke$arity$variadic = col__delegate;
@@ -558,15 +558,15 @@ return React.DOM.colgroup.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var colgroup = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86750__i = 0, G__86750__a = new Array(arguments.length -  1);
-while (G__86750__i < G__86750__a.length) {G__86750__a[G__86750__i] = arguments[G__86750__i + 1]; ++G__86750__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86750__a,0);
+var G__108932__i = 0, G__108932__a = new Array(arguments.length -  1);
+while (G__108932__i < G__108932__a.length) {G__108932__a[G__108932__i] = arguments[G__108932__i + 1]; ++G__108932__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108932__a,0);
 } 
 return colgroup__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 colgroup.cljs$lang$maxFixedArity = 1;
-colgroup.cljs$lang$applyTo = (function (arglist__86751){
-var opts__6279__auto__ = cljs.core.first(arglist__86751);
-var children__6280__auto__ = cljs.core.rest(arglist__86751);
+colgroup.cljs$lang$applyTo = (function (arglist__108933){
+var opts__6279__auto__ = cljs.core.first(arglist__108933);
+var children__6280__auto__ = cljs.core.rest(arglist__108933);
 return colgroup__delegate(opts__6279__auto__,children__6280__auto__);
 });
 colgroup.cljs$core$IFn$_invoke$arity$variadic = colgroup__delegate;
@@ -584,15 +584,15 @@ return React.DOM.data.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var data = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86752__i = 0, G__86752__a = new Array(arguments.length -  1);
-while (G__86752__i < G__86752__a.length) {G__86752__a[G__86752__i] = arguments[G__86752__i + 1]; ++G__86752__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86752__a,0);
+var G__108934__i = 0, G__108934__a = new Array(arguments.length -  1);
+while (G__108934__i < G__108934__a.length) {G__108934__a[G__108934__i] = arguments[G__108934__i + 1]; ++G__108934__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108934__a,0);
 } 
 return data__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 data.cljs$lang$maxFixedArity = 1;
-data.cljs$lang$applyTo = (function (arglist__86753){
-var opts__6279__auto__ = cljs.core.first(arglist__86753);
-var children__6280__auto__ = cljs.core.rest(arglist__86753);
+data.cljs$lang$applyTo = (function (arglist__108935){
+var opts__6279__auto__ = cljs.core.first(arglist__108935);
+var children__6280__auto__ = cljs.core.rest(arglist__108935);
 return data__delegate(opts__6279__auto__,children__6280__auto__);
 });
 data.cljs$core$IFn$_invoke$arity$variadic = data__delegate;
@@ -610,15 +610,15 @@ return React.DOM.datalist.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var datalist = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86754__i = 0, G__86754__a = new Array(arguments.length -  1);
-while (G__86754__i < G__86754__a.length) {G__86754__a[G__86754__i] = arguments[G__86754__i + 1]; ++G__86754__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86754__a,0);
+var G__108936__i = 0, G__108936__a = new Array(arguments.length -  1);
+while (G__108936__i < G__108936__a.length) {G__108936__a[G__108936__i] = arguments[G__108936__i + 1]; ++G__108936__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108936__a,0);
 } 
 return datalist__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 datalist.cljs$lang$maxFixedArity = 1;
-datalist.cljs$lang$applyTo = (function (arglist__86755){
-var opts__6279__auto__ = cljs.core.first(arglist__86755);
-var children__6280__auto__ = cljs.core.rest(arglist__86755);
+datalist.cljs$lang$applyTo = (function (arglist__108937){
+var opts__6279__auto__ = cljs.core.first(arglist__108937);
+var children__6280__auto__ = cljs.core.rest(arglist__108937);
 return datalist__delegate(opts__6279__auto__,children__6280__auto__);
 });
 datalist.cljs$core$IFn$_invoke$arity$variadic = datalist__delegate;
@@ -636,15 +636,15 @@ return React.DOM.dd.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var dd = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86756__i = 0, G__86756__a = new Array(arguments.length -  1);
-while (G__86756__i < G__86756__a.length) {G__86756__a[G__86756__i] = arguments[G__86756__i + 1]; ++G__86756__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86756__a,0);
+var G__108938__i = 0, G__108938__a = new Array(arguments.length -  1);
+while (G__108938__i < G__108938__a.length) {G__108938__a[G__108938__i] = arguments[G__108938__i + 1]; ++G__108938__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108938__a,0);
 } 
 return dd__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 dd.cljs$lang$maxFixedArity = 1;
-dd.cljs$lang$applyTo = (function (arglist__86757){
-var opts__6279__auto__ = cljs.core.first(arglist__86757);
-var children__6280__auto__ = cljs.core.rest(arglist__86757);
+dd.cljs$lang$applyTo = (function (arglist__108939){
+var opts__6279__auto__ = cljs.core.first(arglist__108939);
+var children__6280__auto__ = cljs.core.rest(arglist__108939);
 return dd__delegate(opts__6279__auto__,children__6280__auto__);
 });
 dd.cljs$core$IFn$_invoke$arity$variadic = dd__delegate;
@@ -662,15 +662,15 @@ return React.DOM.del.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var del = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86758__i = 0, G__86758__a = new Array(arguments.length -  1);
-while (G__86758__i < G__86758__a.length) {G__86758__a[G__86758__i] = arguments[G__86758__i + 1]; ++G__86758__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86758__a,0);
+var G__108940__i = 0, G__108940__a = new Array(arguments.length -  1);
+while (G__108940__i < G__108940__a.length) {G__108940__a[G__108940__i] = arguments[G__108940__i + 1]; ++G__108940__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108940__a,0);
 } 
 return del__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 del.cljs$lang$maxFixedArity = 1;
-del.cljs$lang$applyTo = (function (arglist__86759){
-var opts__6279__auto__ = cljs.core.first(arglist__86759);
-var children__6280__auto__ = cljs.core.rest(arglist__86759);
+del.cljs$lang$applyTo = (function (arglist__108941){
+var opts__6279__auto__ = cljs.core.first(arglist__108941);
+var children__6280__auto__ = cljs.core.rest(arglist__108941);
 return del__delegate(opts__6279__auto__,children__6280__auto__);
 });
 del.cljs$core$IFn$_invoke$arity$variadic = del__delegate;
@@ -688,15 +688,15 @@ return React.DOM.dfn.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var dfn = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86760__i = 0, G__86760__a = new Array(arguments.length -  1);
-while (G__86760__i < G__86760__a.length) {G__86760__a[G__86760__i] = arguments[G__86760__i + 1]; ++G__86760__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86760__a,0);
+var G__108942__i = 0, G__108942__a = new Array(arguments.length -  1);
+while (G__108942__i < G__108942__a.length) {G__108942__a[G__108942__i] = arguments[G__108942__i + 1]; ++G__108942__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108942__a,0);
 } 
 return dfn__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 dfn.cljs$lang$maxFixedArity = 1;
-dfn.cljs$lang$applyTo = (function (arglist__86761){
-var opts__6279__auto__ = cljs.core.first(arglist__86761);
-var children__6280__auto__ = cljs.core.rest(arglist__86761);
+dfn.cljs$lang$applyTo = (function (arglist__108943){
+var opts__6279__auto__ = cljs.core.first(arglist__108943);
+var children__6280__auto__ = cljs.core.rest(arglist__108943);
 return dfn__delegate(opts__6279__auto__,children__6280__auto__);
 });
 dfn.cljs$core$IFn$_invoke$arity$variadic = dfn__delegate;
@@ -714,15 +714,15 @@ return React.DOM.div.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var div = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86762__i = 0, G__86762__a = new Array(arguments.length -  1);
-while (G__86762__i < G__86762__a.length) {G__86762__a[G__86762__i] = arguments[G__86762__i + 1]; ++G__86762__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86762__a,0);
+var G__108944__i = 0, G__108944__a = new Array(arguments.length -  1);
+while (G__108944__i < G__108944__a.length) {G__108944__a[G__108944__i] = arguments[G__108944__i + 1]; ++G__108944__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108944__a,0);
 } 
 return div__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 div.cljs$lang$maxFixedArity = 1;
-div.cljs$lang$applyTo = (function (arglist__86763){
-var opts__6279__auto__ = cljs.core.first(arglist__86763);
-var children__6280__auto__ = cljs.core.rest(arglist__86763);
+div.cljs$lang$applyTo = (function (arglist__108945){
+var opts__6279__auto__ = cljs.core.first(arglist__108945);
+var children__6280__auto__ = cljs.core.rest(arglist__108945);
 return div__delegate(opts__6279__auto__,children__6280__auto__);
 });
 div.cljs$core$IFn$_invoke$arity$variadic = div__delegate;
@@ -740,15 +740,15 @@ return React.DOM.dl.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var dl = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86764__i = 0, G__86764__a = new Array(arguments.length -  1);
-while (G__86764__i < G__86764__a.length) {G__86764__a[G__86764__i] = arguments[G__86764__i + 1]; ++G__86764__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86764__a,0);
+var G__108946__i = 0, G__108946__a = new Array(arguments.length -  1);
+while (G__108946__i < G__108946__a.length) {G__108946__a[G__108946__i] = arguments[G__108946__i + 1]; ++G__108946__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108946__a,0);
 } 
 return dl__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 dl.cljs$lang$maxFixedArity = 1;
-dl.cljs$lang$applyTo = (function (arglist__86765){
-var opts__6279__auto__ = cljs.core.first(arglist__86765);
-var children__6280__auto__ = cljs.core.rest(arglist__86765);
+dl.cljs$lang$applyTo = (function (arglist__108947){
+var opts__6279__auto__ = cljs.core.first(arglist__108947);
+var children__6280__auto__ = cljs.core.rest(arglist__108947);
 return dl__delegate(opts__6279__auto__,children__6280__auto__);
 });
 dl.cljs$core$IFn$_invoke$arity$variadic = dl__delegate;
@@ -766,15 +766,15 @@ return React.DOM.dt.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var dt = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86766__i = 0, G__86766__a = new Array(arguments.length -  1);
-while (G__86766__i < G__86766__a.length) {G__86766__a[G__86766__i] = arguments[G__86766__i + 1]; ++G__86766__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86766__a,0);
+var G__108948__i = 0, G__108948__a = new Array(arguments.length -  1);
+while (G__108948__i < G__108948__a.length) {G__108948__a[G__108948__i] = arguments[G__108948__i + 1]; ++G__108948__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108948__a,0);
 } 
 return dt__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 dt.cljs$lang$maxFixedArity = 1;
-dt.cljs$lang$applyTo = (function (arglist__86767){
-var opts__6279__auto__ = cljs.core.first(arglist__86767);
-var children__6280__auto__ = cljs.core.rest(arglist__86767);
+dt.cljs$lang$applyTo = (function (arglist__108949){
+var opts__6279__auto__ = cljs.core.first(arglist__108949);
+var children__6280__auto__ = cljs.core.rest(arglist__108949);
 return dt__delegate(opts__6279__auto__,children__6280__auto__);
 });
 dt.cljs$core$IFn$_invoke$arity$variadic = dt__delegate;
@@ -792,15 +792,15 @@ return React.DOM.em.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var em = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86768__i = 0, G__86768__a = new Array(arguments.length -  1);
-while (G__86768__i < G__86768__a.length) {G__86768__a[G__86768__i] = arguments[G__86768__i + 1]; ++G__86768__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86768__a,0);
+var G__108950__i = 0, G__108950__a = new Array(arguments.length -  1);
+while (G__108950__i < G__108950__a.length) {G__108950__a[G__108950__i] = arguments[G__108950__i + 1]; ++G__108950__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108950__a,0);
 } 
 return em__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 em.cljs$lang$maxFixedArity = 1;
-em.cljs$lang$applyTo = (function (arglist__86769){
-var opts__6279__auto__ = cljs.core.first(arglist__86769);
-var children__6280__auto__ = cljs.core.rest(arglist__86769);
+em.cljs$lang$applyTo = (function (arglist__108951){
+var opts__6279__auto__ = cljs.core.first(arglist__108951);
+var children__6280__auto__ = cljs.core.rest(arglist__108951);
 return em__delegate(opts__6279__auto__,children__6280__auto__);
 });
 em.cljs$core$IFn$_invoke$arity$variadic = em__delegate;
@@ -818,15 +818,15 @@ return React.DOM.embed.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var embed = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86770__i = 0, G__86770__a = new Array(arguments.length -  1);
-while (G__86770__i < G__86770__a.length) {G__86770__a[G__86770__i] = arguments[G__86770__i + 1]; ++G__86770__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86770__a,0);
+var G__108952__i = 0, G__108952__a = new Array(arguments.length -  1);
+while (G__108952__i < G__108952__a.length) {G__108952__a[G__108952__i] = arguments[G__108952__i + 1]; ++G__108952__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108952__a,0);
 } 
 return embed__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 embed.cljs$lang$maxFixedArity = 1;
-embed.cljs$lang$applyTo = (function (arglist__86771){
-var opts__6279__auto__ = cljs.core.first(arglist__86771);
-var children__6280__auto__ = cljs.core.rest(arglist__86771);
+embed.cljs$lang$applyTo = (function (arglist__108953){
+var opts__6279__auto__ = cljs.core.first(arglist__108953);
+var children__6280__auto__ = cljs.core.rest(arglist__108953);
 return embed__delegate(opts__6279__auto__,children__6280__auto__);
 });
 embed.cljs$core$IFn$_invoke$arity$variadic = embed__delegate;
@@ -844,15 +844,15 @@ return React.DOM.fieldset.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var fieldset = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86772__i = 0, G__86772__a = new Array(arguments.length -  1);
-while (G__86772__i < G__86772__a.length) {G__86772__a[G__86772__i] = arguments[G__86772__i + 1]; ++G__86772__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86772__a,0);
+var G__108954__i = 0, G__108954__a = new Array(arguments.length -  1);
+while (G__108954__i < G__108954__a.length) {G__108954__a[G__108954__i] = arguments[G__108954__i + 1]; ++G__108954__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108954__a,0);
 } 
 return fieldset__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 fieldset.cljs$lang$maxFixedArity = 1;
-fieldset.cljs$lang$applyTo = (function (arglist__86773){
-var opts__6279__auto__ = cljs.core.first(arglist__86773);
-var children__6280__auto__ = cljs.core.rest(arglist__86773);
+fieldset.cljs$lang$applyTo = (function (arglist__108955){
+var opts__6279__auto__ = cljs.core.first(arglist__108955);
+var children__6280__auto__ = cljs.core.rest(arglist__108955);
 return fieldset__delegate(opts__6279__auto__,children__6280__auto__);
 });
 fieldset.cljs$core$IFn$_invoke$arity$variadic = fieldset__delegate;
@@ -870,15 +870,15 @@ return React.DOM.figcaption.apply(null,cljs.core.into_array.call(null,cljs.core.
 var figcaption = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86774__i = 0, G__86774__a = new Array(arguments.length -  1);
-while (G__86774__i < G__86774__a.length) {G__86774__a[G__86774__i] = arguments[G__86774__i + 1]; ++G__86774__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86774__a,0);
+var G__108956__i = 0, G__108956__a = new Array(arguments.length -  1);
+while (G__108956__i < G__108956__a.length) {G__108956__a[G__108956__i] = arguments[G__108956__i + 1]; ++G__108956__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108956__a,0);
 } 
 return figcaption__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 figcaption.cljs$lang$maxFixedArity = 1;
-figcaption.cljs$lang$applyTo = (function (arglist__86775){
-var opts__6279__auto__ = cljs.core.first(arglist__86775);
-var children__6280__auto__ = cljs.core.rest(arglist__86775);
+figcaption.cljs$lang$applyTo = (function (arglist__108957){
+var opts__6279__auto__ = cljs.core.first(arglist__108957);
+var children__6280__auto__ = cljs.core.rest(arglist__108957);
 return figcaption__delegate(opts__6279__auto__,children__6280__auto__);
 });
 figcaption.cljs$core$IFn$_invoke$arity$variadic = figcaption__delegate;
@@ -896,15 +896,15 @@ return React.DOM.figure.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var figure = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86776__i = 0, G__86776__a = new Array(arguments.length -  1);
-while (G__86776__i < G__86776__a.length) {G__86776__a[G__86776__i] = arguments[G__86776__i + 1]; ++G__86776__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86776__a,0);
+var G__108958__i = 0, G__108958__a = new Array(arguments.length -  1);
+while (G__108958__i < G__108958__a.length) {G__108958__a[G__108958__i] = arguments[G__108958__i + 1]; ++G__108958__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108958__a,0);
 } 
 return figure__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 figure.cljs$lang$maxFixedArity = 1;
-figure.cljs$lang$applyTo = (function (arglist__86777){
-var opts__6279__auto__ = cljs.core.first(arglist__86777);
-var children__6280__auto__ = cljs.core.rest(arglist__86777);
+figure.cljs$lang$applyTo = (function (arglist__108959){
+var opts__6279__auto__ = cljs.core.first(arglist__108959);
+var children__6280__auto__ = cljs.core.rest(arglist__108959);
 return figure__delegate(opts__6279__auto__,children__6280__auto__);
 });
 figure.cljs$core$IFn$_invoke$arity$variadic = figure__delegate;
@@ -922,15 +922,15 @@ return React.DOM.footer.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var footer = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86778__i = 0, G__86778__a = new Array(arguments.length -  1);
-while (G__86778__i < G__86778__a.length) {G__86778__a[G__86778__i] = arguments[G__86778__i + 1]; ++G__86778__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86778__a,0);
+var G__108960__i = 0, G__108960__a = new Array(arguments.length -  1);
+while (G__108960__i < G__108960__a.length) {G__108960__a[G__108960__i] = arguments[G__108960__i + 1]; ++G__108960__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108960__a,0);
 } 
 return footer__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 footer.cljs$lang$maxFixedArity = 1;
-footer.cljs$lang$applyTo = (function (arglist__86779){
-var opts__6279__auto__ = cljs.core.first(arglist__86779);
-var children__6280__auto__ = cljs.core.rest(arglist__86779);
+footer.cljs$lang$applyTo = (function (arglist__108961){
+var opts__6279__auto__ = cljs.core.first(arglist__108961);
+var children__6280__auto__ = cljs.core.rest(arglist__108961);
 return footer__delegate(opts__6279__auto__,children__6280__auto__);
 });
 footer.cljs$core$IFn$_invoke$arity$variadic = footer__delegate;
@@ -948,15 +948,15 @@ return React.DOM.form.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var form = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86780__i = 0, G__86780__a = new Array(arguments.length -  1);
-while (G__86780__i < G__86780__a.length) {G__86780__a[G__86780__i] = arguments[G__86780__i + 1]; ++G__86780__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86780__a,0);
+var G__108962__i = 0, G__108962__a = new Array(arguments.length -  1);
+while (G__108962__i < G__108962__a.length) {G__108962__a[G__108962__i] = arguments[G__108962__i + 1]; ++G__108962__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108962__a,0);
 } 
 return form__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 form.cljs$lang$maxFixedArity = 1;
-form.cljs$lang$applyTo = (function (arglist__86781){
-var opts__6279__auto__ = cljs.core.first(arglist__86781);
-var children__6280__auto__ = cljs.core.rest(arglist__86781);
+form.cljs$lang$applyTo = (function (arglist__108963){
+var opts__6279__auto__ = cljs.core.first(arglist__108963);
+var children__6280__auto__ = cljs.core.rest(arglist__108963);
 return form__delegate(opts__6279__auto__,children__6280__auto__);
 });
 form.cljs$core$IFn$_invoke$arity$variadic = form__delegate;
@@ -974,15 +974,15 @@ return React.DOM.h1.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var h1 = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86782__i = 0, G__86782__a = new Array(arguments.length -  1);
-while (G__86782__i < G__86782__a.length) {G__86782__a[G__86782__i] = arguments[G__86782__i + 1]; ++G__86782__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86782__a,0);
+var G__108964__i = 0, G__108964__a = new Array(arguments.length -  1);
+while (G__108964__i < G__108964__a.length) {G__108964__a[G__108964__i] = arguments[G__108964__i + 1]; ++G__108964__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108964__a,0);
 } 
 return h1__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 h1.cljs$lang$maxFixedArity = 1;
-h1.cljs$lang$applyTo = (function (arglist__86783){
-var opts__6279__auto__ = cljs.core.first(arglist__86783);
-var children__6280__auto__ = cljs.core.rest(arglist__86783);
+h1.cljs$lang$applyTo = (function (arglist__108965){
+var opts__6279__auto__ = cljs.core.first(arglist__108965);
+var children__6280__auto__ = cljs.core.rest(arglist__108965);
 return h1__delegate(opts__6279__auto__,children__6280__auto__);
 });
 h1.cljs$core$IFn$_invoke$arity$variadic = h1__delegate;
@@ -1000,15 +1000,15 @@ return React.DOM.h2.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var h2 = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86784__i = 0, G__86784__a = new Array(arguments.length -  1);
-while (G__86784__i < G__86784__a.length) {G__86784__a[G__86784__i] = arguments[G__86784__i + 1]; ++G__86784__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86784__a,0);
+var G__108966__i = 0, G__108966__a = new Array(arguments.length -  1);
+while (G__108966__i < G__108966__a.length) {G__108966__a[G__108966__i] = arguments[G__108966__i + 1]; ++G__108966__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108966__a,0);
 } 
 return h2__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 h2.cljs$lang$maxFixedArity = 1;
-h2.cljs$lang$applyTo = (function (arglist__86785){
-var opts__6279__auto__ = cljs.core.first(arglist__86785);
-var children__6280__auto__ = cljs.core.rest(arglist__86785);
+h2.cljs$lang$applyTo = (function (arglist__108967){
+var opts__6279__auto__ = cljs.core.first(arglist__108967);
+var children__6280__auto__ = cljs.core.rest(arglist__108967);
 return h2__delegate(opts__6279__auto__,children__6280__auto__);
 });
 h2.cljs$core$IFn$_invoke$arity$variadic = h2__delegate;
@@ -1026,15 +1026,15 @@ return React.DOM.h3.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var h3 = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86786__i = 0, G__86786__a = new Array(arguments.length -  1);
-while (G__86786__i < G__86786__a.length) {G__86786__a[G__86786__i] = arguments[G__86786__i + 1]; ++G__86786__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86786__a,0);
+var G__108968__i = 0, G__108968__a = new Array(arguments.length -  1);
+while (G__108968__i < G__108968__a.length) {G__108968__a[G__108968__i] = arguments[G__108968__i + 1]; ++G__108968__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108968__a,0);
 } 
 return h3__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 h3.cljs$lang$maxFixedArity = 1;
-h3.cljs$lang$applyTo = (function (arglist__86787){
-var opts__6279__auto__ = cljs.core.first(arglist__86787);
-var children__6280__auto__ = cljs.core.rest(arglist__86787);
+h3.cljs$lang$applyTo = (function (arglist__108969){
+var opts__6279__auto__ = cljs.core.first(arglist__108969);
+var children__6280__auto__ = cljs.core.rest(arglist__108969);
 return h3__delegate(opts__6279__auto__,children__6280__auto__);
 });
 h3.cljs$core$IFn$_invoke$arity$variadic = h3__delegate;
@@ -1052,15 +1052,15 @@ return React.DOM.h4.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var h4 = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86788__i = 0, G__86788__a = new Array(arguments.length -  1);
-while (G__86788__i < G__86788__a.length) {G__86788__a[G__86788__i] = arguments[G__86788__i + 1]; ++G__86788__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86788__a,0);
+var G__108970__i = 0, G__108970__a = new Array(arguments.length -  1);
+while (G__108970__i < G__108970__a.length) {G__108970__a[G__108970__i] = arguments[G__108970__i + 1]; ++G__108970__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108970__a,0);
 } 
 return h4__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 h4.cljs$lang$maxFixedArity = 1;
-h4.cljs$lang$applyTo = (function (arglist__86789){
-var opts__6279__auto__ = cljs.core.first(arglist__86789);
-var children__6280__auto__ = cljs.core.rest(arglist__86789);
+h4.cljs$lang$applyTo = (function (arglist__108971){
+var opts__6279__auto__ = cljs.core.first(arglist__108971);
+var children__6280__auto__ = cljs.core.rest(arglist__108971);
 return h4__delegate(opts__6279__auto__,children__6280__auto__);
 });
 h4.cljs$core$IFn$_invoke$arity$variadic = h4__delegate;
@@ -1078,15 +1078,15 @@ return React.DOM.h5.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var h5 = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86790__i = 0, G__86790__a = new Array(arguments.length -  1);
-while (G__86790__i < G__86790__a.length) {G__86790__a[G__86790__i] = arguments[G__86790__i + 1]; ++G__86790__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86790__a,0);
+var G__108972__i = 0, G__108972__a = new Array(arguments.length -  1);
+while (G__108972__i < G__108972__a.length) {G__108972__a[G__108972__i] = arguments[G__108972__i + 1]; ++G__108972__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108972__a,0);
 } 
 return h5__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 h5.cljs$lang$maxFixedArity = 1;
-h5.cljs$lang$applyTo = (function (arglist__86791){
-var opts__6279__auto__ = cljs.core.first(arglist__86791);
-var children__6280__auto__ = cljs.core.rest(arglist__86791);
+h5.cljs$lang$applyTo = (function (arglist__108973){
+var opts__6279__auto__ = cljs.core.first(arglist__108973);
+var children__6280__auto__ = cljs.core.rest(arglist__108973);
 return h5__delegate(opts__6279__auto__,children__6280__auto__);
 });
 h5.cljs$core$IFn$_invoke$arity$variadic = h5__delegate;
@@ -1104,15 +1104,15 @@ return React.DOM.h6.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var h6 = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86792__i = 0, G__86792__a = new Array(arguments.length -  1);
-while (G__86792__i < G__86792__a.length) {G__86792__a[G__86792__i] = arguments[G__86792__i + 1]; ++G__86792__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86792__a,0);
+var G__108974__i = 0, G__108974__a = new Array(arguments.length -  1);
+while (G__108974__i < G__108974__a.length) {G__108974__a[G__108974__i] = arguments[G__108974__i + 1]; ++G__108974__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108974__a,0);
 } 
 return h6__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 h6.cljs$lang$maxFixedArity = 1;
-h6.cljs$lang$applyTo = (function (arglist__86793){
-var opts__6279__auto__ = cljs.core.first(arglist__86793);
-var children__6280__auto__ = cljs.core.rest(arglist__86793);
+h6.cljs$lang$applyTo = (function (arglist__108975){
+var opts__6279__auto__ = cljs.core.first(arglist__108975);
+var children__6280__auto__ = cljs.core.rest(arglist__108975);
 return h6__delegate(opts__6279__auto__,children__6280__auto__);
 });
 h6.cljs$core$IFn$_invoke$arity$variadic = h6__delegate;
@@ -1130,15 +1130,15 @@ return React.DOM.head.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var head = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86794__i = 0, G__86794__a = new Array(arguments.length -  1);
-while (G__86794__i < G__86794__a.length) {G__86794__a[G__86794__i] = arguments[G__86794__i + 1]; ++G__86794__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86794__a,0);
+var G__108976__i = 0, G__108976__a = new Array(arguments.length -  1);
+while (G__108976__i < G__108976__a.length) {G__108976__a[G__108976__i] = arguments[G__108976__i + 1]; ++G__108976__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108976__a,0);
 } 
 return head__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 head.cljs$lang$maxFixedArity = 1;
-head.cljs$lang$applyTo = (function (arglist__86795){
-var opts__6279__auto__ = cljs.core.first(arglist__86795);
-var children__6280__auto__ = cljs.core.rest(arglist__86795);
+head.cljs$lang$applyTo = (function (arglist__108977){
+var opts__6279__auto__ = cljs.core.first(arglist__108977);
+var children__6280__auto__ = cljs.core.rest(arglist__108977);
 return head__delegate(opts__6279__auto__,children__6280__auto__);
 });
 head.cljs$core$IFn$_invoke$arity$variadic = head__delegate;
@@ -1156,15 +1156,15 @@ return React.DOM.header.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var header = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86796__i = 0, G__86796__a = new Array(arguments.length -  1);
-while (G__86796__i < G__86796__a.length) {G__86796__a[G__86796__i] = arguments[G__86796__i + 1]; ++G__86796__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86796__a,0);
+var G__108978__i = 0, G__108978__a = new Array(arguments.length -  1);
+while (G__108978__i < G__108978__a.length) {G__108978__a[G__108978__i] = arguments[G__108978__i + 1]; ++G__108978__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108978__a,0);
 } 
 return header__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 header.cljs$lang$maxFixedArity = 1;
-header.cljs$lang$applyTo = (function (arglist__86797){
-var opts__6279__auto__ = cljs.core.first(arglist__86797);
-var children__6280__auto__ = cljs.core.rest(arglist__86797);
+header.cljs$lang$applyTo = (function (arglist__108979){
+var opts__6279__auto__ = cljs.core.first(arglist__108979);
+var children__6280__auto__ = cljs.core.rest(arglist__108979);
 return header__delegate(opts__6279__auto__,children__6280__auto__);
 });
 header.cljs$core$IFn$_invoke$arity$variadic = header__delegate;
@@ -1182,15 +1182,15 @@ return React.DOM.hr.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var hr = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86798__i = 0, G__86798__a = new Array(arguments.length -  1);
-while (G__86798__i < G__86798__a.length) {G__86798__a[G__86798__i] = arguments[G__86798__i + 1]; ++G__86798__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86798__a,0);
+var G__108980__i = 0, G__108980__a = new Array(arguments.length -  1);
+while (G__108980__i < G__108980__a.length) {G__108980__a[G__108980__i] = arguments[G__108980__i + 1]; ++G__108980__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108980__a,0);
 } 
 return hr__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 hr.cljs$lang$maxFixedArity = 1;
-hr.cljs$lang$applyTo = (function (arglist__86799){
-var opts__6279__auto__ = cljs.core.first(arglist__86799);
-var children__6280__auto__ = cljs.core.rest(arglist__86799);
+hr.cljs$lang$applyTo = (function (arglist__108981){
+var opts__6279__auto__ = cljs.core.first(arglist__108981);
+var children__6280__auto__ = cljs.core.rest(arglist__108981);
 return hr__delegate(opts__6279__auto__,children__6280__auto__);
 });
 hr.cljs$core$IFn$_invoke$arity$variadic = hr__delegate;
@@ -1208,15 +1208,15 @@ return React.DOM.html.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var html = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86800__i = 0, G__86800__a = new Array(arguments.length -  1);
-while (G__86800__i < G__86800__a.length) {G__86800__a[G__86800__i] = arguments[G__86800__i + 1]; ++G__86800__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86800__a,0);
+var G__108982__i = 0, G__108982__a = new Array(arguments.length -  1);
+while (G__108982__i < G__108982__a.length) {G__108982__a[G__108982__i] = arguments[G__108982__i + 1]; ++G__108982__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108982__a,0);
 } 
 return html__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 html.cljs$lang$maxFixedArity = 1;
-html.cljs$lang$applyTo = (function (arglist__86801){
-var opts__6279__auto__ = cljs.core.first(arglist__86801);
-var children__6280__auto__ = cljs.core.rest(arglist__86801);
+html.cljs$lang$applyTo = (function (arglist__108983){
+var opts__6279__auto__ = cljs.core.first(arglist__108983);
+var children__6280__auto__ = cljs.core.rest(arglist__108983);
 return html__delegate(opts__6279__auto__,children__6280__auto__);
 });
 html.cljs$core$IFn$_invoke$arity$variadic = html__delegate;
@@ -1234,15 +1234,15 @@ return React.DOM.i.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var i = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86802__i = 0, G__86802__a = new Array(arguments.length -  1);
-while (G__86802__i < G__86802__a.length) {G__86802__a[G__86802__i] = arguments[G__86802__i + 1]; ++G__86802__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86802__a,0);
+var G__108984__i = 0, G__108984__a = new Array(arguments.length -  1);
+while (G__108984__i < G__108984__a.length) {G__108984__a[G__108984__i] = arguments[G__108984__i + 1]; ++G__108984__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108984__a,0);
 } 
 return i__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 i.cljs$lang$maxFixedArity = 1;
-i.cljs$lang$applyTo = (function (arglist__86803){
-var opts__6279__auto__ = cljs.core.first(arglist__86803);
-var children__6280__auto__ = cljs.core.rest(arglist__86803);
+i.cljs$lang$applyTo = (function (arglist__108985){
+var opts__6279__auto__ = cljs.core.first(arglist__108985);
+var children__6280__auto__ = cljs.core.rest(arglist__108985);
 return i__delegate(opts__6279__auto__,children__6280__auto__);
 });
 i.cljs$core$IFn$_invoke$arity$variadic = i__delegate;
@@ -1260,15 +1260,15 @@ return React.DOM.iframe.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var iframe = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86804__i = 0, G__86804__a = new Array(arguments.length -  1);
-while (G__86804__i < G__86804__a.length) {G__86804__a[G__86804__i] = arguments[G__86804__i + 1]; ++G__86804__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86804__a,0);
+var G__108986__i = 0, G__108986__a = new Array(arguments.length -  1);
+while (G__108986__i < G__108986__a.length) {G__108986__a[G__108986__i] = arguments[G__108986__i + 1]; ++G__108986__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108986__a,0);
 } 
 return iframe__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 iframe.cljs$lang$maxFixedArity = 1;
-iframe.cljs$lang$applyTo = (function (arglist__86805){
-var opts__6279__auto__ = cljs.core.first(arglist__86805);
-var children__6280__auto__ = cljs.core.rest(arglist__86805);
+iframe.cljs$lang$applyTo = (function (arglist__108987){
+var opts__6279__auto__ = cljs.core.first(arglist__108987);
+var children__6280__auto__ = cljs.core.rest(arglist__108987);
 return iframe__delegate(opts__6279__auto__,children__6280__auto__);
 });
 iframe.cljs$core$IFn$_invoke$arity$variadic = iframe__delegate;
@@ -1286,15 +1286,15 @@ return React.DOM.img.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var img = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86806__i = 0, G__86806__a = new Array(arguments.length -  1);
-while (G__86806__i < G__86806__a.length) {G__86806__a[G__86806__i] = arguments[G__86806__i + 1]; ++G__86806__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86806__a,0);
+var G__108988__i = 0, G__108988__a = new Array(arguments.length -  1);
+while (G__108988__i < G__108988__a.length) {G__108988__a[G__108988__i] = arguments[G__108988__i + 1]; ++G__108988__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108988__a,0);
 } 
 return img__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 img.cljs$lang$maxFixedArity = 1;
-img.cljs$lang$applyTo = (function (arglist__86807){
-var opts__6279__auto__ = cljs.core.first(arglist__86807);
-var children__6280__auto__ = cljs.core.rest(arglist__86807);
+img.cljs$lang$applyTo = (function (arglist__108989){
+var opts__6279__auto__ = cljs.core.first(arglist__108989);
+var children__6280__auto__ = cljs.core.rest(arglist__108989);
 return img__delegate(opts__6279__auto__,children__6280__auto__);
 });
 img.cljs$core$IFn$_invoke$arity$variadic = img__delegate;
@@ -1312,15 +1312,15 @@ return React.DOM.ins.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var ins = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86808__i = 0, G__86808__a = new Array(arguments.length -  1);
-while (G__86808__i < G__86808__a.length) {G__86808__a[G__86808__i] = arguments[G__86808__i + 1]; ++G__86808__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86808__a,0);
+var G__108990__i = 0, G__108990__a = new Array(arguments.length -  1);
+while (G__108990__i < G__108990__a.length) {G__108990__a[G__108990__i] = arguments[G__108990__i + 1]; ++G__108990__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108990__a,0);
 } 
 return ins__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 ins.cljs$lang$maxFixedArity = 1;
-ins.cljs$lang$applyTo = (function (arglist__86809){
-var opts__6279__auto__ = cljs.core.first(arglist__86809);
-var children__6280__auto__ = cljs.core.rest(arglist__86809);
+ins.cljs$lang$applyTo = (function (arglist__108991){
+var opts__6279__auto__ = cljs.core.first(arglist__108991);
+var children__6280__auto__ = cljs.core.rest(arglist__108991);
 return ins__delegate(opts__6279__auto__,children__6280__auto__);
 });
 ins.cljs$core$IFn$_invoke$arity$variadic = ins__delegate;
@@ -1338,15 +1338,15 @@ return React.DOM.kbd.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var kbd = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86810__i = 0, G__86810__a = new Array(arguments.length -  1);
-while (G__86810__i < G__86810__a.length) {G__86810__a[G__86810__i] = arguments[G__86810__i + 1]; ++G__86810__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86810__a,0);
+var G__108992__i = 0, G__108992__a = new Array(arguments.length -  1);
+while (G__108992__i < G__108992__a.length) {G__108992__a[G__108992__i] = arguments[G__108992__i + 1]; ++G__108992__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108992__a,0);
 } 
 return kbd__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 kbd.cljs$lang$maxFixedArity = 1;
-kbd.cljs$lang$applyTo = (function (arglist__86811){
-var opts__6279__auto__ = cljs.core.first(arglist__86811);
-var children__6280__auto__ = cljs.core.rest(arglist__86811);
+kbd.cljs$lang$applyTo = (function (arglist__108993){
+var opts__6279__auto__ = cljs.core.first(arglist__108993);
+var children__6280__auto__ = cljs.core.rest(arglist__108993);
 return kbd__delegate(opts__6279__auto__,children__6280__auto__);
 });
 kbd.cljs$core$IFn$_invoke$arity$variadic = kbd__delegate;
@@ -1364,15 +1364,15 @@ return React.DOM.keygen.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var keygen = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86812__i = 0, G__86812__a = new Array(arguments.length -  1);
-while (G__86812__i < G__86812__a.length) {G__86812__a[G__86812__i] = arguments[G__86812__i + 1]; ++G__86812__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86812__a,0);
+var G__108994__i = 0, G__108994__a = new Array(arguments.length -  1);
+while (G__108994__i < G__108994__a.length) {G__108994__a[G__108994__i] = arguments[G__108994__i + 1]; ++G__108994__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108994__a,0);
 } 
 return keygen__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 keygen.cljs$lang$maxFixedArity = 1;
-keygen.cljs$lang$applyTo = (function (arglist__86813){
-var opts__6279__auto__ = cljs.core.first(arglist__86813);
-var children__6280__auto__ = cljs.core.rest(arglist__86813);
+keygen.cljs$lang$applyTo = (function (arglist__108995){
+var opts__6279__auto__ = cljs.core.first(arglist__108995);
+var children__6280__auto__ = cljs.core.rest(arglist__108995);
 return keygen__delegate(opts__6279__auto__,children__6280__auto__);
 });
 keygen.cljs$core$IFn$_invoke$arity$variadic = keygen__delegate;
@@ -1390,15 +1390,15 @@ return React.DOM.label.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var label = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86814__i = 0, G__86814__a = new Array(arguments.length -  1);
-while (G__86814__i < G__86814__a.length) {G__86814__a[G__86814__i] = arguments[G__86814__i + 1]; ++G__86814__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86814__a,0);
+var G__108996__i = 0, G__108996__a = new Array(arguments.length -  1);
+while (G__108996__i < G__108996__a.length) {G__108996__a[G__108996__i] = arguments[G__108996__i + 1]; ++G__108996__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108996__a,0);
 } 
 return label__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 label.cljs$lang$maxFixedArity = 1;
-label.cljs$lang$applyTo = (function (arglist__86815){
-var opts__6279__auto__ = cljs.core.first(arglist__86815);
-var children__6280__auto__ = cljs.core.rest(arglist__86815);
+label.cljs$lang$applyTo = (function (arglist__108997){
+var opts__6279__auto__ = cljs.core.first(arglist__108997);
+var children__6280__auto__ = cljs.core.rest(arglist__108997);
 return label__delegate(opts__6279__auto__,children__6280__auto__);
 });
 label.cljs$core$IFn$_invoke$arity$variadic = label__delegate;
@@ -1416,15 +1416,15 @@ return React.DOM.legend.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var legend = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86816__i = 0, G__86816__a = new Array(arguments.length -  1);
-while (G__86816__i < G__86816__a.length) {G__86816__a[G__86816__i] = arguments[G__86816__i + 1]; ++G__86816__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86816__a,0);
+var G__108998__i = 0, G__108998__a = new Array(arguments.length -  1);
+while (G__108998__i < G__108998__a.length) {G__108998__a[G__108998__i] = arguments[G__108998__i + 1]; ++G__108998__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__108998__a,0);
 } 
 return legend__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 legend.cljs$lang$maxFixedArity = 1;
-legend.cljs$lang$applyTo = (function (arglist__86817){
-var opts__6279__auto__ = cljs.core.first(arglist__86817);
-var children__6280__auto__ = cljs.core.rest(arglist__86817);
+legend.cljs$lang$applyTo = (function (arglist__108999){
+var opts__6279__auto__ = cljs.core.first(arglist__108999);
+var children__6280__auto__ = cljs.core.rest(arglist__108999);
 return legend__delegate(opts__6279__auto__,children__6280__auto__);
 });
 legend.cljs$core$IFn$_invoke$arity$variadic = legend__delegate;
@@ -1442,15 +1442,15 @@ return React.DOM.li.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var li = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86818__i = 0, G__86818__a = new Array(arguments.length -  1);
-while (G__86818__i < G__86818__a.length) {G__86818__a[G__86818__i] = arguments[G__86818__i + 1]; ++G__86818__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86818__a,0);
+var G__109000__i = 0, G__109000__a = new Array(arguments.length -  1);
+while (G__109000__i < G__109000__a.length) {G__109000__a[G__109000__i] = arguments[G__109000__i + 1]; ++G__109000__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109000__a,0);
 } 
 return li__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 li.cljs$lang$maxFixedArity = 1;
-li.cljs$lang$applyTo = (function (arglist__86819){
-var opts__6279__auto__ = cljs.core.first(arglist__86819);
-var children__6280__auto__ = cljs.core.rest(arglist__86819);
+li.cljs$lang$applyTo = (function (arglist__109001){
+var opts__6279__auto__ = cljs.core.first(arglist__109001);
+var children__6280__auto__ = cljs.core.rest(arglist__109001);
 return li__delegate(opts__6279__auto__,children__6280__auto__);
 });
 li.cljs$core$IFn$_invoke$arity$variadic = li__delegate;
@@ -1468,15 +1468,15 @@ return React.DOM.link.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var link = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86820__i = 0, G__86820__a = new Array(arguments.length -  1);
-while (G__86820__i < G__86820__a.length) {G__86820__a[G__86820__i] = arguments[G__86820__i + 1]; ++G__86820__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86820__a,0);
+var G__109002__i = 0, G__109002__a = new Array(arguments.length -  1);
+while (G__109002__i < G__109002__a.length) {G__109002__a[G__109002__i] = arguments[G__109002__i + 1]; ++G__109002__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109002__a,0);
 } 
 return link__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 link.cljs$lang$maxFixedArity = 1;
-link.cljs$lang$applyTo = (function (arglist__86821){
-var opts__6279__auto__ = cljs.core.first(arglist__86821);
-var children__6280__auto__ = cljs.core.rest(arglist__86821);
+link.cljs$lang$applyTo = (function (arglist__109003){
+var opts__6279__auto__ = cljs.core.first(arglist__109003);
+var children__6280__auto__ = cljs.core.rest(arglist__109003);
 return link__delegate(opts__6279__auto__,children__6280__auto__);
 });
 link.cljs$core$IFn$_invoke$arity$variadic = link__delegate;
@@ -1494,15 +1494,15 @@ return React.DOM.main.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var main = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86822__i = 0, G__86822__a = new Array(arguments.length -  1);
-while (G__86822__i < G__86822__a.length) {G__86822__a[G__86822__i] = arguments[G__86822__i + 1]; ++G__86822__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86822__a,0);
+var G__109004__i = 0, G__109004__a = new Array(arguments.length -  1);
+while (G__109004__i < G__109004__a.length) {G__109004__a[G__109004__i] = arguments[G__109004__i + 1]; ++G__109004__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109004__a,0);
 } 
 return main__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 main.cljs$lang$maxFixedArity = 1;
-main.cljs$lang$applyTo = (function (arglist__86823){
-var opts__6279__auto__ = cljs.core.first(arglist__86823);
-var children__6280__auto__ = cljs.core.rest(arglist__86823);
+main.cljs$lang$applyTo = (function (arglist__109005){
+var opts__6279__auto__ = cljs.core.first(arglist__109005);
+var children__6280__auto__ = cljs.core.rest(arglist__109005);
 return main__delegate(opts__6279__auto__,children__6280__auto__);
 });
 main.cljs$core$IFn$_invoke$arity$variadic = main__delegate;
@@ -1520,15 +1520,15 @@ return React.DOM.map.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var map = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86824__i = 0, G__86824__a = new Array(arguments.length -  1);
-while (G__86824__i < G__86824__a.length) {G__86824__a[G__86824__i] = arguments[G__86824__i + 1]; ++G__86824__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86824__a,0);
+var G__109006__i = 0, G__109006__a = new Array(arguments.length -  1);
+while (G__109006__i < G__109006__a.length) {G__109006__a[G__109006__i] = arguments[G__109006__i + 1]; ++G__109006__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109006__a,0);
 } 
 return map__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 map.cljs$lang$maxFixedArity = 1;
-map.cljs$lang$applyTo = (function (arglist__86825){
-var opts__6279__auto__ = cljs.core.first(arglist__86825);
-var children__6280__auto__ = cljs.core.rest(arglist__86825);
+map.cljs$lang$applyTo = (function (arglist__109007){
+var opts__6279__auto__ = cljs.core.first(arglist__109007);
+var children__6280__auto__ = cljs.core.rest(arglist__109007);
 return map__delegate(opts__6279__auto__,children__6280__auto__);
 });
 map.cljs$core$IFn$_invoke$arity$variadic = map__delegate;
@@ -1546,15 +1546,15 @@ return React.DOM.mark.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var mark = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86826__i = 0, G__86826__a = new Array(arguments.length -  1);
-while (G__86826__i < G__86826__a.length) {G__86826__a[G__86826__i] = arguments[G__86826__i + 1]; ++G__86826__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86826__a,0);
+var G__109008__i = 0, G__109008__a = new Array(arguments.length -  1);
+while (G__109008__i < G__109008__a.length) {G__109008__a[G__109008__i] = arguments[G__109008__i + 1]; ++G__109008__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109008__a,0);
 } 
 return mark__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 mark.cljs$lang$maxFixedArity = 1;
-mark.cljs$lang$applyTo = (function (arglist__86827){
-var opts__6279__auto__ = cljs.core.first(arglist__86827);
-var children__6280__auto__ = cljs.core.rest(arglist__86827);
+mark.cljs$lang$applyTo = (function (arglist__109009){
+var opts__6279__auto__ = cljs.core.first(arglist__109009);
+var children__6280__auto__ = cljs.core.rest(arglist__109009);
 return mark__delegate(opts__6279__auto__,children__6280__auto__);
 });
 mark.cljs$core$IFn$_invoke$arity$variadic = mark__delegate;
@@ -1572,15 +1572,15 @@ return React.DOM.marquee.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var marquee = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86828__i = 0, G__86828__a = new Array(arguments.length -  1);
-while (G__86828__i < G__86828__a.length) {G__86828__a[G__86828__i] = arguments[G__86828__i + 1]; ++G__86828__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86828__a,0);
+var G__109010__i = 0, G__109010__a = new Array(arguments.length -  1);
+while (G__109010__i < G__109010__a.length) {G__109010__a[G__109010__i] = arguments[G__109010__i + 1]; ++G__109010__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109010__a,0);
 } 
 return marquee__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 marquee.cljs$lang$maxFixedArity = 1;
-marquee.cljs$lang$applyTo = (function (arglist__86829){
-var opts__6279__auto__ = cljs.core.first(arglist__86829);
-var children__6280__auto__ = cljs.core.rest(arglist__86829);
+marquee.cljs$lang$applyTo = (function (arglist__109011){
+var opts__6279__auto__ = cljs.core.first(arglist__109011);
+var children__6280__auto__ = cljs.core.rest(arglist__109011);
 return marquee__delegate(opts__6279__auto__,children__6280__auto__);
 });
 marquee.cljs$core$IFn$_invoke$arity$variadic = marquee__delegate;
@@ -1598,15 +1598,15 @@ return React.DOM.menu.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var menu = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86830__i = 0, G__86830__a = new Array(arguments.length -  1);
-while (G__86830__i < G__86830__a.length) {G__86830__a[G__86830__i] = arguments[G__86830__i + 1]; ++G__86830__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86830__a,0);
+var G__109012__i = 0, G__109012__a = new Array(arguments.length -  1);
+while (G__109012__i < G__109012__a.length) {G__109012__a[G__109012__i] = arguments[G__109012__i + 1]; ++G__109012__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109012__a,0);
 } 
 return menu__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 menu.cljs$lang$maxFixedArity = 1;
-menu.cljs$lang$applyTo = (function (arglist__86831){
-var opts__6279__auto__ = cljs.core.first(arglist__86831);
-var children__6280__auto__ = cljs.core.rest(arglist__86831);
+menu.cljs$lang$applyTo = (function (arglist__109013){
+var opts__6279__auto__ = cljs.core.first(arglist__109013);
+var children__6280__auto__ = cljs.core.rest(arglist__109013);
 return menu__delegate(opts__6279__auto__,children__6280__auto__);
 });
 menu.cljs$core$IFn$_invoke$arity$variadic = menu__delegate;
@@ -1624,15 +1624,15 @@ return React.DOM.menuitem.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var menuitem = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86832__i = 0, G__86832__a = new Array(arguments.length -  1);
-while (G__86832__i < G__86832__a.length) {G__86832__a[G__86832__i] = arguments[G__86832__i + 1]; ++G__86832__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86832__a,0);
+var G__109014__i = 0, G__109014__a = new Array(arguments.length -  1);
+while (G__109014__i < G__109014__a.length) {G__109014__a[G__109014__i] = arguments[G__109014__i + 1]; ++G__109014__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109014__a,0);
 } 
 return menuitem__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 menuitem.cljs$lang$maxFixedArity = 1;
-menuitem.cljs$lang$applyTo = (function (arglist__86833){
-var opts__6279__auto__ = cljs.core.first(arglist__86833);
-var children__6280__auto__ = cljs.core.rest(arglist__86833);
+menuitem.cljs$lang$applyTo = (function (arglist__109015){
+var opts__6279__auto__ = cljs.core.first(arglist__109015);
+var children__6280__auto__ = cljs.core.rest(arglist__109015);
 return menuitem__delegate(opts__6279__auto__,children__6280__auto__);
 });
 menuitem.cljs$core$IFn$_invoke$arity$variadic = menuitem__delegate;
@@ -1650,15 +1650,15 @@ return React.DOM.meta.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var meta = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86834__i = 0, G__86834__a = new Array(arguments.length -  1);
-while (G__86834__i < G__86834__a.length) {G__86834__a[G__86834__i] = arguments[G__86834__i + 1]; ++G__86834__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86834__a,0);
+var G__109016__i = 0, G__109016__a = new Array(arguments.length -  1);
+while (G__109016__i < G__109016__a.length) {G__109016__a[G__109016__i] = arguments[G__109016__i + 1]; ++G__109016__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109016__a,0);
 } 
 return meta__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 meta.cljs$lang$maxFixedArity = 1;
-meta.cljs$lang$applyTo = (function (arglist__86835){
-var opts__6279__auto__ = cljs.core.first(arglist__86835);
-var children__6280__auto__ = cljs.core.rest(arglist__86835);
+meta.cljs$lang$applyTo = (function (arglist__109017){
+var opts__6279__auto__ = cljs.core.first(arglist__109017);
+var children__6280__auto__ = cljs.core.rest(arglist__109017);
 return meta__delegate(opts__6279__auto__,children__6280__auto__);
 });
 meta.cljs$core$IFn$_invoke$arity$variadic = meta__delegate;
@@ -1676,15 +1676,15 @@ return React.DOM.meter.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var meter = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86836__i = 0, G__86836__a = new Array(arguments.length -  1);
-while (G__86836__i < G__86836__a.length) {G__86836__a[G__86836__i] = arguments[G__86836__i + 1]; ++G__86836__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86836__a,0);
+var G__109018__i = 0, G__109018__a = new Array(arguments.length -  1);
+while (G__109018__i < G__109018__a.length) {G__109018__a[G__109018__i] = arguments[G__109018__i + 1]; ++G__109018__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109018__a,0);
 } 
 return meter__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 meter.cljs$lang$maxFixedArity = 1;
-meter.cljs$lang$applyTo = (function (arglist__86837){
-var opts__6279__auto__ = cljs.core.first(arglist__86837);
-var children__6280__auto__ = cljs.core.rest(arglist__86837);
+meter.cljs$lang$applyTo = (function (arglist__109019){
+var opts__6279__auto__ = cljs.core.first(arglist__109019);
+var children__6280__auto__ = cljs.core.rest(arglist__109019);
 return meter__delegate(opts__6279__auto__,children__6280__auto__);
 });
 meter.cljs$core$IFn$_invoke$arity$variadic = meter__delegate;
@@ -1702,15 +1702,15 @@ return React.DOM.nav.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var nav = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86838__i = 0, G__86838__a = new Array(arguments.length -  1);
-while (G__86838__i < G__86838__a.length) {G__86838__a[G__86838__i] = arguments[G__86838__i + 1]; ++G__86838__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86838__a,0);
+var G__109020__i = 0, G__109020__a = new Array(arguments.length -  1);
+while (G__109020__i < G__109020__a.length) {G__109020__a[G__109020__i] = arguments[G__109020__i + 1]; ++G__109020__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109020__a,0);
 } 
 return nav__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 nav.cljs$lang$maxFixedArity = 1;
-nav.cljs$lang$applyTo = (function (arglist__86839){
-var opts__6279__auto__ = cljs.core.first(arglist__86839);
-var children__6280__auto__ = cljs.core.rest(arglist__86839);
+nav.cljs$lang$applyTo = (function (arglist__109021){
+var opts__6279__auto__ = cljs.core.first(arglist__109021);
+var children__6280__auto__ = cljs.core.rest(arglist__109021);
 return nav__delegate(opts__6279__auto__,children__6280__auto__);
 });
 nav.cljs$core$IFn$_invoke$arity$variadic = nav__delegate;
@@ -1728,15 +1728,15 @@ return React.DOM.noscript.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var noscript = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86840__i = 0, G__86840__a = new Array(arguments.length -  1);
-while (G__86840__i < G__86840__a.length) {G__86840__a[G__86840__i] = arguments[G__86840__i + 1]; ++G__86840__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86840__a,0);
+var G__109022__i = 0, G__109022__a = new Array(arguments.length -  1);
+while (G__109022__i < G__109022__a.length) {G__109022__a[G__109022__i] = arguments[G__109022__i + 1]; ++G__109022__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109022__a,0);
 } 
 return noscript__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 noscript.cljs$lang$maxFixedArity = 1;
-noscript.cljs$lang$applyTo = (function (arglist__86841){
-var opts__6279__auto__ = cljs.core.first(arglist__86841);
-var children__6280__auto__ = cljs.core.rest(arglist__86841);
+noscript.cljs$lang$applyTo = (function (arglist__109023){
+var opts__6279__auto__ = cljs.core.first(arglist__109023);
+var children__6280__auto__ = cljs.core.rest(arglist__109023);
 return noscript__delegate(opts__6279__auto__,children__6280__auto__);
 });
 noscript.cljs$core$IFn$_invoke$arity$variadic = noscript__delegate;
@@ -1754,15 +1754,15 @@ return React.DOM.object.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var object = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86842__i = 0, G__86842__a = new Array(arguments.length -  1);
-while (G__86842__i < G__86842__a.length) {G__86842__a[G__86842__i] = arguments[G__86842__i + 1]; ++G__86842__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86842__a,0);
+var G__109024__i = 0, G__109024__a = new Array(arguments.length -  1);
+while (G__109024__i < G__109024__a.length) {G__109024__a[G__109024__i] = arguments[G__109024__i + 1]; ++G__109024__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109024__a,0);
 } 
 return object__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 object.cljs$lang$maxFixedArity = 1;
-object.cljs$lang$applyTo = (function (arglist__86843){
-var opts__6279__auto__ = cljs.core.first(arglist__86843);
-var children__6280__auto__ = cljs.core.rest(arglist__86843);
+object.cljs$lang$applyTo = (function (arglist__109025){
+var opts__6279__auto__ = cljs.core.first(arglist__109025);
+var children__6280__auto__ = cljs.core.rest(arglist__109025);
 return object__delegate(opts__6279__auto__,children__6280__auto__);
 });
 object.cljs$core$IFn$_invoke$arity$variadic = object__delegate;
@@ -1780,15 +1780,15 @@ return React.DOM.ol.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var ol = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86844__i = 0, G__86844__a = new Array(arguments.length -  1);
-while (G__86844__i < G__86844__a.length) {G__86844__a[G__86844__i] = arguments[G__86844__i + 1]; ++G__86844__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86844__a,0);
+var G__109026__i = 0, G__109026__a = new Array(arguments.length -  1);
+while (G__109026__i < G__109026__a.length) {G__109026__a[G__109026__i] = arguments[G__109026__i + 1]; ++G__109026__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109026__a,0);
 } 
 return ol__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 ol.cljs$lang$maxFixedArity = 1;
-ol.cljs$lang$applyTo = (function (arglist__86845){
-var opts__6279__auto__ = cljs.core.first(arglist__86845);
-var children__6280__auto__ = cljs.core.rest(arglist__86845);
+ol.cljs$lang$applyTo = (function (arglist__109027){
+var opts__6279__auto__ = cljs.core.first(arglist__109027);
+var children__6280__auto__ = cljs.core.rest(arglist__109027);
 return ol__delegate(opts__6279__auto__,children__6280__auto__);
 });
 ol.cljs$core$IFn$_invoke$arity$variadic = ol__delegate;
@@ -1806,15 +1806,15 @@ return React.DOM.optgroup.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var optgroup = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86846__i = 0, G__86846__a = new Array(arguments.length -  1);
-while (G__86846__i < G__86846__a.length) {G__86846__a[G__86846__i] = arguments[G__86846__i + 1]; ++G__86846__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86846__a,0);
+var G__109028__i = 0, G__109028__a = new Array(arguments.length -  1);
+while (G__109028__i < G__109028__a.length) {G__109028__a[G__109028__i] = arguments[G__109028__i + 1]; ++G__109028__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109028__a,0);
 } 
 return optgroup__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 optgroup.cljs$lang$maxFixedArity = 1;
-optgroup.cljs$lang$applyTo = (function (arglist__86847){
-var opts__6279__auto__ = cljs.core.first(arglist__86847);
-var children__6280__auto__ = cljs.core.rest(arglist__86847);
+optgroup.cljs$lang$applyTo = (function (arglist__109029){
+var opts__6279__auto__ = cljs.core.first(arglist__109029);
+var children__6280__auto__ = cljs.core.rest(arglist__109029);
 return optgroup__delegate(opts__6279__auto__,children__6280__auto__);
 });
 optgroup.cljs$core$IFn$_invoke$arity$variadic = optgroup__delegate;
@@ -1832,15 +1832,15 @@ return React.DOM.output.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var output = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86848__i = 0, G__86848__a = new Array(arguments.length -  1);
-while (G__86848__i < G__86848__a.length) {G__86848__a[G__86848__i] = arguments[G__86848__i + 1]; ++G__86848__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86848__a,0);
+var G__109030__i = 0, G__109030__a = new Array(arguments.length -  1);
+while (G__109030__i < G__109030__a.length) {G__109030__a[G__109030__i] = arguments[G__109030__i + 1]; ++G__109030__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109030__a,0);
 } 
 return output__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 output.cljs$lang$maxFixedArity = 1;
-output.cljs$lang$applyTo = (function (arglist__86849){
-var opts__6279__auto__ = cljs.core.first(arglist__86849);
-var children__6280__auto__ = cljs.core.rest(arglist__86849);
+output.cljs$lang$applyTo = (function (arglist__109031){
+var opts__6279__auto__ = cljs.core.first(arglist__109031);
+var children__6280__auto__ = cljs.core.rest(arglist__109031);
 return output__delegate(opts__6279__auto__,children__6280__auto__);
 });
 output.cljs$core$IFn$_invoke$arity$variadic = output__delegate;
@@ -1858,15 +1858,15 @@ return React.DOM.p.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var p = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86850__i = 0, G__86850__a = new Array(arguments.length -  1);
-while (G__86850__i < G__86850__a.length) {G__86850__a[G__86850__i] = arguments[G__86850__i + 1]; ++G__86850__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86850__a,0);
+var G__109032__i = 0, G__109032__a = new Array(arguments.length -  1);
+while (G__109032__i < G__109032__a.length) {G__109032__a[G__109032__i] = arguments[G__109032__i + 1]; ++G__109032__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109032__a,0);
 } 
 return p__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 p.cljs$lang$maxFixedArity = 1;
-p.cljs$lang$applyTo = (function (arglist__86851){
-var opts__6279__auto__ = cljs.core.first(arglist__86851);
-var children__6280__auto__ = cljs.core.rest(arglist__86851);
+p.cljs$lang$applyTo = (function (arglist__109033){
+var opts__6279__auto__ = cljs.core.first(arglist__109033);
+var children__6280__auto__ = cljs.core.rest(arglist__109033);
 return p__delegate(opts__6279__auto__,children__6280__auto__);
 });
 p.cljs$core$IFn$_invoke$arity$variadic = p__delegate;
@@ -1884,15 +1884,15 @@ return React.DOM.param.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var param = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86852__i = 0, G__86852__a = new Array(arguments.length -  1);
-while (G__86852__i < G__86852__a.length) {G__86852__a[G__86852__i] = arguments[G__86852__i + 1]; ++G__86852__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86852__a,0);
+var G__109034__i = 0, G__109034__a = new Array(arguments.length -  1);
+while (G__109034__i < G__109034__a.length) {G__109034__a[G__109034__i] = arguments[G__109034__i + 1]; ++G__109034__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109034__a,0);
 } 
 return param__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 param.cljs$lang$maxFixedArity = 1;
-param.cljs$lang$applyTo = (function (arglist__86853){
-var opts__6279__auto__ = cljs.core.first(arglist__86853);
-var children__6280__auto__ = cljs.core.rest(arglist__86853);
+param.cljs$lang$applyTo = (function (arglist__109035){
+var opts__6279__auto__ = cljs.core.first(arglist__109035);
+var children__6280__auto__ = cljs.core.rest(arglist__109035);
 return param__delegate(opts__6279__auto__,children__6280__auto__);
 });
 param.cljs$core$IFn$_invoke$arity$variadic = param__delegate;
@@ -1910,15 +1910,15 @@ return React.DOM.pre.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var pre = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86854__i = 0, G__86854__a = new Array(arguments.length -  1);
-while (G__86854__i < G__86854__a.length) {G__86854__a[G__86854__i] = arguments[G__86854__i + 1]; ++G__86854__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86854__a,0);
+var G__109036__i = 0, G__109036__a = new Array(arguments.length -  1);
+while (G__109036__i < G__109036__a.length) {G__109036__a[G__109036__i] = arguments[G__109036__i + 1]; ++G__109036__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109036__a,0);
 } 
 return pre__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 pre.cljs$lang$maxFixedArity = 1;
-pre.cljs$lang$applyTo = (function (arglist__86855){
-var opts__6279__auto__ = cljs.core.first(arglist__86855);
-var children__6280__auto__ = cljs.core.rest(arglist__86855);
+pre.cljs$lang$applyTo = (function (arglist__109037){
+var opts__6279__auto__ = cljs.core.first(arglist__109037);
+var children__6280__auto__ = cljs.core.rest(arglist__109037);
 return pre__delegate(opts__6279__auto__,children__6280__auto__);
 });
 pre.cljs$core$IFn$_invoke$arity$variadic = pre__delegate;
@@ -1936,15 +1936,15 @@ return React.DOM.progress.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var progress = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86856__i = 0, G__86856__a = new Array(arguments.length -  1);
-while (G__86856__i < G__86856__a.length) {G__86856__a[G__86856__i] = arguments[G__86856__i + 1]; ++G__86856__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86856__a,0);
+var G__109038__i = 0, G__109038__a = new Array(arguments.length -  1);
+while (G__109038__i < G__109038__a.length) {G__109038__a[G__109038__i] = arguments[G__109038__i + 1]; ++G__109038__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109038__a,0);
 } 
 return progress__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 progress.cljs$lang$maxFixedArity = 1;
-progress.cljs$lang$applyTo = (function (arglist__86857){
-var opts__6279__auto__ = cljs.core.first(arglist__86857);
-var children__6280__auto__ = cljs.core.rest(arglist__86857);
+progress.cljs$lang$applyTo = (function (arglist__109039){
+var opts__6279__auto__ = cljs.core.first(arglist__109039);
+var children__6280__auto__ = cljs.core.rest(arglist__109039);
 return progress__delegate(opts__6279__auto__,children__6280__auto__);
 });
 progress.cljs$core$IFn$_invoke$arity$variadic = progress__delegate;
@@ -1962,15 +1962,15 @@ return React.DOM.q.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var q = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86858__i = 0, G__86858__a = new Array(arguments.length -  1);
-while (G__86858__i < G__86858__a.length) {G__86858__a[G__86858__i] = arguments[G__86858__i + 1]; ++G__86858__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86858__a,0);
+var G__109040__i = 0, G__109040__a = new Array(arguments.length -  1);
+while (G__109040__i < G__109040__a.length) {G__109040__a[G__109040__i] = arguments[G__109040__i + 1]; ++G__109040__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109040__a,0);
 } 
 return q__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 q.cljs$lang$maxFixedArity = 1;
-q.cljs$lang$applyTo = (function (arglist__86859){
-var opts__6279__auto__ = cljs.core.first(arglist__86859);
-var children__6280__auto__ = cljs.core.rest(arglist__86859);
+q.cljs$lang$applyTo = (function (arglist__109041){
+var opts__6279__auto__ = cljs.core.first(arglist__109041);
+var children__6280__auto__ = cljs.core.rest(arglist__109041);
 return q__delegate(opts__6279__auto__,children__6280__auto__);
 });
 q.cljs$core$IFn$_invoke$arity$variadic = q__delegate;
@@ -1988,15 +1988,15 @@ return React.DOM.rp.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var rp = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86860__i = 0, G__86860__a = new Array(arguments.length -  1);
-while (G__86860__i < G__86860__a.length) {G__86860__a[G__86860__i] = arguments[G__86860__i + 1]; ++G__86860__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86860__a,0);
+var G__109042__i = 0, G__109042__a = new Array(arguments.length -  1);
+while (G__109042__i < G__109042__a.length) {G__109042__a[G__109042__i] = arguments[G__109042__i + 1]; ++G__109042__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109042__a,0);
 } 
 return rp__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 rp.cljs$lang$maxFixedArity = 1;
-rp.cljs$lang$applyTo = (function (arglist__86861){
-var opts__6279__auto__ = cljs.core.first(arglist__86861);
-var children__6280__auto__ = cljs.core.rest(arglist__86861);
+rp.cljs$lang$applyTo = (function (arglist__109043){
+var opts__6279__auto__ = cljs.core.first(arglist__109043);
+var children__6280__auto__ = cljs.core.rest(arglist__109043);
 return rp__delegate(opts__6279__auto__,children__6280__auto__);
 });
 rp.cljs$core$IFn$_invoke$arity$variadic = rp__delegate;
@@ -2014,15 +2014,15 @@ return React.DOM.rt.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var rt = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86862__i = 0, G__86862__a = new Array(arguments.length -  1);
-while (G__86862__i < G__86862__a.length) {G__86862__a[G__86862__i] = arguments[G__86862__i + 1]; ++G__86862__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86862__a,0);
+var G__109044__i = 0, G__109044__a = new Array(arguments.length -  1);
+while (G__109044__i < G__109044__a.length) {G__109044__a[G__109044__i] = arguments[G__109044__i + 1]; ++G__109044__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109044__a,0);
 } 
 return rt__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 rt.cljs$lang$maxFixedArity = 1;
-rt.cljs$lang$applyTo = (function (arglist__86863){
-var opts__6279__auto__ = cljs.core.first(arglist__86863);
-var children__6280__auto__ = cljs.core.rest(arglist__86863);
+rt.cljs$lang$applyTo = (function (arglist__109045){
+var opts__6279__auto__ = cljs.core.first(arglist__109045);
+var children__6280__auto__ = cljs.core.rest(arglist__109045);
 return rt__delegate(opts__6279__auto__,children__6280__auto__);
 });
 rt.cljs$core$IFn$_invoke$arity$variadic = rt__delegate;
@@ -2040,15 +2040,15 @@ return React.DOM.ruby.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var ruby = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86864__i = 0, G__86864__a = new Array(arguments.length -  1);
-while (G__86864__i < G__86864__a.length) {G__86864__a[G__86864__i] = arguments[G__86864__i + 1]; ++G__86864__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86864__a,0);
+var G__109046__i = 0, G__109046__a = new Array(arguments.length -  1);
+while (G__109046__i < G__109046__a.length) {G__109046__a[G__109046__i] = arguments[G__109046__i + 1]; ++G__109046__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109046__a,0);
 } 
 return ruby__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 ruby.cljs$lang$maxFixedArity = 1;
-ruby.cljs$lang$applyTo = (function (arglist__86865){
-var opts__6279__auto__ = cljs.core.first(arglist__86865);
-var children__6280__auto__ = cljs.core.rest(arglist__86865);
+ruby.cljs$lang$applyTo = (function (arglist__109047){
+var opts__6279__auto__ = cljs.core.first(arglist__109047);
+var children__6280__auto__ = cljs.core.rest(arglist__109047);
 return ruby__delegate(opts__6279__auto__,children__6280__auto__);
 });
 ruby.cljs$core$IFn$_invoke$arity$variadic = ruby__delegate;
@@ -2066,15 +2066,15 @@ return React.DOM.s.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var s = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86866__i = 0, G__86866__a = new Array(arguments.length -  1);
-while (G__86866__i < G__86866__a.length) {G__86866__a[G__86866__i] = arguments[G__86866__i + 1]; ++G__86866__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86866__a,0);
+var G__109048__i = 0, G__109048__a = new Array(arguments.length -  1);
+while (G__109048__i < G__109048__a.length) {G__109048__a[G__109048__i] = arguments[G__109048__i + 1]; ++G__109048__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109048__a,0);
 } 
 return s__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 s.cljs$lang$maxFixedArity = 1;
-s.cljs$lang$applyTo = (function (arglist__86867){
-var opts__6279__auto__ = cljs.core.first(arglist__86867);
-var children__6280__auto__ = cljs.core.rest(arglist__86867);
+s.cljs$lang$applyTo = (function (arglist__109049){
+var opts__6279__auto__ = cljs.core.first(arglist__109049);
+var children__6280__auto__ = cljs.core.rest(arglist__109049);
 return s__delegate(opts__6279__auto__,children__6280__auto__);
 });
 s.cljs$core$IFn$_invoke$arity$variadic = s__delegate;
@@ -2092,15 +2092,15 @@ return React.DOM.samp.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var samp = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86868__i = 0, G__86868__a = new Array(arguments.length -  1);
-while (G__86868__i < G__86868__a.length) {G__86868__a[G__86868__i] = arguments[G__86868__i + 1]; ++G__86868__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86868__a,0);
+var G__109050__i = 0, G__109050__a = new Array(arguments.length -  1);
+while (G__109050__i < G__109050__a.length) {G__109050__a[G__109050__i] = arguments[G__109050__i + 1]; ++G__109050__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109050__a,0);
 } 
 return samp__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 samp.cljs$lang$maxFixedArity = 1;
-samp.cljs$lang$applyTo = (function (arglist__86869){
-var opts__6279__auto__ = cljs.core.first(arglist__86869);
-var children__6280__auto__ = cljs.core.rest(arglist__86869);
+samp.cljs$lang$applyTo = (function (arglist__109051){
+var opts__6279__auto__ = cljs.core.first(arglist__109051);
+var children__6280__auto__ = cljs.core.rest(arglist__109051);
 return samp__delegate(opts__6279__auto__,children__6280__auto__);
 });
 samp.cljs$core$IFn$_invoke$arity$variadic = samp__delegate;
@@ -2118,15 +2118,15 @@ return React.DOM.script.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var script = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86870__i = 0, G__86870__a = new Array(arguments.length -  1);
-while (G__86870__i < G__86870__a.length) {G__86870__a[G__86870__i] = arguments[G__86870__i + 1]; ++G__86870__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86870__a,0);
+var G__109052__i = 0, G__109052__a = new Array(arguments.length -  1);
+while (G__109052__i < G__109052__a.length) {G__109052__a[G__109052__i] = arguments[G__109052__i + 1]; ++G__109052__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109052__a,0);
 } 
 return script__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 script.cljs$lang$maxFixedArity = 1;
-script.cljs$lang$applyTo = (function (arglist__86871){
-var opts__6279__auto__ = cljs.core.first(arglist__86871);
-var children__6280__auto__ = cljs.core.rest(arglist__86871);
+script.cljs$lang$applyTo = (function (arglist__109053){
+var opts__6279__auto__ = cljs.core.first(arglist__109053);
+var children__6280__auto__ = cljs.core.rest(arglist__109053);
 return script__delegate(opts__6279__auto__,children__6280__auto__);
 });
 script.cljs$core$IFn$_invoke$arity$variadic = script__delegate;
@@ -2144,15 +2144,15 @@ return React.DOM.section.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var section = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86872__i = 0, G__86872__a = new Array(arguments.length -  1);
-while (G__86872__i < G__86872__a.length) {G__86872__a[G__86872__i] = arguments[G__86872__i + 1]; ++G__86872__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86872__a,0);
+var G__109054__i = 0, G__109054__a = new Array(arguments.length -  1);
+while (G__109054__i < G__109054__a.length) {G__109054__a[G__109054__i] = arguments[G__109054__i + 1]; ++G__109054__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109054__a,0);
 } 
 return section__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 section.cljs$lang$maxFixedArity = 1;
-section.cljs$lang$applyTo = (function (arglist__86873){
-var opts__6279__auto__ = cljs.core.first(arglist__86873);
-var children__6280__auto__ = cljs.core.rest(arglist__86873);
+section.cljs$lang$applyTo = (function (arglist__109055){
+var opts__6279__auto__ = cljs.core.first(arglist__109055);
+var children__6280__auto__ = cljs.core.rest(arglist__109055);
 return section__delegate(opts__6279__auto__,children__6280__auto__);
 });
 section.cljs$core$IFn$_invoke$arity$variadic = section__delegate;
@@ -2170,15 +2170,15 @@ return React.DOM.select.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var select = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86874__i = 0, G__86874__a = new Array(arguments.length -  1);
-while (G__86874__i < G__86874__a.length) {G__86874__a[G__86874__i] = arguments[G__86874__i + 1]; ++G__86874__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86874__a,0);
+var G__109056__i = 0, G__109056__a = new Array(arguments.length -  1);
+while (G__109056__i < G__109056__a.length) {G__109056__a[G__109056__i] = arguments[G__109056__i + 1]; ++G__109056__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109056__a,0);
 } 
 return select__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 select.cljs$lang$maxFixedArity = 1;
-select.cljs$lang$applyTo = (function (arglist__86875){
-var opts__6279__auto__ = cljs.core.first(arglist__86875);
-var children__6280__auto__ = cljs.core.rest(arglist__86875);
+select.cljs$lang$applyTo = (function (arglist__109057){
+var opts__6279__auto__ = cljs.core.first(arglist__109057);
+var children__6280__auto__ = cljs.core.rest(arglist__109057);
 return select__delegate(opts__6279__auto__,children__6280__auto__);
 });
 select.cljs$core$IFn$_invoke$arity$variadic = select__delegate;
@@ -2196,15 +2196,15 @@ return React.DOM.small.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var small = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86876__i = 0, G__86876__a = new Array(arguments.length -  1);
-while (G__86876__i < G__86876__a.length) {G__86876__a[G__86876__i] = arguments[G__86876__i + 1]; ++G__86876__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86876__a,0);
+var G__109058__i = 0, G__109058__a = new Array(arguments.length -  1);
+while (G__109058__i < G__109058__a.length) {G__109058__a[G__109058__i] = arguments[G__109058__i + 1]; ++G__109058__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109058__a,0);
 } 
 return small__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 small.cljs$lang$maxFixedArity = 1;
-small.cljs$lang$applyTo = (function (arglist__86877){
-var opts__6279__auto__ = cljs.core.first(arglist__86877);
-var children__6280__auto__ = cljs.core.rest(arglist__86877);
+small.cljs$lang$applyTo = (function (arglist__109059){
+var opts__6279__auto__ = cljs.core.first(arglist__109059);
+var children__6280__auto__ = cljs.core.rest(arglist__109059);
 return small__delegate(opts__6279__auto__,children__6280__auto__);
 });
 small.cljs$core$IFn$_invoke$arity$variadic = small__delegate;
@@ -2222,15 +2222,15 @@ return React.DOM.source.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var source = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86878__i = 0, G__86878__a = new Array(arguments.length -  1);
-while (G__86878__i < G__86878__a.length) {G__86878__a[G__86878__i] = arguments[G__86878__i + 1]; ++G__86878__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86878__a,0);
+var G__109060__i = 0, G__109060__a = new Array(arguments.length -  1);
+while (G__109060__i < G__109060__a.length) {G__109060__a[G__109060__i] = arguments[G__109060__i + 1]; ++G__109060__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109060__a,0);
 } 
 return source__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 source.cljs$lang$maxFixedArity = 1;
-source.cljs$lang$applyTo = (function (arglist__86879){
-var opts__6279__auto__ = cljs.core.first(arglist__86879);
-var children__6280__auto__ = cljs.core.rest(arglist__86879);
+source.cljs$lang$applyTo = (function (arglist__109061){
+var opts__6279__auto__ = cljs.core.first(arglist__109061);
+var children__6280__auto__ = cljs.core.rest(arglist__109061);
 return source__delegate(opts__6279__auto__,children__6280__auto__);
 });
 source.cljs$core$IFn$_invoke$arity$variadic = source__delegate;
@@ -2248,15 +2248,15 @@ return React.DOM.span.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var span = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86880__i = 0, G__86880__a = new Array(arguments.length -  1);
-while (G__86880__i < G__86880__a.length) {G__86880__a[G__86880__i] = arguments[G__86880__i + 1]; ++G__86880__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86880__a,0);
+var G__109062__i = 0, G__109062__a = new Array(arguments.length -  1);
+while (G__109062__i < G__109062__a.length) {G__109062__a[G__109062__i] = arguments[G__109062__i + 1]; ++G__109062__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109062__a,0);
 } 
 return span__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 span.cljs$lang$maxFixedArity = 1;
-span.cljs$lang$applyTo = (function (arglist__86881){
-var opts__6279__auto__ = cljs.core.first(arglist__86881);
-var children__6280__auto__ = cljs.core.rest(arglist__86881);
+span.cljs$lang$applyTo = (function (arglist__109063){
+var opts__6279__auto__ = cljs.core.first(arglist__109063);
+var children__6280__auto__ = cljs.core.rest(arglist__109063);
 return span__delegate(opts__6279__auto__,children__6280__auto__);
 });
 span.cljs$core$IFn$_invoke$arity$variadic = span__delegate;
@@ -2274,15 +2274,15 @@ return React.DOM.strong.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var strong = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86882__i = 0, G__86882__a = new Array(arguments.length -  1);
-while (G__86882__i < G__86882__a.length) {G__86882__a[G__86882__i] = arguments[G__86882__i + 1]; ++G__86882__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86882__a,0);
+var G__109064__i = 0, G__109064__a = new Array(arguments.length -  1);
+while (G__109064__i < G__109064__a.length) {G__109064__a[G__109064__i] = arguments[G__109064__i + 1]; ++G__109064__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109064__a,0);
 } 
 return strong__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 strong.cljs$lang$maxFixedArity = 1;
-strong.cljs$lang$applyTo = (function (arglist__86883){
-var opts__6279__auto__ = cljs.core.first(arglist__86883);
-var children__6280__auto__ = cljs.core.rest(arglist__86883);
+strong.cljs$lang$applyTo = (function (arglist__109065){
+var opts__6279__auto__ = cljs.core.first(arglist__109065);
+var children__6280__auto__ = cljs.core.rest(arglist__109065);
 return strong__delegate(opts__6279__auto__,children__6280__auto__);
 });
 strong.cljs$core$IFn$_invoke$arity$variadic = strong__delegate;
@@ -2300,15 +2300,15 @@ return React.DOM.style.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var style = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86884__i = 0, G__86884__a = new Array(arguments.length -  1);
-while (G__86884__i < G__86884__a.length) {G__86884__a[G__86884__i] = arguments[G__86884__i + 1]; ++G__86884__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86884__a,0);
+var G__109066__i = 0, G__109066__a = new Array(arguments.length -  1);
+while (G__109066__i < G__109066__a.length) {G__109066__a[G__109066__i] = arguments[G__109066__i + 1]; ++G__109066__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109066__a,0);
 } 
 return style__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 style.cljs$lang$maxFixedArity = 1;
-style.cljs$lang$applyTo = (function (arglist__86885){
-var opts__6279__auto__ = cljs.core.first(arglist__86885);
-var children__6280__auto__ = cljs.core.rest(arglist__86885);
+style.cljs$lang$applyTo = (function (arglist__109067){
+var opts__6279__auto__ = cljs.core.first(arglist__109067);
+var children__6280__auto__ = cljs.core.rest(arglist__109067);
 return style__delegate(opts__6279__auto__,children__6280__auto__);
 });
 style.cljs$core$IFn$_invoke$arity$variadic = style__delegate;
@@ -2326,15 +2326,15 @@ return React.DOM.sub.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var sub = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86886__i = 0, G__86886__a = new Array(arguments.length -  1);
-while (G__86886__i < G__86886__a.length) {G__86886__a[G__86886__i] = arguments[G__86886__i + 1]; ++G__86886__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86886__a,0);
+var G__109068__i = 0, G__109068__a = new Array(arguments.length -  1);
+while (G__109068__i < G__109068__a.length) {G__109068__a[G__109068__i] = arguments[G__109068__i + 1]; ++G__109068__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109068__a,0);
 } 
 return sub__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 sub.cljs$lang$maxFixedArity = 1;
-sub.cljs$lang$applyTo = (function (arglist__86887){
-var opts__6279__auto__ = cljs.core.first(arglist__86887);
-var children__6280__auto__ = cljs.core.rest(arglist__86887);
+sub.cljs$lang$applyTo = (function (arglist__109069){
+var opts__6279__auto__ = cljs.core.first(arglist__109069);
+var children__6280__auto__ = cljs.core.rest(arglist__109069);
 return sub__delegate(opts__6279__auto__,children__6280__auto__);
 });
 sub.cljs$core$IFn$_invoke$arity$variadic = sub__delegate;
@@ -2352,15 +2352,15 @@ return React.DOM.summary.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var summary = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86888__i = 0, G__86888__a = new Array(arguments.length -  1);
-while (G__86888__i < G__86888__a.length) {G__86888__a[G__86888__i] = arguments[G__86888__i + 1]; ++G__86888__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86888__a,0);
+var G__109070__i = 0, G__109070__a = new Array(arguments.length -  1);
+while (G__109070__i < G__109070__a.length) {G__109070__a[G__109070__i] = arguments[G__109070__i + 1]; ++G__109070__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109070__a,0);
 } 
 return summary__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 summary.cljs$lang$maxFixedArity = 1;
-summary.cljs$lang$applyTo = (function (arglist__86889){
-var opts__6279__auto__ = cljs.core.first(arglist__86889);
-var children__6280__auto__ = cljs.core.rest(arglist__86889);
+summary.cljs$lang$applyTo = (function (arglist__109071){
+var opts__6279__auto__ = cljs.core.first(arglist__109071);
+var children__6280__auto__ = cljs.core.rest(arglist__109071);
 return summary__delegate(opts__6279__auto__,children__6280__auto__);
 });
 summary.cljs$core$IFn$_invoke$arity$variadic = summary__delegate;
@@ -2378,15 +2378,15 @@ return React.DOM.sup.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var sup = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86890__i = 0, G__86890__a = new Array(arguments.length -  1);
-while (G__86890__i < G__86890__a.length) {G__86890__a[G__86890__i] = arguments[G__86890__i + 1]; ++G__86890__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86890__a,0);
+var G__109072__i = 0, G__109072__a = new Array(arguments.length -  1);
+while (G__109072__i < G__109072__a.length) {G__109072__a[G__109072__i] = arguments[G__109072__i + 1]; ++G__109072__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109072__a,0);
 } 
 return sup__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 sup.cljs$lang$maxFixedArity = 1;
-sup.cljs$lang$applyTo = (function (arglist__86891){
-var opts__6279__auto__ = cljs.core.first(arglist__86891);
-var children__6280__auto__ = cljs.core.rest(arglist__86891);
+sup.cljs$lang$applyTo = (function (arglist__109073){
+var opts__6279__auto__ = cljs.core.first(arglist__109073);
+var children__6280__auto__ = cljs.core.rest(arglist__109073);
 return sup__delegate(opts__6279__auto__,children__6280__auto__);
 });
 sup.cljs$core$IFn$_invoke$arity$variadic = sup__delegate;
@@ -2404,15 +2404,15 @@ return React.DOM.table.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var table = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86892__i = 0, G__86892__a = new Array(arguments.length -  1);
-while (G__86892__i < G__86892__a.length) {G__86892__a[G__86892__i] = arguments[G__86892__i + 1]; ++G__86892__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86892__a,0);
+var G__109074__i = 0, G__109074__a = new Array(arguments.length -  1);
+while (G__109074__i < G__109074__a.length) {G__109074__a[G__109074__i] = arguments[G__109074__i + 1]; ++G__109074__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109074__a,0);
 } 
 return table__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 table.cljs$lang$maxFixedArity = 1;
-table.cljs$lang$applyTo = (function (arglist__86893){
-var opts__6279__auto__ = cljs.core.first(arglist__86893);
-var children__6280__auto__ = cljs.core.rest(arglist__86893);
+table.cljs$lang$applyTo = (function (arglist__109075){
+var opts__6279__auto__ = cljs.core.first(arglist__109075);
+var children__6280__auto__ = cljs.core.rest(arglist__109075);
 return table__delegate(opts__6279__auto__,children__6280__auto__);
 });
 table.cljs$core$IFn$_invoke$arity$variadic = table__delegate;
@@ -2430,15 +2430,15 @@ return React.DOM.tbody.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var tbody = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86894__i = 0, G__86894__a = new Array(arguments.length -  1);
-while (G__86894__i < G__86894__a.length) {G__86894__a[G__86894__i] = arguments[G__86894__i + 1]; ++G__86894__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86894__a,0);
+var G__109076__i = 0, G__109076__a = new Array(arguments.length -  1);
+while (G__109076__i < G__109076__a.length) {G__109076__a[G__109076__i] = arguments[G__109076__i + 1]; ++G__109076__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109076__a,0);
 } 
 return tbody__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 tbody.cljs$lang$maxFixedArity = 1;
-tbody.cljs$lang$applyTo = (function (arglist__86895){
-var opts__6279__auto__ = cljs.core.first(arglist__86895);
-var children__6280__auto__ = cljs.core.rest(arglist__86895);
+tbody.cljs$lang$applyTo = (function (arglist__109077){
+var opts__6279__auto__ = cljs.core.first(arglist__109077);
+var children__6280__auto__ = cljs.core.rest(arglist__109077);
 return tbody__delegate(opts__6279__auto__,children__6280__auto__);
 });
 tbody.cljs$core$IFn$_invoke$arity$variadic = tbody__delegate;
@@ -2456,15 +2456,15 @@ return React.DOM.td.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var td = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86896__i = 0, G__86896__a = new Array(arguments.length -  1);
-while (G__86896__i < G__86896__a.length) {G__86896__a[G__86896__i] = arguments[G__86896__i + 1]; ++G__86896__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86896__a,0);
+var G__109078__i = 0, G__109078__a = new Array(arguments.length -  1);
+while (G__109078__i < G__109078__a.length) {G__109078__a[G__109078__i] = arguments[G__109078__i + 1]; ++G__109078__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109078__a,0);
 } 
 return td__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 td.cljs$lang$maxFixedArity = 1;
-td.cljs$lang$applyTo = (function (arglist__86897){
-var opts__6279__auto__ = cljs.core.first(arglist__86897);
-var children__6280__auto__ = cljs.core.rest(arglist__86897);
+td.cljs$lang$applyTo = (function (arglist__109079){
+var opts__6279__auto__ = cljs.core.first(arglist__109079);
+var children__6280__auto__ = cljs.core.rest(arglist__109079);
 return td__delegate(opts__6279__auto__,children__6280__auto__);
 });
 td.cljs$core$IFn$_invoke$arity$variadic = td__delegate;
@@ -2482,15 +2482,15 @@ return React.DOM.tfoot.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var tfoot = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86898__i = 0, G__86898__a = new Array(arguments.length -  1);
-while (G__86898__i < G__86898__a.length) {G__86898__a[G__86898__i] = arguments[G__86898__i + 1]; ++G__86898__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86898__a,0);
+var G__109080__i = 0, G__109080__a = new Array(arguments.length -  1);
+while (G__109080__i < G__109080__a.length) {G__109080__a[G__109080__i] = arguments[G__109080__i + 1]; ++G__109080__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109080__a,0);
 } 
 return tfoot__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 tfoot.cljs$lang$maxFixedArity = 1;
-tfoot.cljs$lang$applyTo = (function (arglist__86899){
-var opts__6279__auto__ = cljs.core.first(arglist__86899);
-var children__6280__auto__ = cljs.core.rest(arglist__86899);
+tfoot.cljs$lang$applyTo = (function (arglist__109081){
+var opts__6279__auto__ = cljs.core.first(arglist__109081);
+var children__6280__auto__ = cljs.core.rest(arglist__109081);
 return tfoot__delegate(opts__6279__auto__,children__6280__auto__);
 });
 tfoot.cljs$core$IFn$_invoke$arity$variadic = tfoot__delegate;
@@ -2508,15 +2508,15 @@ return React.DOM.th.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var th = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86900__i = 0, G__86900__a = new Array(arguments.length -  1);
-while (G__86900__i < G__86900__a.length) {G__86900__a[G__86900__i] = arguments[G__86900__i + 1]; ++G__86900__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86900__a,0);
+var G__109082__i = 0, G__109082__a = new Array(arguments.length -  1);
+while (G__109082__i < G__109082__a.length) {G__109082__a[G__109082__i] = arguments[G__109082__i + 1]; ++G__109082__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109082__a,0);
 } 
 return th__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 th.cljs$lang$maxFixedArity = 1;
-th.cljs$lang$applyTo = (function (arglist__86901){
-var opts__6279__auto__ = cljs.core.first(arglist__86901);
-var children__6280__auto__ = cljs.core.rest(arglist__86901);
+th.cljs$lang$applyTo = (function (arglist__109083){
+var opts__6279__auto__ = cljs.core.first(arglist__109083);
+var children__6280__auto__ = cljs.core.rest(arglist__109083);
 return th__delegate(opts__6279__auto__,children__6280__auto__);
 });
 th.cljs$core$IFn$_invoke$arity$variadic = th__delegate;
@@ -2534,15 +2534,15 @@ return React.DOM.thead.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var thead = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86902__i = 0, G__86902__a = new Array(arguments.length -  1);
-while (G__86902__i < G__86902__a.length) {G__86902__a[G__86902__i] = arguments[G__86902__i + 1]; ++G__86902__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86902__a,0);
+var G__109084__i = 0, G__109084__a = new Array(arguments.length -  1);
+while (G__109084__i < G__109084__a.length) {G__109084__a[G__109084__i] = arguments[G__109084__i + 1]; ++G__109084__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109084__a,0);
 } 
 return thead__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 thead.cljs$lang$maxFixedArity = 1;
-thead.cljs$lang$applyTo = (function (arglist__86903){
-var opts__6279__auto__ = cljs.core.first(arglist__86903);
-var children__6280__auto__ = cljs.core.rest(arglist__86903);
+thead.cljs$lang$applyTo = (function (arglist__109085){
+var opts__6279__auto__ = cljs.core.first(arglist__109085);
+var children__6280__auto__ = cljs.core.rest(arglist__109085);
 return thead__delegate(opts__6279__auto__,children__6280__auto__);
 });
 thead.cljs$core$IFn$_invoke$arity$variadic = thead__delegate;
@@ -2560,15 +2560,15 @@ return React.DOM.time.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var time = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86904__i = 0, G__86904__a = new Array(arguments.length -  1);
-while (G__86904__i < G__86904__a.length) {G__86904__a[G__86904__i] = arguments[G__86904__i + 1]; ++G__86904__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86904__a,0);
+var G__109086__i = 0, G__109086__a = new Array(arguments.length -  1);
+while (G__109086__i < G__109086__a.length) {G__109086__a[G__109086__i] = arguments[G__109086__i + 1]; ++G__109086__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109086__a,0);
 } 
 return time__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 time.cljs$lang$maxFixedArity = 1;
-time.cljs$lang$applyTo = (function (arglist__86905){
-var opts__6279__auto__ = cljs.core.first(arglist__86905);
-var children__6280__auto__ = cljs.core.rest(arglist__86905);
+time.cljs$lang$applyTo = (function (arglist__109087){
+var opts__6279__auto__ = cljs.core.first(arglist__109087);
+var children__6280__auto__ = cljs.core.rest(arglist__109087);
 return time__delegate(opts__6279__auto__,children__6280__auto__);
 });
 time.cljs$core$IFn$_invoke$arity$variadic = time__delegate;
@@ -2586,15 +2586,15 @@ return React.DOM.title.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var title = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86906__i = 0, G__86906__a = new Array(arguments.length -  1);
-while (G__86906__i < G__86906__a.length) {G__86906__a[G__86906__i] = arguments[G__86906__i + 1]; ++G__86906__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86906__a,0);
+var G__109088__i = 0, G__109088__a = new Array(arguments.length -  1);
+while (G__109088__i < G__109088__a.length) {G__109088__a[G__109088__i] = arguments[G__109088__i + 1]; ++G__109088__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109088__a,0);
 } 
 return title__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 title.cljs$lang$maxFixedArity = 1;
-title.cljs$lang$applyTo = (function (arglist__86907){
-var opts__6279__auto__ = cljs.core.first(arglist__86907);
-var children__6280__auto__ = cljs.core.rest(arglist__86907);
+title.cljs$lang$applyTo = (function (arglist__109089){
+var opts__6279__auto__ = cljs.core.first(arglist__109089);
+var children__6280__auto__ = cljs.core.rest(arglist__109089);
 return title__delegate(opts__6279__auto__,children__6280__auto__);
 });
 title.cljs$core$IFn$_invoke$arity$variadic = title__delegate;
@@ -2612,15 +2612,15 @@ return React.DOM.tr.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var tr = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86908__i = 0, G__86908__a = new Array(arguments.length -  1);
-while (G__86908__i < G__86908__a.length) {G__86908__a[G__86908__i] = arguments[G__86908__i + 1]; ++G__86908__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86908__a,0);
+var G__109090__i = 0, G__109090__a = new Array(arguments.length -  1);
+while (G__109090__i < G__109090__a.length) {G__109090__a[G__109090__i] = arguments[G__109090__i + 1]; ++G__109090__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109090__a,0);
 } 
 return tr__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 tr.cljs$lang$maxFixedArity = 1;
-tr.cljs$lang$applyTo = (function (arglist__86909){
-var opts__6279__auto__ = cljs.core.first(arglist__86909);
-var children__6280__auto__ = cljs.core.rest(arglist__86909);
+tr.cljs$lang$applyTo = (function (arglist__109091){
+var opts__6279__auto__ = cljs.core.first(arglist__109091);
+var children__6280__auto__ = cljs.core.rest(arglist__109091);
 return tr__delegate(opts__6279__auto__,children__6280__auto__);
 });
 tr.cljs$core$IFn$_invoke$arity$variadic = tr__delegate;
@@ -2638,15 +2638,15 @@ return React.DOM.track.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var track = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86910__i = 0, G__86910__a = new Array(arguments.length -  1);
-while (G__86910__i < G__86910__a.length) {G__86910__a[G__86910__i] = arguments[G__86910__i + 1]; ++G__86910__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86910__a,0);
+var G__109092__i = 0, G__109092__a = new Array(arguments.length -  1);
+while (G__109092__i < G__109092__a.length) {G__109092__a[G__109092__i] = arguments[G__109092__i + 1]; ++G__109092__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109092__a,0);
 } 
 return track__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 track.cljs$lang$maxFixedArity = 1;
-track.cljs$lang$applyTo = (function (arglist__86911){
-var opts__6279__auto__ = cljs.core.first(arglist__86911);
-var children__6280__auto__ = cljs.core.rest(arglist__86911);
+track.cljs$lang$applyTo = (function (arglist__109093){
+var opts__6279__auto__ = cljs.core.first(arglist__109093);
+var children__6280__auto__ = cljs.core.rest(arglist__109093);
 return track__delegate(opts__6279__auto__,children__6280__auto__);
 });
 track.cljs$core$IFn$_invoke$arity$variadic = track__delegate;
@@ -2664,15 +2664,15 @@ return React.DOM.u.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var u = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86912__i = 0, G__86912__a = new Array(arguments.length -  1);
-while (G__86912__i < G__86912__a.length) {G__86912__a[G__86912__i] = arguments[G__86912__i + 1]; ++G__86912__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86912__a,0);
+var G__109094__i = 0, G__109094__a = new Array(arguments.length -  1);
+while (G__109094__i < G__109094__a.length) {G__109094__a[G__109094__i] = arguments[G__109094__i + 1]; ++G__109094__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109094__a,0);
 } 
 return u__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 u.cljs$lang$maxFixedArity = 1;
-u.cljs$lang$applyTo = (function (arglist__86913){
-var opts__6279__auto__ = cljs.core.first(arglist__86913);
-var children__6280__auto__ = cljs.core.rest(arglist__86913);
+u.cljs$lang$applyTo = (function (arglist__109095){
+var opts__6279__auto__ = cljs.core.first(arglist__109095);
+var children__6280__auto__ = cljs.core.rest(arglist__109095);
 return u__delegate(opts__6279__auto__,children__6280__auto__);
 });
 u.cljs$core$IFn$_invoke$arity$variadic = u__delegate;
@@ -2690,15 +2690,15 @@ return React.DOM.ul.apply(null,cljs.core.into_array.call(null,cljs.core.cons.cal
 var ul = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86914__i = 0, G__86914__a = new Array(arguments.length -  1);
-while (G__86914__i < G__86914__a.length) {G__86914__a[G__86914__i] = arguments[G__86914__i + 1]; ++G__86914__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86914__a,0);
+var G__109096__i = 0, G__109096__a = new Array(arguments.length -  1);
+while (G__109096__i < G__109096__a.length) {G__109096__a[G__109096__i] = arguments[G__109096__i + 1]; ++G__109096__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109096__a,0);
 } 
 return ul__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 ul.cljs$lang$maxFixedArity = 1;
-ul.cljs$lang$applyTo = (function (arglist__86915){
-var opts__6279__auto__ = cljs.core.first(arglist__86915);
-var children__6280__auto__ = cljs.core.rest(arglist__86915);
+ul.cljs$lang$applyTo = (function (arglist__109097){
+var opts__6279__auto__ = cljs.core.first(arglist__109097);
+var children__6280__auto__ = cljs.core.rest(arglist__109097);
 return ul__delegate(opts__6279__auto__,children__6280__auto__);
 });
 ul.cljs$core$IFn$_invoke$arity$variadic = ul__delegate;
@@ -2716,15 +2716,15 @@ return React.DOM.var$.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var var$ = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86916__i = 0, G__86916__a = new Array(arguments.length -  1);
-while (G__86916__i < G__86916__a.length) {G__86916__a[G__86916__i] = arguments[G__86916__i + 1]; ++G__86916__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86916__a,0);
+var G__109098__i = 0, G__109098__a = new Array(arguments.length -  1);
+while (G__109098__i < G__109098__a.length) {G__109098__a[G__109098__i] = arguments[G__109098__i + 1]; ++G__109098__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109098__a,0);
 } 
 return var$__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 var$.cljs$lang$maxFixedArity = 1;
-var$.cljs$lang$applyTo = (function (arglist__86917){
-var opts__6279__auto__ = cljs.core.first(arglist__86917);
-var children__6280__auto__ = cljs.core.rest(arglist__86917);
+var$.cljs$lang$applyTo = (function (arglist__109099){
+var opts__6279__auto__ = cljs.core.first(arglist__109099);
+var children__6280__auto__ = cljs.core.rest(arglist__109099);
 return var$__delegate(opts__6279__auto__,children__6280__auto__);
 });
 var$.cljs$core$IFn$_invoke$arity$variadic = var$__delegate;
@@ -2742,15 +2742,15 @@ return React.DOM.video.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var video = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86918__i = 0, G__86918__a = new Array(arguments.length -  1);
-while (G__86918__i < G__86918__a.length) {G__86918__a[G__86918__i] = arguments[G__86918__i + 1]; ++G__86918__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86918__a,0);
+var G__109100__i = 0, G__109100__a = new Array(arguments.length -  1);
+while (G__109100__i < G__109100__a.length) {G__109100__a[G__109100__i] = arguments[G__109100__i + 1]; ++G__109100__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109100__a,0);
 } 
 return video__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 video.cljs$lang$maxFixedArity = 1;
-video.cljs$lang$applyTo = (function (arglist__86919){
-var opts__6279__auto__ = cljs.core.first(arglist__86919);
-var children__6280__auto__ = cljs.core.rest(arglist__86919);
+video.cljs$lang$applyTo = (function (arglist__109101){
+var opts__6279__auto__ = cljs.core.first(arglist__109101);
+var children__6280__auto__ = cljs.core.rest(arglist__109101);
 return video__delegate(opts__6279__auto__,children__6280__auto__);
 });
 video.cljs$core$IFn$_invoke$arity$variadic = video__delegate;
@@ -2768,15 +2768,15 @@ return React.DOM.wbr.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var wbr = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86920__i = 0, G__86920__a = new Array(arguments.length -  1);
-while (G__86920__i < G__86920__a.length) {G__86920__a[G__86920__i] = arguments[G__86920__i + 1]; ++G__86920__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86920__a,0);
+var G__109102__i = 0, G__109102__a = new Array(arguments.length -  1);
+while (G__109102__i < G__109102__a.length) {G__109102__a[G__109102__i] = arguments[G__109102__i + 1]; ++G__109102__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109102__a,0);
 } 
 return wbr__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 wbr.cljs$lang$maxFixedArity = 1;
-wbr.cljs$lang$applyTo = (function (arglist__86921){
-var opts__6279__auto__ = cljs.core.first(arglist__86921);
-var children__6280__auto__ = cljs.core.rest(arglist__86921);
+wbr.cljs$lang$applyTo = (function (arglist__109103){
+var opts__6279__auto__ = cljs.core.first(arglist__109103);
+var children__6280__auto__ = cljs.core.rest(arglist__109103);
 return wbr__delegate(opts__6279__auto__,children__6280__auto__);
 });
 wbr.cljs$core$IFn$_invoke$arity$variadic = wbr__delegate;
@@ -2794,15 +2794,15 @@ return React.DOM.circle.apply(null,cljs.core.into_array.call(null,cljs.core.cons
 var circle = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86922__i = 0, G__86922__a = new Array(arguments.length -  1);
-while (G__86922__i < G__86922__a.length) {G__86922__a[G__86922__i] = arguments[G__86922__i + 1]; ++G__86922__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86922__a,0);
+var G__109104__i = 0, G__109104__a = new Array(arguments.length -  1);
+while (G__109104__i < G__109104__a.length) {G__109104__a[G__109104__i] = arguments[G__109104__i + 1]; ++G__109104__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109104__a,0);
 } 
 return circle__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 circle.cljs$lang$maxFixedArity = 1;
-circle.cljs$lang$applyTo = (function (arglist__86923){
-var opts__6279__auto__ = cljs.core.first(arglist__86923);
-var children__6280__auto__ = cljs.core.rest(arglist__86923);
+circle.cljs$lang$applyTo = (function (arglist__109105){
+var opts__6279__auto__ = cljs.core.first(arglist__109105);
+var children__6280__auto__ = cljs.core.rest(arglist__109105);
 return circle__delegate(opts__6279__auto__,children__6280__auto__);
 });
 circle.cljs$core$IFn$_invoke$arity$variadic = circle__delegate;
@@ -2820,15 +2820,15 @@ return React.DOM.ellipse.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var ellipse = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86924__i = 0, G__86924__a = new Array(arguments.length -  1);
-while (G__86924__i < G__86924__a.length) {G__86924__a[G__86924__i] = arguments[G__86924__i + 1]; ++G__86924__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86924__a,0);
+var G__109106__i = 0, G__109106__a = new Array(arguments.length -  1);
+while (G__109106__i < G__109106__a.length) {G__109106__a[G__109106__i] = arguments[G__109106__i + 1]; ++G__109106__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109106__a,0);
 } 
 return ellipse__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 ellipse.cljs$lang$maxFixedArity = 1;
-ellipse.cljs$lang$applyTo = (function (arglist__86925){
-var opts__6279__auto__ = cljs.core.first(arglist__86925);
-var children__6280__auto__ = cljs.core.rest(arglist__86925);
+ellipse.cljs$lang$applyTo = (function (arglist__109107){
+var opts__6279__auto__ = cljs.core.first(arglist__109107);
+var children__6280__auto__ = cljs.core.rest(arglist__109107);
 return ellipse__delegate(opts__6279__auto__,children__6280__auto__);
 });
 ellipse.cljs$core$IFn$_invoke$arity$variadic = ellipse__delegate;
@@ -2846,15 +2846,15 @@ return React.DOM.g.apply(null,cljs.core.into_array.call(null,cljs.core.cons.call
 var g = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86926__i = 0, G__86926__a = new Array(arguments.length -  1);
-while (G__86926__i < G__86926__a.length) {G__86926__a[G__86926__i] = arguments[G__86926__i + 1]; ++G__86926__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86926__a,0);
+var G__109108__i = 0, G__109108__a = new Array(arguments.length -  1);
+while (G__109108__i < G__109108__a.length) {G__109108__a[G__109108__i] = arguments[G__109108__i + 1]; ++G__109108__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109108__a,0);
 } 
 return g__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 g.cljs$lang$maxFixedArity = 1;
-g.cljs$lang$applyTo = (function (arglist__86927){
-var opts__6279__auto__ = cljs.core.first(arglist__86927);
-var children__6280__auto__ = cljs.core.rest(arglist__86927);
+g.cljs$lang$applyTo = (function (arglist__109109){
+var opts__6279__auto__ = cljs.core.first(arglist__109109);
+var children__6280__auto__ = cljs.core.rest(arglist__109109);
 return g__delegate(opts__6279__auto__,children__6280__auto__);
 });
 g.cljs$core$IFn$_invoke$arity$variadic = g__delegate;
@@ -2872,15 +2872,15 @@ return React.DOM.line.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var line = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86928__i = 0, G__86928__a = new Array(arguments.length -  1);
-while (G__86928__i < G__86928__a.length) {G__86928__a[G__86928__i] = arguments[G__86928__i + 1]; ++G__86928__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86928__a,0);
+var G__109110__i = 0, G__109110__a = new Array(arguments.length -  1);
+while (G__109110__i < G__109110__a.length) {G__109110__a[G__109110__i] = arguments[G__109110__i + 1]; ++G__109110__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109110__a,0);
 } 
 return line__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 line.cljs$lang$maxFixedArity = 1;
-line.cljs$lang$applyTo = (function (arglist__86929){
-var opts__6279__auto__ = cljs.core.first(arglist__86929);
-var children__6280__auto__ = cljs.core.rest(arglist__86929);
+line.cljs$lang$applyTo = (function (arglist__109111){
+var opts__6279__auto__ = cljs.core.first(arglist__109111);
+var children__6280__auto__ = cljs.core.rest(arglist__109111);
 return line__delegate(opts__6279__auto__,children__6280__auto__);
 });
 line.cljs$core$IFn$_invoke$arity$variadic = line__delegate;
@@ -2898,15 +2898,15 @@ return React.DOM.path.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var path = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86930__i = 0, G__86930__a = new Array(arguments.length -  1);
-while (G__86930__i < G__86930__a.length) {G__86930__a[G__86930__i] = arguments[G__86930__i + 1]; ++G__86930__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86930__a,0);
+var G__109112__i = 0, G__109112__a = new Array(arguments.length -  1);
+while (G__109112__i < G__109112__a.length) {G__109112__a[G__109112__i] = arguments[G__109112__i + 1]; ++G__109112__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109112__a,0);
 } 
 return path__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 path.cljs$lang$maxFixedArity = 1;
-path.cljs$lang$applyTo = (function (arglist__86931){
-var opts__6279__auto__ = cljs.core.first(arglist__86931);
-var children__6280__auto__ = cljs.core.rest(arglist__86931);
+path.cljs$lang$applyTo = (function (arglist__109113){
+var opts__6279__auto__ = cljs.core.first(arglist__109113);
+var children__6280__auto__ = cljs.core.rest(arglist__109113);
 return path__delegate(opts__6279__auto__,children__6280__auto__);
 });
 path.cljs$core$IFn$_invoke$arity$variadic = path__delegate;
@@ -2924,15 +2924,15 @@ return React.DOM.polyline.apply(null,cljs.core.into_array.call(null,cljs.core.co
 var polyline = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86932__i = 0, G__86932__a = new Array(arguments.length -  1);
-while (G__86932__i < G__86932__a.length) {G__86932__a[G__86932__i] = arguments[G__86932__i + 1]; ++G__86932__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86932__a,0);
+var G__109114__i = 0, G__109114__a = new Array(arguments.length -  1);
+while (G__109114__i < G__109114__a.length) {G__109114__a[G__109114__i] = arguments[G__109114__i + 1]; ++G__109114__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109114__a,0);
 } 
 return polyline__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 polyline.cljs$lang$maxFixedArity = 1;
-polyline.cljs$lang$applyTo = (function (arglist__86933){
-var opts__6279__auto__ = cljs.core.first(arglist__86933);
-var children__6280__auto__ = cljs.core.rest(arglist__86933);
+polyline.cljs$lang$applyTo = (function (arglist__109115){
+var opts__6279__auto__ = cljs.core.first(arglist__109115);
+var children__6280__auto__ = cljs.core.rest(arglist__109115);
 return polyline__delegate(opts__6279__auto__,children__6280__auto__);
 });
 polyline.cljs$core$IFn$_invoke$arity$variadic = polyline__delegate;
@@ -2950,15 +2950,15 @@ return React.DOM.rect.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var rect = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86934__i = 0, G__86934__a = new Array(arguments.length -  1);
-while (G__86934__i < G__86934__a.length) {G__86934__a[G__86934__i] = arguments[G__86934__i + 1]; ++G__86934__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86934__a,0);
+var G__109116__i = 0, G__109116__a = new Array(arguments.length -  1);
+while (G__109116__i < G__109116__a.length) {G__109116__a[G__109116__i] = arguments[G__109116__i + 1]; ++G__109116__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109116__a,0);
 } 
 return rect__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 rect.cljs$lang$maxFixedArity = 1;
-rect.cljs$lang$applyTo = (function (arglist__86935){
-var opts__6279__auto__ = cljs.core.first(arglist__86935);
-var children__6280__auto__ = cljs.core.rest(arglist__86935);
+rect.cljs$lang$applyTo = (function (arglist__109117){
+var opts__6279__auto__ = cljs.core.first(arglist__109117);
+var children__6280__auto__ = cljs.core.rest(arglist__109117);
 return rect__delegate(opts__6279__auto__,children__6280__auto__);
 });
 rect.cljs$core$IFn$_invoke$arity$variadic = rect__delegate;
@@ -2976,15 +2976,15 @@ return React.DOM.svg.apply(null,cljs.core.into_array.call(null,cljs.core.cons.ca
 var svg = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86936__i = 0, G__86936__a = new Array(arguments.length -  1);
-while (G__86936__i < G__86936__a.length) {G__86936__a[G__86936__i] = arguments[G__86936__i + 1]; ++G__86936__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86936__a,0);
+var G__109118__i = 0, G__109118__a = new Array(arguments.length -  1);
+while (G__109118__i < G__109118__a.length) {G__109118__a[G__109118__i] = arguments[G__109118__i + 1]; ++G__109118__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109118__a,0);
 } 
 return svg__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 svg.cljs$lang$maxFixedArity = 1;
-svg.cljs$lang$applyTo = (function (arglist__86937){
-var opts__6279__auto__ = cljs.core.first(arglist__86937);
-var children__6280__auto__ = cljs.core.rest(arglist__86937);
+svg.cljs$lang$applyTo = (function (arglist__109119){
+var opts__6279__auto__ = cljs.core.first(arglist__109119);
+var children__6280__auto__ = cljs.core.rest(arglist__109119);
 return svg__delegate(opts__6279__auto__,children__6280__auto__);
 });
 svg.cljs$core$IFn$_invoke$arity$variadic = svg__delegate;
@@ -3002,15 +3002,15 @@ return React.DOM.text.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var text = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86938__i = 0, G__86938__a = new Array(arguments.length -  1);
-while (G__86938__i < G__86938__a.length) {G__86938__a[G__86938__i] = arguments[G__86938__i + 1]; ++G__86938__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86938__a,0);
+var G__109120__i = 0, G__109120__a = new Array(arguments.length -  1);
+while (G__109120__i < G__109120__a.length) {G__109120__a[G__109120__i] = arguments[G__109120__i + 1]; ++G__109120__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109120__a,0);
 } 
 return text__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 text.cljs$lang$maxFixedArity = 1;
-text.cljs$lang$applyTo = (function (arglist__86939){
-var opts__6279__auto__ = cljs.core.first(arglist__86939);
-var children__6280__auto__ = cljs.core.rest(arglist__86939);
+text.cljs$lang$applyTo = (function (arglist__109121){
+var opts__6279__auto__ = cljs.core.first(arglist__109121);
+var children__6280__auto__ = cljs.core.rest(arglist__109121);
 return text__delegate(opts__6279__auto__,children__6280__auto__);
 });
 text.cljs$core$IFn$_invoke$arity$variadic = text__delegate;
@@ -3028,15 +3028,15 @@ return React.DOM.defs.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var defs = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86940__i = 0, G__86940__a = new Array(arguments.length -  1);
-while (G__86940__i < G__86940__a.length) {G__86940__a[G__86940__i] = arguments[G__86940__i + 1]; ++G__86940__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86940__a,0);
+var G__109122__i = 0, G__109122__a = new Array(arguments.length -  1);
+while (G__109122__i < G__109122__a.length) {G__109122__a[G__109122__i] = arguments[G__109122__i + 1]; ++G__109122__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109122__a,0);
 } 
 return defs__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 defs.cljs$lang$maxFixedArity = 1;
-defs.cljs$lang$applyTo = (function (arglist__86941){
-var opts__6279__auto__ = cljs.core.first(arglist__86941);
-var children__6280__auto__ = cljs.core.rest(arglist__86941);
+defs.cljs$lang$applyTo = (function (arglist__109123){
+var opts__6279__auto__ = cljs.core.first(arglist__109123);
+var children__6280__auto__ = cljs.core.rest(arglist__109123);
 return defs__delegate(opts__6279__auto__,children__6280__auto__);
 });
 defs.cljs$core$IFn$_invoke$arity$variadic = defs__delegate;
@@ -3054,15 +3054,15 @@ return React.DOM.linearGradient.apply(null,cljs.core.into_array.call(null,cljs.c
 var linearGradient = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86942__i = 0, G__86942__a = new Array(arguments.length -  1);
-while (G__86942__i < G__86942__a.length) {G__86942__a[G__86942__i] = arguments[G__86942__i + 1]; ++G__86942__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86942__a,0);
+var G__109124__i = 0, G__109124__a = new Array(arguments.length -  1);
+while (G__109124__i < G__109124__a.length) {G__109124__a[G__109124__i] = arguments[G__109124__i + 1]; ++G__109124__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109124__a,0);
 } 
 return linearGradient__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 linearGradient.cljs$lang$maxFixedArity = 1;
-linearGradient.cljs$lang$applyTo = (function (arglist__86943){
-var opts__6279__auto__ = cljs.core.first(arglist__86943);
-var children__6280__auto__ = cljs.core.rest(arglist__86943);
+linearGradient.cljs$lang$applyTo = (function (arglist__109125){
+var opts__6279__auto__ = cljs.core.first(arglist__109125);
+var children__6280__auto__ = cljs.core.rest(arglist__109125);
 return linearGradient__delegate(opts__6279__auto__,children__6280__auto__);
 });
 linearGradient.cljs$core$IFn$_invoke$arity$variadic = linearGradient__delegate;
@@ -3080,15 +3080,15 @@ return React.DOM.polygon.apply(null,cljs.core.into_array.call(null,cljs.core.con
 var polygon = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86944__i = 0, G__86944__a = new Array(arguments.length -  1);
-while (G__86944__i < G__86944__a.length) {G__86944__a[G__86944__i] = arguments[G__86944__i + 1]; ++G__86944__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86944__a,0);
+var G__109126__i = 0, G__109126__a = new Array(arguments.length -  1);
+while (G__109126__i < G__109126__a.length) {G__109126__a[G__109126__i] = arguments[G__109126__i + 1]; ++G__109126__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109126__a,0);
 } 
 return polygon__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 polygon.cljs$lang$maxFixedArity = 1;
-polygon.cljs$lang$applyTo = (function (arglist__86945){
-var opts__6279__auto__ = cljs.core.first(arglist__86945);
-var children__6280__auto__ = cljs.core.rest(arglist__86945);
+polygon.cljs$lang$applyTo = (function (arglist__109127){
+var opts__6279__auto__ = cljs.core.first(arglist__109127);
+var children__6280__auto__ = cljs.core.rest(arglist__109127);
 return polygon__delegate(opts__6279__auto__,children__6280__auto__);
 });
 polygon.cljs$core$IFn$_invoke$arity$variadic = polygon__delegate;
@@ -3106,15 +3106,15 @@ return React.DOM.radialGradient.apply(null,cljs.core.into_array.call(null,cljs.c
 var radialGradient = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86946__i = 0, G__86946__a = new Array(arguments.length -  1);
-while (G__86946__i < G__86946__a.length) {G__86946__a[G__86946__i] = arguments[G__86946__i + 1]; ++G__86946__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86946__a,0);
+var G__109128__i = 0, G__109128__a = new Array(arguments.length -  1);
+while (G__109128__i < G__109128__a.length) {G__109128__a[G__109128__i] = arguments[G__109128__i + 1]; ++G__109128__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109128__a,0);
 } 
 return radialGradient__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 radialGradient.cljs$lang$maxFixedArity = 1;
-radialGradient.cljs$lang$applyTo = (function (arglist__86947){
-var opts__6279__auto__ = cljs.core.first(arglist__86947);
-var children__6280__auto__ = cljs.core.rest(arglist__86947);
+radialGradient.cljs$lang$applyTo = (function (arglist__109129){
+var opts__6279__auto__ = cljs.core.first(arglist__109129);
+var children__6280__auto__ = cljs.core.rest(arglist__109129);
 return radialGradient__delegate(opts__6279__auto__,children__6280__auto__);
 });
 radialGradient.cljs$core$IFn$_invoke$arity$variadic = radialGradient__delegate;
@@ -3132,15 +3132,15 @@ return React.DOM.stop.apply(null,cljs.core.into_array.call(null,cljs.core.cons.c
 var stop = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86948__i = 0, G__86948__a = new Array(arguments.length -  1);
-while (G__86948__i < G__86948__a.length) {G__86948__a[G__86948__i] = arguments[G__86948__i + 1]; ++G__86948__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86948__a,0);
+var G__109130__i = 0, G__109130__a = new Array(arguments.length -  1);
+while (G__109130__i < G__109130__a.length) {G__109130__a[G__109130__i] = arguments[G__109130__i + 1]; ++G__109130__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109130__a,0);
 } 
 return stop__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 stop.cljs$lang$maxFixedArity = 1;
-stop.cljs$lang$applyTo = (function (arglist__86949){
-var opts__6279__auto__ = cljs.core.first(arglist__86949);
-var children__6280__auto__ = cljs.core.rest(arglist__86949);
+stop.cljs$lang$applyTo = (function (arglist__109131){
+var opts__6279__auto__ = cljs.core.first(arglist__109131);
+var children__6280__auto__ = cljs.core.rest(arglist__109131);
 return stop__delegate(opts__6279__auto__,children__6280__auto__);
 });
 stop.cljs$core$IFn$_invoke$arity$variadic = stop__delegate;
@@ -3158,15 +3158,15 @@ return React.DOM.tspan.apply(null,cljs.core.into_array.call(null,cljs.core.cons.
 var tspan = function (opts__6279__auto__,var_args){
 var children__6280__auto__ = null;
 if (arguments.length > 1) {
-var G__86950__i = 0, G__86950__a = new Array(arguments.length -  1);
-while (G__86950__i < G__86950__a.length) {G__86950__a[G__86950__i] = arguments[G__86950__i + 1]; ++G__86950__i;}
-  children__6280__auto__ = new cljs.core.IndexedSeq(G__86950__a,0);
+var G__109132__i = 0, G__109132__a = new Array(arguments.length -  1);
+while (G__109132__i < G__109132__a.length) {G__109132__a[G__109132__i] = arguments[G__109132__i + 1]; ++G__109132__i;}
+  children__6280__auto__ = new cljs.core.IndexedSeq(G__109132__a,0);
 } 
 return tspan__delegate.call(this,opts__6279__auto__,children__6280__auto__);};
 tspan.cljs$lang$maxFixedArity = 1;
-tspan.cljs$lang$applyTo = (function (arglist__86951){
-var opts__6279__auto__ = cljs.core.first(arglist__86951);
-var children__6280__auto__ = cljs.core.rest(arglist__86951);
+tspan.cljs$lang$applyTo = (function (arglist__109133){
+var opts__6279__auto__ = cljs.core.first(arglist__109133);
+var children__6280__auto__ = cljs.core.rest(arglist__109133);
 return tspan__delegate(opts__6279__auto__,children__6280__auto__);
 });
 tspan.cljs$core$IFn$_invoke$arity$variadic = tspan__delegate;

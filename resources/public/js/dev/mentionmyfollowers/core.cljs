@@ -8,7 +8,8 @@
 
 (println "Mention My Followers Chrome Extenssion")
 
-(defonce app-state (atom {:user {:user-id nil}}))
+(defonce app-state (atom {:user {:user-id nil}
+                          :accounts-form {}}))
 
 (defn read-user-id
   "Reads the Instagram user id from the cookie. It needs
@@ -30,6 +31,30 @@
       nil
       (str "User-id is "(if user-id user-id "Not Available"))))))
 
+(defn accounts-form
+  "A form to enter the accounts whose followers you want to mention"
+  [data owner]
+  (reify
+    om/IRender
+    (render [_]
+            (dom/form
+             nil
+             (dom/div
+              #js {:className "form-group"}
+              (dom/label
+               #js {:htmlFor "accounts-input"}
+               "Accounts:")
+              (dom/textarea
+               #js {:id "accounts-input"
+                    :value (:accounts data)
+                    :onChange (fn [e] (om/transact! data #(assoc % :accounts (.. e -target -value))))}))
+             (dom/button
+              #js {:className "btn btn-primary"
+                   :onClick (fn [e]
+                              (.preventDefault e)
+                              (println "Get followers button clicked"))}
+              "Get Followers")))))
+
 (defn application [data owner]
   (reify
     om/IWillMount
@@ -42,7 +67,7 @@
     om/IRender
     (render [_]
             (println "application - render")
-            (om/build show-user-id (:user data)))))
+            (om/build accounts-form (:accounts-form data)))))
 
 (om/root
  application
