@@ -3,23 +3,34 @@
   (:require[om.core :as om :include-macros true]
            [om.dom :as dom :include-macros true]
            [domina.css :as css]
-           [clojure.string :as str]
-           [ajax.core :refer [POST]]
-           [mentionmyfollowers.comenting :as commenting]
+           [clojure.string :as string]
            [mentionmyfollowers.data :as data]))
-
-(def api-get-followers "http://dragon-alien.codio.io:3000/api/followers")
 
 (enable-console-print!)
 
 (println "Mention My Followers Chrome Extenssion")
 
-(.. js/chrome -runtime -onMessage (addListener commenting/content-listener))
+(defn report-error!
+  "Reports an error of restful api call."
+  [{:keys [status status-text failure] :as error}]
+  (println error))
+
 
 (defn create-comments
-  "Inserts the comments scripts into the page and starts sending comments."
+  "Sends the create_comments command to the content script."
   []
-  (.. js/chrome -tabs (executeScript nil #js{:file "js/commenting.js"})))
+  (.. js/chrome -tabs (query #js {:active true, :currentWindow true}
+                             (fn [tabs]
+                               (data/load-templates
+                                (fn [templates]
+                                  (.. js/chrome -tabs
+                                      (sendMessage (.-id (aget tabs 0))
+                                                   #js {:followers (clj->js (data/selected-followers))
+                                                        :templates (clj->js templates)},
+                                                   (fn [response]
+                                                     (println "Response received from content script:" (.-message response))))))
+                                (fn [error]
+                                  (report-error! error)))))))
 
 (defn read-user-id
   "Reads the Instagram user id from the cookie. It needs
@@ -47,7 +58,7 @@
   (reify
     om/IInitState
     (init-state [_]
-                {:accounts (str/join " " accounts)})
+                {:accounts (string/join " " accounts)})
     om/IRenderState
     (render-state [_ {text :accounts}]
                   (dom/form
@@ -68,15 +79,10 @@
                          :onClick (fn [e]
                                     (.preventDefault e)
                                     (println "Get followers button clicked")
-                                    (let [new-accounts (str/split text #" ")]
+                                    (let [new-accounts (string/split text #" ")]
                                       (om/update! accounts new-accounts)
                                       (on-get-followers new-accounts)))}
                     "Get Followers")))))
-
-(defn report-error!
-  "Reports an error of restful api call."
-  [{:keys [status status-text failure] :as error}]
-  (println error))
 
 (defn loading-followers [_ _]
   (reify
@@ -90,6 +96,16 @@
                    :aria-valuenow "75"
                    :aria-valuemin "0"
                    :aria-valuemax "100"})))))
+
+(defn statistics [followers owner]
+  (reify
+    om/IRender
+    (render [_]
+            (dom/div
+             #js {:className "alert alert-success"}
+             "Loaded "
+             (dom/strong nil (count followers))
+             " followers"))))
 
 (defn selection-form [selection owner]
   (reify
@@ -175,6 +191,7 @@
     (render [_]
             (dom/div
              nil
+             (om/build statistics (:followers followers-and-selection))
              (om/build select-followers-list followers-and-selection)
              (dom/button #js{:className "btn btn-primary", :onClick on-go} "Go")
              (dom/button #js{:className "btn btn-danger" :onClick on-cancel} "Cancel")))))
@@ -195,17 +212,14 @@
     (render-state [_ state]
             (let [handle-get-followers (fn [accounts]
                                          (om/set-state! owner :view :loading-followers)
-                                         (POST api-get-followers {:params {:user-id (get-in @data [:user :user-id]),
-                                                                           :user-names accounts}
-                                                                  :format :edn
-                                                                  :response-format :edn
-                                                                  :handler (fn [followers]
-                                                                             (println "Received followers" followers)
-                                                                             (om/update! data [:followers-and-selection :followers] (vec followers))
-                                                                             (om/set-state! owner :view :select-followers))
-                                                                  :error-handler (fn [error]
-                                                                                   (report-error! error)
-                                                                                   (om/set-state! owner :view :accounts-form))}))]
+                                         (data/load-followers
+                                          (fn [followers]
+                                            (println "Received followers" followers)
+                                            (om/update! data [:followers-and-selection :followers] (vec followers))
+                                            (om/set-state! owner :view :select-followers))
+                                          (fn [error]
+                                            (report-error! error)
+                                            (om/set-state! owner :view :accounts-form))))]
               (dom/div
                #js {:className "container"}
                (condp = (:view state)

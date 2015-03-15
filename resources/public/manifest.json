@@ -10,6 +10,15 @@
     "default_popup": "popup.html"
   },
 
+  "content_scripts": [
+    {
+      "matches": ["https://instagram.com/*"],
+      "js": ["js/commenting.js"]
+    }
+  ],
+
+  "web_accessible_resources": ["js/commenting.js.map"],
+
   "permissions": [
     "cookies",
     "activeTab",
