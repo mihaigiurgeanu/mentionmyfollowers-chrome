@@ -100,6 +100,7 @@
                "From")
               (dom/input
                #js {:type "text"
+                    :className "form-control"
                     :id "selection-from"
                     :value (:from selection)
                     :onChange #(om/update! selection :from (-> % .-target .-value))}))
@@ -110,6 +111,7 @@
                "To")
               (dom/input
                #js {:type "text"
+                    :className "form-control"
                     :id "selection-to"
                     :value (:to selection)
                     :onChange #(om/update! selection :to (-> % .-target .-value))}))))))
