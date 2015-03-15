@@ -110,7 +110,7 @@
    (or (nil? from) (<= idx from)) (assoc selection :from idx)
    true (assoc selection :to idx)))
 
-(defn select-followers [followers-and-selection owner]
+(defn select-followers-list [followers-and-selection owner]
   (reify
     om/IRender
     (render [_]
@@ -128,6 +128,16 @@
                                                       :selection
                                                       (fn [selection] (update-selection selection %))))}})
                       (range (count followers))))))))
+
+(defn select-followers [followers-and-selection owner {{:keys [on-cancel]} :opts}]
+  (reify
+    om/IRender
+    (render [_]
+            (dom/div
+             nil
+             (om/build select-followers-list followers-and-selection)
+             (dom/button #js{:className "btn btn-primary"} "Go")
+             (dom/button #js{:className "btn btn-danger" :onClick on-cancel} "Cancel")))))
 
 (defn application
   "The main application component"
@@ -161,7 +171,10 @@
                (condp = (:view state)
                  :accounts-form (om/build accounts-form (:accounts data) {:opts {:on-get-followers handle-get-followers}})
                  :loading-followers (om/build loading-followers nil)
-                 :select-followers (om/build select-followers (:followers-and-selection data))))))))
+                 :select-followers (om/build select-followers (:followers-and-selection data)
+                                             {:opts {:on-cancel (fn [e]
+                                                                  (.preventDefault e)
+                                                                  (om/set-state! owner :view accounts-form))}})))))))
 
   (om/root
    application
