@@ -87,28 +87,38 @@
                    :aria-valuemin "0"
                    :aria-valuemax "100"})))))
 
-(defn follower-item [followers owner {:keys [idx on-click is-selected?]}]
-  (reify
-    om/IRender
-    (render [_]
-            (dom/a #js {:href "#"
-                        :className (str "list-group-item"
-                                        (when is-selected? "active"))
-                        :onClick on-click}
-                   (get followers idx)))))
+(defn update-selection [{:keys [from to] :as selection} idx]
+  (println "Setting selection" idx "->" from to)
+  (cond
+   (or (nil? from) (<= idx from)) (assoc selection :from idx)
+   true (assoc selection :to idx)))
 
 (defn is-selected? [i {:keys [from to]}]
   (cond
-   (not (or from to)) nil
+   (not (or from to)) false
    (and from to) (and (>= i from)
                       (<= i to))
    from (>= i from)
    to (<= i to)))
 
-(defn update-selection [{:keys [from to] :as selection} idx]
-  (cond
-   (or (nil? from) (<= idx from)) (assoc selection :from idx)
-   true (assoc selection :to idx)))
+(defn follower-item [followers-and-selection owner {:keys [idx]}]
+  (reify
+    om/IRender
+    (render [_]
+            (let [followers (:followers followers-and-selection)
+                  selection (:selection followers-and-selection)
+                  is-this-selected? (is-selected? idx (:selection followers-and-selection))
+                  on-click (fn [e]
+                             (.preventDefault e)
+                             (om/transact!
+                              followers-and-selection
+                              :selection
+                              (fn [s] (update-selection s idx))))]
+              (dom/a #js {:href "#"
+                          :className (str "list-group-item"
+                                          (when is-this-selected? " active"))
+                          :onClick on-click}
+                     (get followers idx))))))
 
 (defn select-followers-list [followers-and-selection owner]
   (reify
@@ -118,15 +128,8 @@
                    (let [followers (:followers followers-and-selection)]
                      (map
                       #(om/build follower-item
-                                 followers
-                                 {:opts {:idx %
-                                         :is-selected? (is-selected? % (:selection followers-and-selection))
-                                         :on-click (fn [e]
-                                                     (.preventDefault e)
-                                                     (om/transact!
-                                                      followers-and-selection
-                                                      :selection
-                                                      (fn [selection] (update-selection selection %))))}})
+                                 followers-and-selection
+                                 {:opts {:idx %}})
                       (range (count followers))))))))
 
 (defn select-followers [followers-and-selection owner {:keys [on-cancel]}]

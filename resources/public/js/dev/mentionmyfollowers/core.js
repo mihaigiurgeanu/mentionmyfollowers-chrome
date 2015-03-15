@@ -30,110 +30,110 @@ return f.call(null,cookie.value);
 });})(query))
 );
 });
-mentionmyfollowers.core.show_user_id = (function show_user_id(p__125065,owner){
-var map__125070 = p__125065;
-var map__125070__$1 = ((cljs.core.seq_QMARK_.call(null,map__125070))?cljs.core.apply.call(null,cljs.core.hash_map,map__125070):map__125070);
-var user_id = cljs.core.get.call(null,map__125070__$1,new cljs.core.Keyword(null,"user-id","user-id",-206822291));
-if(typeof mentionmyfollowers.core.t125071 !== 'undefined'){
+mentionmyfollowers.core.show_user_id = (function show_user_id(p__219152,owner){
+var map__219157 = p__219152;
+var map__219157__$1 = ((cljs.core.seq_QMARK_.call(null,map__219157))?cljs.core.apply.call(null,cljs.core.hash_map,map__219157):map__219157);
+var user_id = cljs.core.get.call(null,map__219157__$1,new cljs.core.Keyword(null,"user-id","user-id",-206822291));
+if(typeof mentionmyfollowers.core.t219158 !== 'undefined'){
 } else {
 
 /**
 * @constructor
 */
-mentionmyfollowers.core.t125071 = (function (user_id,map__125070,owner,p__125065,show_user_id,meta125072){
+mentionmyfollowers.core.t219158 = (function (user_id,map__219157,owner,p__219152,show_user_id,meta219159){
 this.user_id = user_id;
-this.map__125070 = map__125070;
+this.map__219157 = map__219157;
 this.owner = owner;
-this.p__125065 = p__125065;
+this.p__219152 = p__219152;
 this.show_user_id = show_user_id;
-this.meta125072 = meta125072;
+this.meta219159 = meta219159;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 })
-mentionmyfollowers.core.t125071.prototype.om$core$IRender$ = true;
+mentionmyfollowers.core.t219158.prototype.om$core$IRender$ = true;
 
-mentionmyfollowers.core.t125071.prototype.om$core$IRender$render$arity$1 = ((function (map__125070,map__125070__$1,user_id){
+mentionmyfollowers.core.t219158.prototype.om$core$IRender$render$arity$1 = ((function (map__219157,map__219157__$1,user_id){
 return (function (_){
 var self__ = this;
 var ___$1 = this;
 return React.DOM.p(null,[cljs.core.str("User-id is "),cljs.core.str((cljs.core.truth_(self__.user_id)?self__.user_id:"Not Available"))].join(''));
-});})(map__125070,map__125070__$1,user_id))
+});})(map__219157,map__219157__$1,user_id))
 ;
 
-mentionmyfollowers.core.t125071.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__125070,map__125070__$1,user_id){
-return (function (_125073){
+mentionmyfollowers.core.t219158.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__219157,map__219157__$1,user_id){
+return (function (_219160){
 var self__ = this;
-var _125073__$1 = this;
-return self__.meta125072;
-});})(map__125070,map__125070__$1,user_id))
+var _219160__$1 = this;
+return self__.meta219159;
+});})(map__219157,map__219157__$1,user_id))
 ;
 
-mentionmyfollowers.core.t125071.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__125070,map__125070__$1,user_id){
-return (function (_125073,meta125072__$1){
+mentionmyfollowers.core.t219158.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__219157,map__219157__$1,user_id){
+return (function (_219160,meta219159__$1){
 var self__ = this;
-var _125073__$1 = this;
-return (new mentionmyfollowers.core.t125071(self__.user_id,self__.map__125070,self__.owner,self__.p__125065,self__.show_user_id,meta125072__$1));
-});})(map__125070,map__125070__$1,user_id))
+var _219160__$1 = this;
+return (new mentionmyfollowers.core.t219158(self__.user_id,self__.map__219157,self__.owner,self__.p__219152,self__.show_user_id,meta219159__$1));
+});})(map__219157,map__219157__$1,user_id))
 ;
 
-mentionmyfollowers.core.t125071.cljs$lang$type = true;
+mentionmyfollowers.core.t219158.cljs$lang$type = true;
 
-mentionmyfollowers.core.t125071.cljs$lang$ctorStr = "mentionmyfollowers.core/t125071";
+mentionmyfollowers.core.t219158.cljs$lang$ctorStr = "mentionmyfollowers.core/t219158";
 
-mentionmyfollowers.core.t125071.cljs$lang$ctorPrWriter = ((function (map__125070,map__125070__$1,user_id){
+mentionmyfollowers.core.t219158.cljs$lang$ctorPrWriter = ((function (map__219157,map__219157__$1,user_id){
 return (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
-return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t125071");
-});})(map__125070,map__125070__$1,user_id))
+return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t219158");
+});})(map__219157,map__219157__$1,user_id))
 ;
 
-mentionmyfollowers.core.__GT_t125071 = ((function (map__125070,map__125070__$1,user_id){
-return (function __GT_t125071(user_id__$1,map__125070__$2,owner__$1,p__125065__$1,show_user_id__$1,meta125072){
-return (new mentionmyfollowers.core.t125071(user_id__$1,map__125070__$2,owner__$1,p__125065__$1,show_user_id__$1,meta125072));
-});})(map__125070,map__125070__$1,user_id))
+mentionmyfollowers.core.__GT_t219158 = ((function (map__219157,map__219157__$1,user_id){
+return (function __GT_t219158(user_id__$1,map__219157__$2,owner__$1,p__219152__$1,show_user_id__$1,meta219159){
+return (new mentionmyfollowers.core.t219158(user_id__$1,map__219157__$2,owner__$1,p__219152__$1,show_user_id__$1,meta219159));
+});})(map__219157,map__219157__$1,user_id))
 ;
 
 }
 
-return (new mentionmyfollowers.core.t125071(user_id,map__125070__$1,owner,p__125065,show_user_id,cljs.core.PersistentArrayMap.EMPTY));
+return (new mentionmyfollowers.core.t219158(user_id,map__219157__$1,owner,p__219152,show_user_id,cljs.core.PersistentArrayMap.EMPTY));
 });
 /**
 * A form to enter the accounts whose followers you want to mention
 */
-mentionmyfollowers.core.accounts_form = (function accounts_form(accounts,owner,p__125074){
-var map__125081 = p__125074;
-var map__125081__$1 = ((cljs.core.seq_QMARK_.call(null,map__125081))?cljs.core.apply.call(null,cljs.core.hash_map,map__125081):map__125081);
-var on_get_followers = cljs.core.get.call(null,map__125081__$1,new cljs.core.Keyword(null,"on-get-followers","on-get-followers",87044518));
-if(typeof mentionmyfollowers.core.t125082 !== 'undefined'){
+mentionmyfollowers.core.accounts_form = (function accounts_form(accounts,owner,p__219161){
+var map__219168 = p__219161;
+var map__219168__$1 = ((cljs.core.seq_QMARK_.call(null,map__219168))?cljs.core.apply.call(null,cljs.core.hash_map,map__219168):map__219168);
+var on_get_followers = cljs.core.get.call(null,map__219168__$1,new cljs.core.Keyword(null,"on-get-followers","on-get-followers",87044518));
+if(typeof mentionmyfollowers.core.t219169 !== 'undefined'){
 } else {
 
 /**
 * @constructor
 */
-mentionmyfollowers.core.t125082 = (function (on_get_followers,map__125081,p__125074,owner,accounts,accounts_form,meta125083){
+mentionmyfollowers.core.t219169 = (function (on_get_followers,map__219168,p__219161,owner,accounts,accounts_form,meta219170){
 this.on_get_followers = on_get_followers;
-this.map__125081 = map__125081;
-this.p__125074 = p__125074;
+this.map__219168 = map__219168;
+this.p__219161 = p__219161;
 this.owner = owner;
 this.accounts = accounts;
 this.accounts_form = accounts_form;
-this.meta125083 = meta125083;
+this.meta219170 = meta219170;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 })
-mentionmyfollowers.core.t125082.prototype.om$core$IRenderState$ = true;
+mentionmyfollowers.core.t219169.prototype.om$core$IRenderState$ = true;
 
-mentionmyfollowers.core.t125082.prototype.om$core$IRenderState$render_state$arity$2 = ((function (map__125081,map__125081__$1,on_get_followers){
-return (function (_,p__125085){
+mentionmyfollowers.core.t219169.prototype.om$core$IRenderState$render_state$arity$2 = ((function (map__219168,map__219168__$1,on_get_followers){
+return (function (_,p__219172){
 var self__ = this;
-var map__125086 = p__125085;
-var map__125086__$1 = ((cljs.core.seq_QMARK_.call(null,map__125086))?cljs.core.apply.call(null,cljs.core.hash_map,map__125086):map__125086);
-var text = cljs.core.get.call(null,map__125086__$1,new cljs.core.Keyword(null,"accounts","accounts",-935308676));
+var map__219173 = p__219172;
+var map__219173__$1 = ((cljs.core.seq_QMARK_.call(null,map__219173))?cljs.core.apply.call(null,cljs.core.hash_map,map__219173):map__219173);
+var text = cljs.core.get.call(null,map__219173__$1,new cljs.core.Keyword(null,"accounts","accounts",-935308676));
 var ___$1 = this;
-return React.DOM.form(null,React.DOM.div({"className": "form-group"},React.DOM.label({"htmlFor": "accounts-input"},"Accounts:"),om.dom.textarea.call(null,{"onChange": ((function (___$1,map__125086,map__125086__$1,text,map__125081,map__125081__$1,on_get_followers){
+return React.DOM.form(null,React.DOM.div({"className": "form-group"},React.DOM.label({"htmlFor": "accounts-input"},"Accounts:"),om.dom.textarea.call(null,{"onChange": ((function (___$1,map__219173,map__219173__$1,text,map__219168,map__219168__$1,on_get_followers){
 return (function (e){
 return om.core.set_state_BANG_.call(null,self__.owner,new cljs.core.Keyword(null,"accounts","accounts",-935308676),e.target.value);
-});})(___$1,map__125086,map__125086__$1,text,map__125081,map__125081__$1,on_get_followers))
-, "value": text, "rows": "3", "className": "form-control", "id": "accounts-input"})),React.DOM.button({"onClick": ((function (___$1,map__125086,map__125086__$1,text,map__125081,map__125081__$1,on_get_followers){
+});})(___$1,map__219173,map__219173__$1,text,map__219168,map__219168__$1,on_get_followers))
+, "value": text, "rows": "3", "className": "form-control", "id": "accounts-input"})),React.DOM.button({"onClick": ((function (___$1,map__219173,map__219173__$1,text,map__219168,map__219168__$1,on_get_followers){
 return (function (e){
 e.preventDefault();
 
@@ -143,195 +143,139 @@ var new_accounts = clojure.string.split.call(null,text,/ /);
 om.core.update_BANG_.call(null,self__.accounts,new_accounts);
 
 return self__.on_get_followers.call(null,new_accounts);
-});})(___$1,map__125086,map__125086__$1,text,map__125081,map__125081__$1,on_get_followers))
+});})(___$1,map__219173,map__219173__$1,text,map__219168,map__219168__$1,on_get_followers))
 , "className": "btn btn-primary"},"Get Followers"));
-});})(map__125081,map__125081__$1,on_get_followers))
+});})(map__219168,map__219168__$1,on_get_followers))
 ;
 
-mentionmyfollowers.core.t125082.prototype.om$core$IInitState$ = true;
+mentionmyfollowers.core.t219169.prototype.om$core$IInitState$ = true;
 
-mentionmyfollowers.core.t125082.prototype.om$core$IInitState$init_state$arity$1 = ((function (map__125081,map__125081__$1,on_get_followers){
+mentionmyfollowers.core.t219169.prototype.om$core$IInitState$init_state$arity$1 = ((function (map__219168,map__219168__$1,on_get_followers){
 return (function (_){
 var self__ = this;
 var ___$1 = this;
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"accounts","accounts",-935308676),clojure.string.join.call(null," ",self__.accounts)], null);
-});})(map__125081,map__125081__$1,on_get_followers))
+});})(map__219168,map__219168__$1,on_get_followers))
 ;
 
-mentionmyfollowers.core.t125082.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__125081,map__125081__$1,on_get_followers){
-return (function (_125084){
+mentionmyfollowers.core.t219169.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__219168,map__219168__$1,on_get_followers){
+return (function (_219171){
 var self__ = this;
-var _125084__$1 = this;
-return self__.meta125083;
-});})(map__125081,map__125081__$1,on_get_followers))
+var _219171__$1 = this;
+return self__.meta219170;
+});})(map__219168,map__219168__$1,on_get_followers))
 ;
 
-mentionmyfollowers.core.t125082.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__125081,map__125081__$1,on_get_followers){
-return (function (_125084,meta125083__$1){
+mentionmyfollowers.core.t219169.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__219168,map__219168__$1,on_get_followers){
+return (function (_219171,meta219170__$1){
 var self__ = this;
-var _125084__$1 = this;
-return (new mentionmyfollowers.core.t125082(self__.on_get_followers,self__.map__125081,self__.p__125074,self__.owner,self__.accounts,self__.accounts_form,meta125083__$1));
-});})(map__125081,map__125081__$1,on_get_followers))
+var _219171__$1 = this;
+return (new mentionmyfollowers.core.t219169(self__.on_get_followers,self__.map__219168,self__.p__219161,self__.owner,self__.accounts,self__.accounts_form,meta219170__$1));
+});})(map__219168,map__219168__$1,on_get_followers))
 ;
 
-mentionmyfollowers.core.t125082.cljs$lang$type = true;
+mentionmyfollowers.core.t219169.cljs$lang$type = true;
 
-mentionmyfollowers.core.t125082.cljs$lang$ctorStr = "mentionmyfollowers.core/t125082";
+mentionmyfollowers.core.t219169.cljs$lang$ctorStr = "mentionmyfollowers.core/t219169";
 
-mentionmyfollowers.core.t125082.cljs$lang$ctorPrWriter = ((function (map__125081,map__125081__$1,on_get_followers){
+mentionmyfollowers.core.t219169.cljs$lang$ctorPrWriter = ((function (map__219168,map__219168__$1,on_get_followers){
 return (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
-return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t125082");
-});})(map__125081,map__125081__$1,on_get_followers))
+return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t219169");
+});})(map__219168,map__219168__$1,on_get_followers))
 ;
 
-mentionmyfollowers.core.__GT_t125082 = ((function (map__125081,map__125081__$1,on_get_followers){
-return (function __GT_t125082(on_get_followers__$1,map__125081__$2,p__125074__$1,owner__$1,accounts__$1,accounts_form__$1,meta125083){
-return (new mentionmyfollowers.core.t125082(on_get_followers__$1,map__125081__$2,p__125074__$1,owner__$1,accounts__$1,accounts_form__$1,meta125083));
-});})(map__125081,map__125081__$1,on_get_followers))
+mentionmyfollowers.core.__GT_t219169 = ((function (map__219168,map__219168__$1,on_get_followers){
+return (function __GT_t219169(on_get_followers__$1,map__219168__$2,p__219161__$1,owner__$1,accounts__$1,accounts_form__$1,meta219170){
+return (new mentionmyfollowers.core.t219169(on_get_followers__$1,map__219168__$2,p__219161__$1,owner__$1,accounts__$1,accounts_form__$1,meta219170));
+});})(map__219168,map__219168__$1,on_get_followers))
 ;
 
 }
 
-return (new mentionmyfollowers.core.t125082(on_get_followers,map__125081__$1,p__125074,owner,accounts,accounts_form,cljs.core.PersistentArrayMap.EMPTY));
+return (new mentionmyfollowers.core.t219169(on_get_followers,map__219168__$1,p__219161,owner,accounts,accounts_form,cljs.core.PersistentArrayMap.EMPTY));
 });
 /**
 * Reports an error of restful api call.
 */
-mentionmyfollowers.core.report_error_BANG_ = (function report_error_BANG_(p__125087){
-var map__125089 = p__125087;
-var map__125089__$1 = ((cljs.core.seq_QMARK_.call(null,map__125089))?cljs.core.apply.call(null,cljs.core.hash_map,map__125089):map__125089);
-var error = map__125089__$1;
-var failure = cljs.core.get.call(null,map__125089__$1,new cljs.core.Keyword(null,"failure","failure",720415879));
-var status_text = cljs.core.get.call(null,map__125089__$1,new cljs.core.Keyword(null,"status-text","status-text",-1834235478));
-var status = cljs.core.get.call(null,map__125089__$1,new cljs.core.Keyword(null,"status","status",-1997798413));
+mentionmyfollowers.core.report_error_BANG_ = (function report_error_BANG_(p__219174){
+var map__219176 = p__219174;
+var map__219176__$1 = ((cljs.core.seq_QMARK_.call(null,map__219176))?cljs.core.apply.call(null,cljs.core.hash_map,map__219176):map__219176);
+var error = map__219176__$1;
+var failure = cljs.core.get.call(null,map__219176__$1,new cljs.core.Keyword(null,"failure","failure",720415879));
+var status_text = cljs.core.get.call(null,map__219176__$1,new cljs.core.Keyword(null,"status-text","status-text",-1834235478));
+var status = cljs.core.get.call(null,map__219176__$1,new cljs.core.Keyword(null,"status","status",-1997798413));
 return cljs.core.println.call(null,error);
 });
 mentionmyfollowers.core.loading_followers = (function loading_followers(_,___$1){
-if(typeof mentionmyfollowers.core.t125093 !== 'undefined'){
+if(typeof mentionmyfollowers.core.t219180 !== 'undefined'){
 } else {
 
 /**
 * @constructor
 */
-mentionmyfollowers.core.t125093 = (function (_,loading_followers,meta125094){
+mentionmyfollowers.core.t219180 = (function (_,loading_followers,meta219181){
 this._ = _;
 this.loading_followers = loading_followers;
-this.meta125094 = meta125094;
+this.meta219181 = meta219181;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 })
-mentionmyfollowers.core.t125093.prototype.om$core$IRender$ = true;
+mentionmyfollowers.core.t219180.prototype.om$core$IRender$ = true;
 
-mentionmyfollowers.core.t125093.prototype.om$core$IRender$render$arity$1 = (function (___$1){
+mentionmyfollowers.core.t219180.prototype.om$core$IRender$render$arity$1 = (function (___$1){
 var self__ = this;
 var ___$2 = this;
 return React.DOM.div({"className": "progress"},React.DOM.div({"aria-valuemax": "100", "aria-valuemin": "0", "aria-valuenow": "75", "role": "progressbar", "className": "progress-bar progress-bar-striped active"}));
 });
 
-mentionmyfollowers.core.t125093.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_125095){
+mentionmyfollowers.core.t219180.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_219182){
 var self__ = this;
-var _125095__$1 = this;
-return self__.meta125094;
+var _219182__$1 = this;
+return self__.meta219181;
 });
 
-mentionmyfollowers.core.t125093.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_125095,meta125094__$1){
+mentionmyfollowers.core.t219180.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_219182,meta219181__$1){
 var self__ = this;
-var _125095__$1 = this;
-return (new mentionmyfollowers.core.t125093(self__._,self__.loading_followers,meta125094__$1));
+var _219182__$1 = this;
+return (new mentionmyfollowers.core.t219180(self__._,self__.loading_followers,meta219181__$1));
 });
 
-mentionmyfollowers.core.t125093.cljs$lang$type = true;
+mentionmyfollowers.core.t219180.cljs$lang$type = true;
 
-mentionmyfollowers.core.t125093.cljs$lang$ctorStr = "mentionmyfollowers.core/t125093";
+mentionmyfollowers.core.t219180.cljs$lang$ctorStr = "mentionmyfollowers.core/t219180";
 
-mentionmyfollowers.core.t125093.cljs$lang$ctorPrWriter = (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
-return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t125093");
+mentionmyfollowers.core.t219180.cljs$lang$ctorPrWriter = (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
+return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t219180");
 });
 
-mentionmyfollowers.core.__GT_t125093 = (function __GT_t125093(___$2,loading_followers__$1,meta125094){
-return (new mentionmyfollowers.core.t125093(___$2,loading_followers__$1,meta125094));
+mentionmyfollowers.core.__GT_t219180 = (function __GT_t219180(___$2,loading_followers__$1,meta219181){
+return (new mentionmyfollowers.core.t219180(___$2,loading_followers__$1,meta219181));
 });
 
 }
 
-return (new mentionmyfollowers.core.t125093(___$1,loading_followers,cljs.core.PersistentArrayMap.EMPTY));
+return (new mentionmyfollowers.core.t219180(___$1,loading_followers,cljs.core.PersistentArrayMap.EMPTY));
 });
-mentionmyfollowers.core.follower_item = (function follower_item(followers,owner,p__125096){
-var map__125101 = p__125096;
-var map__125101__$1 = ((cljs.core.seq_QMARK_.call(null,map__125101))?cljs.core.apply.call(null,cljs.core.hash_map,map__125101):map__125101);
-var is_selected_QMARK_ = cljs.core.get.call(null,map__125101__$1,new cljs.core.Keyword(null,"is-selected?","is-selected?",694061043));
-var on_click = cljs.core.get.call(null,map__125101__$1,new cljs.core.Keyword(null,"on-click","on-click",1632826543));
-var idx = cljs.core.get.call(null,map__125101__$1,new cljs.core.Keyword(null,"idx","idx",1053688473));
-if(typeof mentionmyfollowers.core.t125102 !== 'undefined'){
+mentionmyfollowers.core.update_selection = (function update_selection(p__219183,idx){
+var map__219185 = p__219183;
+var map__219185__$1 = ((cljs.core.seq_QMARK_.call(null,map__219185))?cljs.core.apply.call(null,cljs.core.hash_map,map__219185):map__219185);
+var selection = map__219185__$1;
+var to = cljs.core.get.call(null,map__219185__$1,new cljs.core.Keyword(null,"to","to",192099007));
+var from = cljs.core.get.call(null,map__219185__$1,new cljs.core.Keyword(null,"from","from",1815293044));
+cljs.core.println.call(null,"Setting selection",idx,"->",from,to);
+
+if(((from == null)) || ((idx <= from))){
+return cljs.core.assoc.call(null,selection,new cljs.core.Keyword(null,"from","from",1815293044),idx);
 } else {
-
-/**
-* @constructor
-*/
-mentionmyfollowers.core.t125102 = (function (idx,on_click,is_selected_QMARK_,map__125101,p__125096,owner,followers,follower_item,meta125103){
-this.idx = idx;
-this.on_click = on_click;
-this.is_selected_QMARK_ = is_selected_QMARK_;
-this.map__125101 = map__125101;
-this.p__125096 = p__125096;
-this.owner = owner;
-this.followers = followers;
-this.follower_item = follower_item;
-this.meta125103 = meta125103;
-this.cljs$lang$protocol_mask$partition1$ = 0;
-this.cljs$lang$protocol_mask$partition0$ = 393216;
-})
-mentionmyfollowers.core.t125102.prototype.om$core$IRender$ = true;
-
-mentionmyfollowers.core.t125102.prototype.om$core$IRender$render$arity$1 = ((function (map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx){
-return (function (_){
-var self__ = this;
-var ___$1 = this;
-return React.DOM.a({"onClick": self__.on_click, "className": [cljs.core.str("list-group-item"),cljs.core.str((cljs.core.truth_(self__.is_selected_QMARK_)?"active":null))].join(''), "href": "#"},cljs.core.get.call(null,self__.followers,self__.idx));
-});})(map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx))
-;
-
-mentionmyfollowers.core.t125102.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx){
-return (function (_125104){
-var self__ = this;
-var _125104__$1 = this;
-return self__.meta125103;
-});})(map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx))
-;
-
-mentionmyfollowers.core.t125102.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx){
-return (function (_125104,meta125103__$1){
-var self__ = this;
-var _125104__$1 = this;
-return (new mentionmyfollowers.core.t125102(self__.idx,self__.on_click,self__.is_selected_QMARK_,self__.map__125101,self__.p__125096,self__.owner,self__.followers,self__.follower_item,meta125103__$1));
-});})(map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx))
-;
-
-mentionmyfollowers.core.t125102.cljs$lang$type = true;
-
-mentionmyfollowers.core.t125102.cljs$lang$ctorStr = "mentionmyfollowers.core/t125102";
-
-mentionmyfollowers.core.t125102.cljs$lang$ctorPrWriter = ((function (map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx){
-return (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
-return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t125102");
-});})(map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx))
-;
-
-mentionmyfollowers.core.__GT_t125102 = ((function (map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx){
-return (function __GT_t125102(idx__$1,on_click__$1,is_selected_QMARK___$1,map__125101__$2,p__125096__$1,owner__$1,followers__$1,follower_item__$1,meta125103){
-return (new mentionmyfollowers.core.t125102(idx__$1,on_click__$1,is_selected_QMARK___$1,map__125101__$2,p__125096__$1,owner__$1,followers__$1,follower_item__$1,meta125103));
-});})(map__125101,map__125101__$1,is_selected_QMARK_,on_click,idx))
-;
+return cljs.core.assoc.call(null,selection,new cljs.core.Keyword(null,"to","to",192099007),idx);
 
 }
-
-return (new mentionmyfollowers.core.t125102(idx,on_click,is_selected_QMARK_,map__125101__$1,p__125096,owner,followers,follower_item,cljs.core.PersistentArrayMap.EMPTY));
 });
-mentionmyfollowers.core.is_selected_QMARK_ = (function is_selected_QMARK_(i,p__125105){
-var map__125107 = p__125105;
-var map__125107__$1 = ((cljs.core.seq_QMARK_.call(null,map__125107))?cljs.core.apply.call(null,cljs.core.hash_map,map__125107):map__125107);
-var to = cljs.core.get.call(null,map__125107__$1,new cljs.core.Keyword(null,"to","to",192099007));
-var from = cljs.core.get.call(null,map__125107__$1,new cljs.core.Keyword(null,"from","from",1815293044));
+mentionmyfollowers.core.is_selected_QMARK_ = (function is_selected_QMARK_(i,p__219186){
+var map__219188 = p__219186;
+var map__219188__$1 = ((cljs.core.seq_QMARK_.call(null,map__219188))?cljs.core.apply.call(null,cljs.core.hash_map,map__219188):map__219188);
+var to = cljs.core.get.call(null,map__219188__$1,new cljs.core.Keyword(null,"to","to",192099007));
+var from = cljs.core.get.call(null,map__219188__$1,new cljs.core.Keyword(null,"from","from",1815293044));
 if(cljs.core.not.call(null,(function (){var or__3981__auto__ = from;
 if(cljs.core.truth_(or__3981__auto__)){
 return or__3981__auto__;
@@ -339,7 +283,7 @@ return or__3981__auto__;
 return to;
 }
 })())){
-return null;
+return false;
 } else {
 if(cljs.core.truth_((function (){var and__3969__auto__ = from;
 if(cljs.core.truth_(and__3969__auto__)){
@@ -362,174 +306,232 @@ return null;
 }
 }
 });
-mentionmyfollowers.core.update_selection = (function update_selection(p__125108,idx){
-var map__125110 = p__125108;
-var map__125110__$1 = ((cljs.core.seq_QMARK_.call(null,map__125110))?cljs.core.apply.call(null,cljs.core.hash_map,map__125110):map__125110);
-var selection = map__125110__$1;
-var to = cljs.core.get.call(null,map__125110__$1,new cljs.core.Keyword(null,"to","to",192099007));
-var from = cljs.core.get.call(null,map__125110__$1,new cljs.core.Keyword(null,"from","from",1815293044));
-if(((from == null)) || ((idx <= from))){
-return cljs.core.assoc.call(null,selection,new cljs.core.Keyword(null,"from","from",1815293044),idx);
-} else {
-return cljs.core.assoc.call(null,selection,new cljs.core.Keyword(null,"to","to",192099007),idx);
-
-}
-});
-mentionmyfollowers.core.select_followers_list = (function select_followers_list(followers_and_selection,owner){
-if(typeof mentionmyfollowers.core.t125115 !== 'undefined'){
+mentionmyfollowers.core.follower_item = (function follower_item(followers_and_selection,owner,p__219189){
+var map__219194 = p__219189;
+var map__219194__$1 = ((cljs.core.seq_QMARK_.call(null,map__219194))?cljs.core.apply.call(null,cljs.core.hash_map,map__219194):map__219194);
+var idx = cljs.core.get.call(null,map__219194__$1,new cljs.core.Keyword(null,"idx","idx",1053688473));
+if(typeof mentionmyfollowers.core.t219195 !== 'undefined'){
 } else {
 
 /**
 * @constructor
 */
-mentionmyfollowers.core.t125115 = (function (owner,followers_and_selection,select_followers_list,meta125116){
+mentionmyfollowers.core.t219195 = (function (idx,map__219194,p__219189,owner,followers_and_selection,follower_item,meta219196){
+this.idx = idx;
+this.map__219194 = map__219194;
+this.p__219189 = p__219189;
 this.owner = owner;
 this.followers_and_selection = followers_and_selection;
-this.select_followers_list = select_followers_list;
-this.meta125116 = meta125116;
+this.follower_item = follower_item;
+this.meta219196 = meta219196;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 })
-mentionmyfollowers.core.t125115.prototype.om$core$IRender$ = true;
+mentionmyfollowers.core.t219195.prototype.om$core$IRender$ = true;
 
-mentionmyfollowers.core.t125115.prototype.om$core$IRender$render$arity$1 = (function (_){
+mentionmyfollowers.core.t219195.prototype.om$core$IRender$render$arity$1 = ((function (map__219194,map__219194__$1,idx){
+return (function (_){
+var self__ = this;
+var ___$1 = this;
+var followers = new cljs.core.Keyword(null,"followers","followers",1992141885).cljs$core$IFn$_invoke$arity$1(self__.followers_and_selection);
+var selection = new cljs.core.Keyword(null,"selection","selection",975998651).cljs$core$IFn$_invoke$arity$1(self__.followers_and_selection);
+var is_this_selected_QMARK_ = mentionmyfollowers.core.is_selected_QMARK_.call(null,self__.idx,new cljs.core.Keyword(null,"selection","selection",975998651).cljs$core$IFn$_invoke$arity$1(self__.followers_and_selection));
+var on_click = ((function (followers,selection,is_this_selected_QMARK_,___$1,map__219194,map__219194__$1,idx){
+return (function (e){
+e.preventDefault();
+
+return om.core.transact_BANG_.call(null,self__.followers_and_selection,new cljs.core.Keyword(null,"selection","selection",975998651),((function (followers,selection,is_this_selected_QMARK_,___$1,map__219194,map__219194__$1,idx){
+return (function (s){
+return mentionmyfollowers.core.update_selection.call(null,s,self__.idx);
+});})(followers,selection,is_this_selected_QMARK_,___$1,map__219194,map__219194__$1,idx))
+);
+});})(followers,selection,is_this_selected_QMARK_,___$1,map__219194,map__219194__$1,idx))
+;
+return React.DOM.a({"onClick": on_click, "className": [cljs.core.str("list-group-item"),cljs.core.str((cljs.core.truth_(is_this_selected_QMARK_)?" active":null))].join(''), "href": "#"},cljs.core.get.call(null,followers,self__.idx));
+});})(map__219194,map__219194__$1,idx))
+;
+
+mentionmyfollowers.core.t219195.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__219194,map__219194__$1,idx){
+return (function (_219197){
+var self__ = this;
+var _219197__$1 = this;
+return self__.meta219196;
+});})(map__219194,map__219194__$1,idx))
+;
+
+mentionmyfollowers.core.t219195.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__219194,map__219194__$1,idx){
+return (function (_219197,meta219196__$1){
+var self__ = this;
+var _219197__$1 = this;
+return (new mentionmyfollowers.core.t219195(self__.idx,self__.map__219194,self__.p__219189,self__.owner,self__.followers_and_selection,self__.follower_item,meta219196__$1));
+});})(map__219194,map__219194__$1,idx))
+;
+
+mentionmyfollowers.core.t219195.cljs$lang$type = true;
+
+mentionmyfollowers.core.t219195.cljs$lang$ctorStr = "mentionmyfollowers.core/t219195";
+
+mentionmyfollowers.core.t219195.cljs$lang$ctorPrWriter = ((function (map__219194,map__219194__$1,idx){
+return (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
+return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t219195");
+});})(map__219194,map__219194__$1,idx))
+;
+
+mentionmyfollowers.core.__GT_t219195 = ((function (map__219194,map__219194__$1,idx){
+return (function __GT_t219195(idx__$1,map__219194__$2,p__219189__$1,owner__$1,followers_and_selection__$1,follower_item__$1,meta219196){
+return (new mentionmyfollowers.core.t219195(idx__$1,map__219194__$2,p__219189__$1,owner__$1,followers_and_selection__$1,follower_item__$1,meta219196));
+});})(map__219194,map__219194__$1,idx))
+;
+
+}
+
+return (new mentionmyfollowers.core.t219195(idx,map__219194__$1,p__219189,owner,followers_and_selection,follower_item,cljs.core.PersistentArrayMap.EMPTY));
+});
+mentionmyfollowers.core.select_followers_list = (function select_followers_list(followers_and_selection,owner){
+if(typeof mentionmyfollowers.core.t219202 !== 'undefined'){
+} else {
+
+/**
+* @constructor
+*/
+mentionmyfollowers.core.t219202 = (function (owner,followers_and_selection,select_followers_list,meta219203){
+this.owner = owner;
+this.followers_and_selection = followers_and_selection;
+this.select_followers_list = select_followers_list;
+this.meta219203 = meta219203;
+this.cljs$lang$protocol_mask$partition1$ = 0;
+this.cljs$lang$protocol_mask$partition0$ = 393216;
+})
+mentionmyfollowers.core.t219202.prototype.om$core$IRender$ = true;
+
+mentionmyfollowers.core.t219202.prototype.om$core$IRender$render$arity$1 = (function (_){
 var self__ = this;
 var ___$1 = this;
 return cljs.core.apply.call(null,om.dom.div,{"className": "list-group"},(function (){var followers = new cljs.core.Keyword(null,"followers","followers",1992141885).cljs$core$IFn$_invoke$arity$1(self__.followers_and_selection);
 return cljs.core.map.call(null,((function (followers,___$1){
-return (function (p1__125111_SHARP_){
-return om.core.build.call(null,mentionmyfollowers.core.follower_item,followers,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opts","opts",155075701),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"idx","idx",1053688473),p1__125111_SHARP_,new cljs.core.Keyword(null,"is-selected?","is-selected?",694061043),mentionmyfollowers.core.is_selected_QMARK_.call(null,p1__125111_SHARP_,new cljs.core.Keyword(null,"selection","selection",975998651).cljs$core$IFn$_invoke$arity$1(self__.followers_and_selection)),new cljs.core.Keyword(null,"on-click","on-click",1632826543),((function (followers,___$1){
-return (function (e){
-e.preventDefault();
-
-return om.core.transact_BANG_.call(null,self__.followers_and_selection,new cljs.core.Keyword(null,"selection","selection",975998651),((function (followers,___$1){
-return (function (selection){
-return mentionmyfollowers.core.update_selection.call(null,selection,p1__125111_SHARP_);
-});})(followers,___$1))
-);
-});})(followers,___$1))
-], null)], null));
+return (function (p1__219198_SHARP_){
+return om.core.build.call(null,mentionmyfollowers.core.follower_item,self__.followers_and_selection,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opts","opts",155075701),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"idx","idx",1053688473),p1__219198_SHARP_], null)], null));
 });})(followers,___$1))
 ,cljs.core.range.call(null,cljs.core.count.call(null,followers)));
 })());
 });
 
-mentionmyfollowers.core.t125115.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_125117){
+mentionmyfollowers.core.t219202.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_219204){
 var self__ = this;
-var _125117__$1 = this;
-return self__.meta125116;
+var _219204__$1 = this;
+return self__.meta219203;
 });
 
-mentionmyfollowers.core.t125115.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_125117,meta125116__$1){
+mentionmyfollowers.core.t219202.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_219204,meta219203__$1){
 var self__ = this;
-var _125117__$1 = this;
-return (new mentionmyfollowers.core.t125115(self__.owner,self__.followers_and_selection,self__.select_followers_list,meta125116__$1));
+var _219204__$1 = this;
+return (new mentionmyfollowers.core.t219202(self__.owner,self__.followers_and_selection,self__.select_followers_list,meta219203__$1));
 });
 
-mentionmyfollowers.core.t125115.cljs$lang$type = true;
+mentionmyfollowers.core.t219202.cljs$lang$type = true;
 
-mentionmyfollowers.core.t125115.cljs$lang$ctorStr = "mentionmyfollowers.core/t125115";
+mentionmyfollowers.core.t219202.cljs$lang$ctorStr = "mentionmyfollowers.core/t219202";
 
-mentionmyfollowers.core.t125115.cljs$lang$ctorPrWriter = (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
-return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t125115");
+mentionmyfollowers.core.t219202.cljs$lang$ctorPrWriter = (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
+return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t219202");
 });
 
-mentionmyfollowers.core.__GT_t125115 = (function __GT_t125115(owner__$1,followers_and_selection__$1,select_followers_list__$1,meta125116){
-return (new mentionmyfollowers.core.t125115(owner__$1,followers_and_selection__$1,select_followers_list__$1,meta125116));
+mentionmyfollowers.core.__GT_t219202 = (function __GT_t219202(owner__$1,followers_and_selection__$1,select_followers_list__$1,meta219203){
+return (new mentionmyfollowers.core.t219202(owner__$1,followers_and_selection__$1,select_followers_list__$1,meta219203));
 });
 
 }
 
-return (new mentionmyfollowers.core.t125115(owner,followers_and_selection,select_followers_list,cljs.core.PersistentArrayMap.EMPTY));
+return (new mentionmyfollowers.core.t219202(owner,followers_and_selection,select_followers_list,cljs.core.PersistentArrayMap.EMPTY));
 });
-mentionmyfollowers.core.select_followers = (function select_followers(followers_and_selection,owner,p__125118){
-var map__125123 = p__125118;
-var map__125123__$1 = ((cljs.core.seq_QMARK_.call(null,map__125123))?cljs.core.apply.call(null,cljs.core.hash_map,map__125123):map__125123);
-var on_cancel = cljs.core.get.call(null,map__125123__$1,new cljs.core.Keyword(null,"on-cancel","on-cancel",-2071892932));
-if(typeof mentionmyfollowers.core.t125124 !== 'undefined'){
+mentionmyfollowers.core.select_followers = (function select_followers(followers_and_selection,owner,p__219205){
+var map__219210 = p__219205;
+var map__219210__$1 = ((cljs.core.seq_QMARK_.call(null,map__219210))?cljs.core.apply.call(null,cljs.core.hash_map,map__219210):map__219210);
+var on_cancel = cljs.core.get.call(null,map__219210__$1,new cljs.core.Keyword(null,"on-cancel","on-cancel",-2071892932));
+if(typeof mentionmyfollowers.core.t219211 !== 'undefined'){
 } else {
 
 /**
 * @constructor
 */
-mentionmyfollowers.core.t125124 = (function (on_cancel,map__125123,p__125118,owner,followers_and_selection,select_followers,meta125125){
+mentionmyfollowers.core.t219211 = (function (on_cancel,map__219210,p__219205,owner,followers_and_selection,select_followers,meta219212){
 this.on_cancel = on_cancel;
-this.map__125123 = map__125123;
-this.p__125118 = p__125118;
+this.map__219210 = map__219210;
+this.p__219205 = p__219205;
 this.owner = owner;
 this.followers_and_selection = followers_and_selection;
 this.select_followers = select_followers;
-this.meta125125 = meta125125;
+this.meta219212 = meta219212;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 })
-mentionmyfollowers.core.t125124.prototype.om$core$IRender$ = true;
+mentionmyfollowers.core.t219211.prototype.om$core$IRender$ = true;
 
-mentionmyfollowers.core.t125124.prototype.om$core$IRender$render$arity$1 = ((function (map__125123,map__125123__$1,on_cancel){
+mentionmyfollowers.core.t219211.prototype.om$core$IRender$render$arity$1 = ((function (map__219210,map__219210__$1,on_cancel){
 return (function (_){
 var self__ = this;
 var ___$1 = this;
 return React.DOM.div(null,om.core.build.call(null,mentionmyfollowers.core.select_followers_list,self__.followers_and_selection),React.DOM.button({"className": "btn btn-primary"},"Go"),React.DOM.button({"onClick": self__.on_cancel, "className": "btn btn-danger"},"Cancel"));
-});})(map__125123,map__125123__$1,on_cancel))
+});})(map__219210,map__219210__$1,on_cancel))
 ;
 
-mentionmyfollowers.core.t125124.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__125123,map__125123__$1,on_cancel){
-return (function (_125126){
+mentionmyfollowers.core.t219211.prototype.cljs$core$IMeta$_meta$arity$1 = ((function (map__219210,map__219210__$1,on_cancel){
+return (function (_219213){
 var self__ = this;
-var _125126__$1 = this;
-return self__.meta125125;
-});})(map__125123,map__125123__$1,on_cancel))
+var _219213__$1 = this;
+return self__.meta219212;
+});})(map__219210,map__219210__$1,on_cancel))
 ;
 
-mentionmyfollowers.core.t125124.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__125123,map__125123__$1,on_cancel){
-return (function (_125126,meta125125__$1){
+mentionmyfollowers.core.t219211.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = ((function (map__219210,map__219210__$1,on_cancel){
+return (function (_219213,meta219212__$1){
 var self__ = this;
-var _125126__$1 = this;
-return (new mentionmyfollowers.core.t125124(self__.on_cancel,self__.map__125123,self__.p__125118,self__.owner,self__.followers_and_selection,self__.select_followers,meta125125__$1));
-});})(map__125123,map__125123__$1,on_cancel))
+var _219213__$1 = this;
+return (new mentionmyfollowers.core.t219211(self__.on_cancel,self__.map__219210,self__.p__219205,self__.owner,self__.followers_and_selection,self__.select_followers,meta219212__$1));
+});})(map__219210,map__219210__$1,on_cancel))
 ;
 
-mentionmyfollowers.core.t125124.cljs$lang$type = true;
+mentionmyfollowers.core.t219211.cljs$lang$type = true;
 
-mentionmyfollowers.core.t125124.cljs$lang$ctorStr = "mentionmyfollowers.core/t125124";
+mentionmyfollowers.core.t219211.cljs$lang$ctorStr = "mentionmyfollowers.core/t219211";
 
-mentionmyfollowers.core.t125124.cljs$lang$ctorPrWriter = ((function (map__125123,map__125123__$1,on_cancel){
+mentionmyfollowers.core.t219211.cljs$lang$ctorPrWriter = ((function (map__219210,map__219210__$1,on_cancel){
 return (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
-return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t125124");
-});})(map__125123,map__125123__$1,on_cancel))
+return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t219211");
+});})(map__219210,map__219210__$1,on_cancel))
 ;
 
-mentionmyfollowers.core.__GT_t125124 = ((function (map__125123,map__125123__$1,on_cancel){
-return (function __GT_t125124(on_cancel__$1,map__125123__$2,p__125118__$1,owner__$1,followers_and_selection__$1,select_followers__$1,meta125125){
-return (new mentionmyfollowers.core.t125124(on_cancel__$1,map__125123__$2,p__125118__$1,owner__$1,followers_and_selection__$1,select_followers__$1,meta125125));
-});})(map__125123,map__125123__$1,on_cancel))
+mentionmyfollowers.core.__GT_t219211 = ((function (map__219210,map__219210__$1,on_cancel){
+return (function __GT_t219211(on_cancel__$1,map__219210__$2,p__219205__$1,owner__$1,followers_and_selection__$1,select_followers__$1,meta219212){
+return (new mentionmyfollowers.core.t219211(on_cancel__$1,map__219210__$2,p__219205__$1,owner__$1,followers_and_selection__$1,select_followers__$1,meta219212));
+});})(map__219210,map__219210__$1,on_cancel))
 ;
 
 }
 
-return (new mentionmyfollowers.core.t125124(on_cancel,map__125123__$1,p__125118,owner,followers_and_selection,select_followers,cljs.core.PersistentArrayMap.EMPTY));
+return (new mentionmyfollowers.core.t219211(on_cancel,map__219210__$1,p__219205,owner,followers_and_selection,select_followers,cljs.core.PersistentArrayMap.EMPTY));
 });
 /**
 * The main application component
 */
 mentionmyfollowers.core.application = (function application(data,owner){
-if(typeof mentionmyfollowers.core.t125134 !== 'undefined'){
+if(typeof mentionmyfollowers.core.t219221 !== 'undefined'){
 } else {
 
 /**
 * @constructor
 */
-mentionmyfollowers.core.t125134 = (function (owner,data,application,meta125135){
+mentionmyfollowers.core.t219221 = (function (owner,data,application,meta219222){
 this.owner = owner;
 this.data = data;
 this.application = application;
-this.meta125135 = meta125135;
+this.meta219222 = meta219222;
 this.cljs$lang$protocol_mask$partition1$ = 0;
 this.cljs$lang$protocol_mask$partition0$ = 393216;
 })
-mentionmyfollowers.core.t125134.prototype.om$core$IRenderState$ = true;
+mentionmyfollowers.core.t219221.prototype.om$core$IRenderState$ = true;
 
-mentionmyfollowers.core.t125134.prototype.om$core$IRenderState$render_state$arity$2 = (function (_,state){
+mentionmyfollowers.core.t219221.prototype.om$core$IRenderState$render_state$arity$2 = (function (_,state){
 var self__ = this;
 var ___$1 = this;
 var handle_get_followers = ((function (___$1){
@@ -553,84 +555,84 @@ return om.core.set_state_BANG_.call(null,self__.owner,new cljs.core.Keyword(null
 ], null));
 });})(___$1))
 ;
-return React.DOM.div({"className": "container"},(function (){var pred__125137 = cljs.core._EQ_;
-var expr__125138 = new cljs.core.Keyword(null,"view","view",1247994814).cljs$core$IFn$_invoke$arity$1(state);
-if(cljs.core.truth_(pred__125137.call(null,new cljs.core.Keyword(null,"accounts-form","accounts-form",-328669534),expr__125138))){
+return React.DOM.div({"className": "container"},(function (){var pred__219224 = cljs.core._EQ_;
+var expr__219225 = new cljs.core.Keyword(null,"view","view",1247994814).cljs$core$IFn$_invoke$arity$1(state);
+if(cljs.core.truth_(pred__219224.call(null,new cljs.core.Keyword(null,"accounts-form","accounts-form",-328669534),expr__219225))){
 return om.core.build.call(null,mentionmyfollowers.core.accounts_form,new cljs.core.Keyword(null,"accounts","accounts",-935308676).cljs$core$IFn$_invoke$arity$1(self__.data),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opts","opts",155075701),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-get-followers","on-get-followers",87044518),handle_get_followers], null)], null));
 } else {
-if(cljs.core.truth_(pred__125137.call(null,new cljs.core.Keyword(null,"loading-followers","loading-followers",1692268659),expr__125138))){
+if(cljs.core.truth_(pred__219224.call(null,new cljs.core.Keyword(null,"loading-followers","loading-followers",1692268659),expr__219225))){
 return om.core.build.call(null,mentionmyfollowers.core.loading_followers,null);
 } else {
-if(cljs.core.truth_(pred__125137.call(null,new cljs.core.Keyword(null,"select-followers","select-followers",-1421776266),expr__125138))){
-return om.core.build.call(null,mentionmyfollowers.core.select_followers,new cljs.core.Keyword(null,"followers-and-selection","followers-and-selection",-1144286188).cljs$core$IFn$_invoke$arity$1(self__.data),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opts","opts",155075701),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-cancel","on-cancel",-2071892932),((function (pred__125137,expr__125138,handle_get_followers,___$1){
+if(cljs.core.truth_(pred__219224.call(null,new cljs.core.Keyword(null,"select-followers","select-followers",-1421776266),expr__219225))){
+return om.core.build.call(null,mentionmyfollowers.core.select_followers,new cljs.core.Keyword(null,"followers-and-selection","followers-and-selection",-1144286188).cljs$core$IFn$_invoke$arity$1(self__.data),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"opts","opts",155075701),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"on-cancel","on-cancel",-2071892932),((function (pred__219224,expr__219225,handle_get_followers,___$1){
 return (function (e){
 cljs.core.println.call(null,"Cancel in select-followers view");
 
 e.preventDefault();
 
 return om.core.set_state_BANG_.call(null,self__.owner,new cljs.core.Keyword(null,"view","view",1247994814),new cljs.core.Keyword(null,"accounts-form","accounts-form",-328669534));
-});})(pred__125137,expr__125138,handle_get_followers,___$1))
+});})(pred__219224,expr__219225,handle_get_followers,___$1))
 ], null)], null));
 } else {
-throw (new Error([cljs.core.str("No matching clause: "),cljs.core.str(expr__125138)].join('')));
+throw (new Error([cljs.core.str("No matching clause: "),cljs.core.str(expr__219225)].join('')));
 }
 }
 }
 })());
 });
 
-mentionmyfollowers.core.t125134.prototype.om$core$IInitState$ = true;
+mentionmyfollowers.core.t219221.prototype.om$core$IInitState$ = true;
 
-mentionmyfollowers.core.t125134.prototype.om$core$IInitState$init_state$arity$1 = (function (_){
+mentionmyfollowers.core.t219221.prototype.om$core$IInitState$init_state$arity$1 = (function (_){
 var self__ = this;
 var ___$1 = this;
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"view","view",1247994814),new cljs.core.Keyword(null,"accounts-form","accounts-form",-328669534)], null);
 });
 
-mentionmyfollowers.core.t125134.prototype.om$core$IWillMount$ = true;
+mentionmyfollowers.core.t219221.prototype.om$core$IWillMount$ = true;
 
-mentionmyfollowers.core.t125134.prototype.om$core$IWillMount$will_mount$arity$1 = (function (_){
+mentionmyfollowers.core.t219221.prototype.om$core$IWillMount$will_mount$arity$1 = (function (_){
 var self__ = this;
 var ___$1 = this;
 cljs.core.println.call(null,"application - Will Mount");
 
 return mentionmyfollowers.core.read_user_id.call(null,((function (___$1){
-return (function (p1__125127_SHARP_){
+return (function (p1__219214_SHARP_){
 return om.core.transact_BANG_.call(null,self__.data,new cljs.core.Keyword(null,"user","user",1532431356),((function (___$1){
 return (function (user){
-return cljs.core.assoc.call(null,user,new cljs.core.Keyword(null,"user-id","user-id",-206822291),p1__125127_SHARP_);
+return cljs.core.assoc.call(null,user,new cljs.core.Keyword(null,"user-id","user-id",-206822291),p1__219214_SHARP_);
 });})(___$1))
 );
 });})(___$1))
 );
 });
 
-mentionmyfollowers.core.t125134.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_125136){
+mentionmyfollowers.core.t219221.prototype.cljs$core$IMeta$_meta$arity$1 = (function (_219223){
 var self__ = this;
-var _125136__$1 = this;
-return self__.meta125135;
+var _219223__$1 = this;
+return self__.meta219222;
 });
 
-mentionmyfollowers.core.t125134.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_125136,meta125135__$1){
+mentionmyfollowers.core.t219221.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (_219223,meta219222__$1){
 var self__ = this;
-var _125136__$1 = this;
-return (new mentionmyfollowers.core.t125134(self__.owner,self__.data,self__.application,meta125135__$1));
+var _219223__$1 = this;
+return (new mentionmyfollowers.core.t219221(self__.owner,self__.data,self__.application,meta219222__$1));
 });
 
-mentionmyfollowers.core.t125134.cljs$lang$type = true;
+mentionmyfollowers.core.t219221.cljs$lang$type = true;
 
-mentionmyfollowers.core.t125134.cljs$lang$ctorStr = "mentionmyfollowers.core/t125134";
+mentionmyfollowers.core.t219221.cljs$lang$ctorStr = "mentionmyfollowers.core/t219221";
 
-mentionmyfollowers.core.t125134.cljs$lang$ctorPrWriter = (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
-return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t125134");
+mentionmyfollowers.core.t219221.cljs$lang$ctorPrWriter = (function (this__4568__auto__,writer__4569__auto__,opt__4570__auto__){
+return cljs.core._write.call(null,writer__4569__auto__,"mentionmyfollowers.core/t219221");
 });
 
-mentionmyfollowers.core.__GT_t125134 = (function __GT_t125134(owner__$1,data__$1,application__$1,meta125135){
-return (new mentionmyfollowers.core.t125134(owner__$1,data__$1,application__$1,meta125135));
+mentionmyfollowers.core.__GT_t219221 = (function __GT_t219221(owner__$1,data__$1,application__$1,meta219222){
+return (new mentionmyfollowers.core.t219221(owner__$1,data__$1,application__$1,meta219222));
 });
 
 }
 
-return (new mentionmyfollowers.core.t125134(owner,data,application,cljs.core.PersistentArrayMap.EMPTY));
+return (new mentionmyfollowers.core.t219221(owner,data,application,cljs.core.PersistentArrayMap.EMPTY));
 });
 om.core.root.call(null,mentionmyfollowers.core.application,mentionmyfollowers.core.app_state,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"target","target",253001721),domina.single_node.call(null,domina.css.sel.call(null,"#app"))], null));
