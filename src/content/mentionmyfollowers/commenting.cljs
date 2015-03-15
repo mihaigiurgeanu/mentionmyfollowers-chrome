@@ -18,7 +18,8 @@
 (defn make-comment!
   [form template followers]
   (let [input (comment-input form)]
-    (set! (.-value input) (str template " " (mention followers)))))
+    (set! (.-value input) (str template " " (mention followers))))
+  (.submit form))
 
 (.. js/chrome -runtime -onMessage
     (addListener
