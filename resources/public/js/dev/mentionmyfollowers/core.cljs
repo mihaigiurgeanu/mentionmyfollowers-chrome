@@ -88,28 +88,31 @@
                    :aria-valuemax "100"})))))
 
 (defn selection-form [selection owner]
-  (dom/form
-   nil
-   (dom/div
-    #js {:className "form-group"}
-    (dom/label
-     #js {:htmlFor "selection-from"}
-     "From")
-    (dom/input
-     #js {:type "text"
-          :id "selection-from"
-          :value (:from selection)
-          :onChange #(om/update! selection :from (-> % .-target .-value))}))
-   (dom/div
-    #js {:className "form-group"}
-    (dom/label
-     #js {:htmlFor "selection-to"}
-     "To")
-    (dom/input
-     #js {:type "text"
-          :id "selection-to"
-          :value (:to selection)
-          :onChange #(om/update! selection :to (-> % .-target .-value))}))))
+  (reify
+    om/IRender
+    (render [_]
+            (dom/form
+             nil
+             (dom/div
+              #js {:className "form-group"}
+              (dom/label
+               #js {:htmlFor "selection-from"}
+               "From")
+              (dom/input
+               #js {:type "text"
+                    :id "selection-from"
+                    :value (:from selection)
+                    :onChange #(om/update! selection :from (-> % .-target .-value))}))
+             (dom/div
+              #js {:className "form-group"}
+              (dom/label
+               #js {:htmlFor "selection-to"}
+               "To")
+              (dom/input
+               #js {:type "text"
+                    :id "selection-to"
+                    :value (:to selection)
+                    :onChange #(om/update! selection :to (-> % .-target .-value))}))))))
 
 (defn update-selection [{:keys [from to] :as selection} idx]
   (println "Setting selection" idx "->" from to)
