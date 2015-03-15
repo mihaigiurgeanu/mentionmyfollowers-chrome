@@ -114,8 +114,9 @@
 (defn update-selection [{:keys [from to] :as selection} idx]
   (println "Setting selection" idx "->" from to)
   (cond
-   (or (nil? from) (<= idx from)) (assoc selection :from idx)
-   true (assoc selection :to idx)))
+   (or (nil? from) (< idx from)) (assoc selection :from idx)
+   (> idx from) (assoc selection :to idx)
+   true (merge selection {:from nil :to nil})))
 
 (defn is-selected? [i {:keys [from to]}]
   (cond
