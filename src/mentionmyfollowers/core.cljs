@@ -87,6 +87,30 @@
                    :aria-valuemin "0"
                    :aria-valuemax "100"})))))
 
+(defn selection-form [selection owner]
+  (dom/form
+   nil
+   (dom/div
+    #js {:className "form-group"}
+    (dom/label
+     #js {:htmlFor "selection-from"}
+     "From")
+    (dom/input
+     #js {:type "text"
+          :id "selection-from"
+          :value (:from selection)
+          :onChange #(om/update! selection :from (-> % .-target .-value))}))
+   (dom/div
+    #js {:className "form-group"}
+    (dom/label
+     #js {:htmlFor "selection-to"}
+     "To")
+    (dom/input
+     #js {:type "text"
+          :id "selection-to"
+          :value (:to selection)
+          :onChange #(om/update! selection :to (-> % .-target .-value))}))))
+
 (defn update-selection [{:keys [from to] :as selection} idx]
   (println "Setting selection" idx "->" from to)
   (cond
@@ -124,13 +148,16 @@
   (reify
     om/IRender
     (render [_]
-            (apply dom/div #js {:className "list-group"}
-                   (let [followers (:followers followers-and-selection)]
-                     (map
-                      #(om/build follower-item
-                                 followers-and-selection
-                                 {:opts {:idx %}})
-                      (range (count followers))))))))
+            (dom/div
+             nil
+             (apply dom/div #js {:className "list-group"}
+                    (let [followers (:followers followers-and-selection)]
+                      (map
+                       #(om/build follower-item
+                                  followers-and-selection
+                                  {:opts {:idx %}})
+                       (range (count followers)))))
+             (om/build selection-form (:selection followers-and-selection))))))
 
 (defn select-followers [followers-and-selection owner {:keys [on-cancel]}]
   (reify
