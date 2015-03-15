@@ -17,6 +17,11 @@
                           :followers-and-selection {:followers []
                                                     :selection {:from nil :to nil}}}))
 
+(defn create-comments
+  "Inserts the comments scripts into the page and starts sending comments."
+  []
+  (.. js/chrome -tabs (executeScript nil #js{:file "js/commenting.js"})))
+
 (defn read-user-id
   "Reads the Instagram user id from the cookie. It needs
   the user to be logged in into his/her Instagram account."
@@ -165,14 +170,14 @@
                        (range (count followers)))))
              (om/build selection-form (:selection followers-and-selection))))))
 
-(defn select-followers [followers-and-selection owner {:keys [on-cancel]}]
+(defn select-followers [followers-and-selection owner {:keys [on-cancel on-go]}]
   (reify
     om/IRender
     (render [_]
             (dom/div
              nil
              (om/build select-followers-list followers-and-selection)
-             (dom/button #js{:className "btn btn-primary"} "Go")
+             (dom/button #js{:className "btn btn-primary", :onClick on-go} "Go")
              (dom/button #js{:className "btn btn-danger" :onClick on-cancel} "Cancel")))))
 
 (defn application
@@ -211,7 +216,11 @@
                                              {:opts {:on-cancel (fn [e]
                                                                   (println "Cancel in select-followers view")
                                                                   (.preventDefault e)
-                                                                  (om/set-state! owner :view :accounts-form))}})))))))
+                                                                  (om/set-state! owner :view :accounts-form))
+                                                     :on-go (fn [e]
+                                                              (println "Go")
+                                                              (.preventDefault e)
+                                                              (create-comments))}})))))))
 
   (om/root
    application

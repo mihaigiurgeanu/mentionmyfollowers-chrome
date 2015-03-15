@@ -10,17 +10,30 @@
                  [cljs-ajax "0.3.10"]]
   :plugins [[lein-cljsbuild "1.0.5"]]
 
-  :cljsbuild {:builds [{:id "dev"
-                        :source-paths ["src"]
+  :cljsbuild {:builds [{:id "browseraction_dev"
+                        :source-paths ["src/browser_action"]
                         :compiler {:output-to "resources/public/js/main.js"
-                                   :output-dir "resources/public/js/dev"
+                                   :output-dir "resources/public/js/main_dev"
                                    :source-map "resources/public/js/main.js.map"
                                    :optimizations :whitespace
                                    :pretty-print true}}
-                       {:id "prod"
-                        :source-paths ["src"]
+                       {:id "browseraction_prod"
+                        :source-paths ["src/browser_action"]
                         :compiler {:output-to "resources/public/js/main.js"
-                                   :output-dir "resources/public/js/prod"
+                                   :output-dir "resources/public/js/main_prod"
                                    :source-map "resources/public/js/main.js.map"
+                                   :optiomiztions :advanced}}
+                       {:id "content_dev"
+                        :source-paths ["src/content"]
+                        :compiler {:output-to "resources/public/js/commenting.js"
+                                   :output-dir "resources/public/js/commenting_dev"
+                                   :source-map "resources/public/js/commenting.js.map"
+                                   :optimizations :whitespace
+                                   :pretty-print true}}
+                       {:id "content_prod"
+                        :source-paths ["src/content"]
+                        :compiler {:output-to "resources/public/js/commenting.js"
+                                   :output-dir "resources/public/js/commenting_prod"
+                                   :source-map "resources/public/js/commenting.js.map"
                                    :optiomiztions :advanced}}]})
 
