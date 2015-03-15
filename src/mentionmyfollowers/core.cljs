@@ -129,7 +129,7 @@
                                                       (fn [selection] (update-selection selection %))))}})
                       (range (count followers))))))))
 
-(defn select-followers [followers-and-selection owner {{:keys [on-cancel]} :opts}]
+(defn select-followers [followers-and-selection owner {:keys [on-cancel]}]
   (reify
     om/IRender
     (render [_]
@@ -173,8 +173,9 @@
                  :loading-followers (om/build loading-followers nil)
                  :select-followers (om/build select-followers (:followers-and-selection data)
                                              {:opts {:on-cancel (fn [e]
+                                                                  (println "Cancel in select-followers view")
                                                                   (.preventDefault e)
-                                                                  (om/set-state! owner :view accounts-form))}})))))))
+                                                                  (om/set-state! owner :view :accounts-form))}})))))))
 
   (om/root
    application

@@ -3,12 +3,12 @@ goog.provide('domina.support');
 goog.require('cljs.core');
 goog.require('goog.events');
 goog.require('goog.dom');
-var div_101034 = document.createElement("div");
-var test_html_101035 = "   <link/><table></table><a href='/a' style='top:1px;float:left;opacity:.55;'>a</a><input type='checkbox'/>";
-div_101034.innerHTML = test_html_101035;
+var div_132376 = document.createElement("div");
+var test_html_132377 = "   <link/><table></table><a href='/a' style='top:1px;float:left;opacity:.55;'>a</a><input type='checkbox'/>";
+div_132376.innerHTML = test_html_132377;
 
-domina.support.leading_whitespace_QMARK_ = cljs.core._EQ_.call(null,div_101034.firstChild.nodeType,(3));
+domina.support.leading_whitespace_QMARK_ = cljs.core._EQ_.call(null,div_132376.firstChild.nodeType,(3));
 
-domina.support.extraneous_tbody_QMARK_ = cljs.core._EQ_.call(null,div_101034.getElementsByTagName("tbody").length,(0));
+domina.support.extraneous_tbody_QMARK_ = cljs.core._EQ_.call(null,div_132376.getElementsByTagName("tbody").length,(0));
 
-domina.support.unscoped_html_elements_QMARK_ = cljs.core._EQ_.call(null,div_101034.getElementsByTagName("link").length,(0));
+domina.support.unscoped_html_elements_QMARK_ = cljs.core._EQ_.call(null,div_132376.getElementsByTagName("link").length,(0));
