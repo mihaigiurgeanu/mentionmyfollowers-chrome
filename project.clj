@@ -6,9 +6,10 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2913"]
                  [org.omcljs/om "0.8.8"]
-                 [domina "1.0.3"]]
+                 [domina "1.0.3"]
+                 [cljs-ajax "0.3.10"]]
   :plugins [[lein-cljsbuild "1.0.5"]]
-  
+
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src"]
                         :compiler {:output-to "resources/public/js/main.js"
