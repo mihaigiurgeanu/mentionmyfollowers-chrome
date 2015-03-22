@@ -8,4 +8,8 @@ pom.xml.asc
 /.lein-*
 /.nrepl-port
 /bower_components
+/dist
+/node_modules
+/tmp
+
 

@@ -1,10 +1,23 @@
 # mentionmyfollowers
 
-A Clojure library designed to ... well, that part is up to you.
+A chrome extension that helps you generate comments that automatically
+mention isnstagram followers.
 
-## Usage
+## Build
 
-FIXME
+To build the program you need java 7 or later, leiningen, node and grunt-cli
+installed.
+
+One time, install npm dependencies:
+
+    $ npm install
+
+Build javascripts and run grunt to package the extension:
+
+    $ lein clean, resource, cljsbuild auto browseraction_dev content_dev
+    $ grunt
+
+The result will be in folder dist/
 
 ## License
 
