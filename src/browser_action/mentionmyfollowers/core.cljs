@@ -216,7 +216,7 @@
                                          (om/set-state! owner :view :loading-followers)
                                          (data/load-followers
                                           (fn [followers]
-                                            (println "Received followers" followers)
+                                            (println "Received followers: " (count followers))
                                             (om/update! data [:followers-and-selection :followers] (vec followers))
                                             (om/set-state! owner :view :select-followers))
                                           (fn [error]

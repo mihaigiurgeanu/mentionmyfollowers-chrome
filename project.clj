@@ -12,28 +12,32 @@
 
   :cljsbuild {:builds [{:id "browseraction_dev"
                         :source-paths ["src/browser_action"]
-                        :compiler {:output-to "resources/public/js/main.js"
-                                   :output-dir "resources/public/js/main_dev"
-                                   :source-map "resources/public/js/main.js.map"
+                        :notify-command ["cp" "target/main.js" "target/main.js.map" "resources/public/js"]
+                        :compiler {:output-to "target/main.js"
+                                   :output-dir "target/main_dev"
+                                   :source-map "target/main.js.map"
                                    :optimizations :whitespace
                                    :pretty-print true}}
                        {:id "browseraction_prod"
+                        :notify-command ["cp" "target/main.js" "target/main.js.map" "resources/public/js"]
                         :source-paths ["src/browser_action"]
-                        :compiler {:output-to "resources/public/js/main.js"
-                                   :output-dir "resources/public/js/main_prod"
-                                   :source-map "resources/public/js/main.js.map"
+                        :compiler {:output-to "target/main.js"
+                                   :output-dir "target/main_prod"
+                                   :source-map "target/main.js.map"
                                    :optiomiztions :advanced}}
                        {:id "content_dev"
+                        :notify-command ["cp" "target/commenting.js" "target/commenting.js.map" "resources/public/js"]
                         :source-paths ["src/content"]
-                        :compiler {:output-to "resources/public/js/commenting.js"
-                                   :output-dir "resources/public/js/commenting_dev"
-                                   :source-map "resources/public/js/commenting.js.map"
+                        :compiler {:output-to "target/commenting.js"
+                                   :output-dir "target/commenting_dev"
+                                   :source-map "target/commenting.js.map"
                                    :optimizations :whitespace
                                    :pretty-print true}}
                        {:id "content_prod"
+                        :notify-command ["cp" "target/commenting.js" "target/commenting.js.map" "resources/public/js"]
                         :source-paths ["src/content"]
-                        :compiler {:output-to "resources/public/js/commenting.js"
-                                   :output-dir "resources/public/js/commenting_prod"
-                                   :source-map "resources/public/js/commenting.js.map"
+                        :compiler {:output-to "target/commenting.js"
+                                   :output-dir "target/commenting_prod"
+                                   :source-map "target/commenting.js.map"
                                    :optiomiztions :advanced}}]})
 
