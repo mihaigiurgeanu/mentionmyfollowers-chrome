@@ -71,7 +71,7 @@
                     (dom/textarea
                      #js {:id "accounts-input"
                           :className "form-control"
-                          :rows "3"
+                          :rows "11"
                           :value text
                           :onChange (fn [e] (om/set-state! owner :accounts (.. e -target -value)))}))
                    (dom/button
@@ -93,9 +93,10 @@
              (dom/div
               #js {:className "progress-bar progress-bar-striped active"
                    :role "progressbar"
-                   :aria-valuenow "75"
+                   :aria-valuenow "100"
                    :aria-valuemin "0"
-                   :aria-valuemax "100"})))))
+                   :aria-valuemax "100"
+                   :style #js {:width "100%"}})))))
 
 (defn statistics [followers owner]
   (reify
@@ -139,7 +140,8 @@
 (defn update-selection [{:keys [from to] :as selection} idx]
   (println "Setting selection" idx "->" from to)
   (cond
-   (or (nil? from) (< idx from)) (assoc selection :from idx)
+   (nil? from) (merge selection {:from idx :to idx})
+   (< idx from) (assoc selection :from idx)
    (> idx from) (assoc selection :to idx)
    true (merge selection {:from nil :to nil})))
 
