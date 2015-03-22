@@ -1,5 +1,6 @@
 (ns mentionmyfollowers.commenting
-  (:use [domina :only [nodes single-node]])
+  (:use [domina :only [nodes single-node]]
+        [domina.events :only [dispatch!]])
   (:require [domina.css :as css]
             [clojure.string :as string]))
 
@@ -15,11 +16,18 @@
 (defn mention [followers]
   (string/join " " (map #(str "@" %) followers)))
 
+(defn submit-form [form]
+  (dispatch! form :submit))
+
+(defn submit-form-alt [form]
+  (let [s-event (js/Event. "submit")]
+    (.dispatchEvent form s-event)))
+
 (defn make-comment!
   [form template followers]
   (let [input (comment-input form)]
     (set! (.-value input) (str template " " (mention followers))))
-  (.submit form))
+  (submit-form-alt form))
 
 (.. js/chrome -runtime -onMessage
     (addListener
