@@ -23,10 +23,15 @@
   (let [s-event (js/Event. "submit")]
     (.dispatchEvent form s-event)))
 
+(defn submit-form-skip [form]
+  (println "Skip submiting form"))
+
 (defn make-comment!
   [form template followers]
-  (let [input (comment-input form)]
-    (set! (.-value input) (str template " " (mention followers))))
+  (let [input (comment-input form)
+        comment (str template " " (mention followers))]
+    (println "posting comment " comment)
+    (set! (.-value input) comment))
   (submit-form-alt form))
 
 (.. js/chrome -runtime -onMessage

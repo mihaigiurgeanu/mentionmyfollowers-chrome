@@ -6,8 +6,8 @@
                           :followers-and-selection {:followers []
                                                     :selection {:from nil :to nil}}}))
 
-(def api-get-followers "http://dragon-alien.codio.io:3000/api/followers")
-(def api-get-templates "http://dragon-alien.codio.io:3000/templates.edn")
+(def api-get-followers "http://vacuum-forbid.codio.io:3000/api/followers")
+(def api-get-templates "http://vacuum-forbid.codio.io:3000/templates.edn")
 
 
 (defn selected-followers []
@@ -15,7 +15,9 @@
         followers (get-in current-state [:followers-and-selection :followers])
         from (get-in current-state [:followers-and-selection :selection :from])
         to (get-in current-state [:followers-and-selection :selection :to])]
-    (if from
+    (when (nil? from) (println "from is nil" from))
+    (when (nil? to) (println "to is nil" to))
+    (if-not (nil? from)
       (let [to' (if (nil? to) (count followers) (+ to 1))
             cnt (- to' from)]
         (println "Count of selected followers" cnt from to' to)

@@ -28,7 +28,8 @@
                                                    #js {:followers (clj->js (data/selected-followers))
                                                         :templates (clj->js templates)},
                                                    (fn [response]
-                                                     (println "Response received from content script:" (.-message response))))))
+                                                     (println "Response received from content script:"
+                                                              (if response (.-message response) "no-response"))))))
                                 (fn [error]
                                   (report-error! error)))))))
 
@@ -124,7 +125,7 @@
                     :className "form-control"
                     :id "selection-from"
                     :value (:from selection)
-                    :onChange #(om/update! selection :from (-> % .-target .-value))}))
+                    :onChange #(om/update! selection :from (-> % .-target .-value (- 0)))}))
              (dom/div
               #js {:className "form-group"}
               (dom/label
@@ -135,7 +136,7 @@
                     :className "form-control"
                     :id "selection-to"
                     :value (:to selection)
-                    :onChange #(om/update! selection :to (-> % .-target .-value))}))))))
+                    :onChange #(om/update! selection :to (-> % .-target .-value (- 0)))}))))))
 
 (defn update-selection [{:keys [from to] :as selection} idx]
   (println "Setting selection" idx "->" from to)

@@ -1,4 +1,4 @@
-(defproject mentionmyfollowers "0.1.0-SNAPSHOT"
+(defproject mentionmyfollowers "0.1.2"
   :description "Mention My Followers Chrome extension"
   :url "http://http://dragon-alien.codio.io:3000/"
   :license {:name "Eclipse Public License"

@@ -14,7 +14,7 @@ One time, install npm dependencies:
 
 Build javascripts and run grunt to package the extension:
 
-    $ lein clean, resource, cljsbuild auto browseraction_dev content_dev
+    $ lein do clean, resource, cljsbuild once browseraction_dev content_dev
     $ grunt
 
 The result will be in folder dist/
